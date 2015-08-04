@@ -1,0 +1,5 @@
+deepin-desktop-schemas (0.0.1-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- pkg-builder <pkg-builder@packages.linuxdeepin.com>  Tue, 04 Aug 2015 20:08:51 +0800

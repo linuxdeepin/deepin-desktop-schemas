@@ -1,0 +1,19 @@
+Source: deepin-desktop-schemas
+Section: misc
+Priority: optional
+Maintainer: pkg-builder <pkg-builder@packages.linuxdeepin.com>
+Build-depends: debhelper (>= 8), libglib2.0-bin
+Standards-Version: 3.9.5
+Homepage: http://www.deepin.org/
+
+Package: deepin-desktop-schemas
+Section: misc
+Architecture: all
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: dde-daemon (<= 2.92.1),
+        startdde (<= 2.90.0),
+        deepin-wm (<= 0.2.1)
+Description: GSettings deepin desktop-wide schemas
+ deepin-desktop-schemas contains a collection of GSettings schemas for
+ settings shared by various components of a desktop.
