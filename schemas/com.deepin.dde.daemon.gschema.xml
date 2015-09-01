@@ -46,11 +46,6 @@
       <summary></summary>
       <description></description>
     </key>
-    <key type="b"  name="mime">
-      <default>true</default>
-      <summary></summary>
-      <description></description>
-    </key>
     <key type="b"  name="mounts">
       <default>true</default>
       <summary></summary>
@@ -92,11 +87,6 @@
       <description></description>
     </key>
     <key type="b"  name="appearance">
-      <default>true</default>
-      <summary></summary>
-      <description></description>
-    </key>
-    <key type="b"  name="desktop">
       <default>true</default>
       <summary></summary>
       <description></description>

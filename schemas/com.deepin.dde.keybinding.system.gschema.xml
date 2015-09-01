@@ -21,11 +21,6 @@
 		<summary>shortcut</summary>
 		<description>system shortcut</description>
 	</key>
-	<key type="as" name="deepin-translator">
-		<default>['&lt;Control&gt;&lt;Alt&gt;F']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
 	<key type="as" name="show-dock">
 		<default>['&lt;Super&gt;H']</default>
 		<summary>shortcut</summary>
