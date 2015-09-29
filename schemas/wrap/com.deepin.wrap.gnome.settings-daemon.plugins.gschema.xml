@@ -10,7 +10,6 @@
     <child schema="com.deepin.wrap.gnome.settings-daemon.plugins.a11y-settings" name="a11y-settings"/>
     <child schema="com.deepin.wrap.gnome.settings-daemon.plugins.clipboard" name="clipboard"/>
     <child schema="com.deepin.wrap.gnome.settings-daemon.plugins.color" name="color"/>
-    <child schema="com.deepin.wrap.gnome.settings-daemon.plugins.cursor" name="cursor"/>
     <child schema="com.deepin.wrap.gnome.settings-daemon.plugins.datetime" name="datetime"/>
     <child schema="com.deepin.wrap.gnome.settings-daemon.plugins.gsdwacom" name="gsdwacom"/>
     <child schema="com.deepin.wrap.gnome.settings-daemon.plugins.housekeeping" name="housekeeping"/>
@@ -52,18 +51,6 @@
     </key>
   </schema>
   <schema path="/com/deepin/wrap/gnome/settings-daemon/plugins/clipboard/" id="com.deepin.wrap.gnome.settings-daemon.plugins.clipboard" gettext-domain="gnome-settings-daemon">
-    <key type="b" name="active">
-      <default>true</default>
-      <summary>Activation of this plugin</summary>
-      <description>Whether this plugin would be activated by gnome-settings-daemon or not</description>
-    </key>
-    <key type="i" name="priority">
-      <default>0</default>
-      <summary>Priority to use for this plugin</summary>
-      <description>Priority to use for this plugin in gnome-settings-daemon startup queue</description>
-    </key>
-  </schema>
-  <schema path="/com/deepin/wrap/gnome/settings-daemon/plugins/cursor/" id="com.deepin.wrap.gnome.settings-daemon.plugins.cursor" gettext-domain="gnome-settings-daemon">
     <key type="b" name="active">
       <default>true</default>
       <summary>Activation of this plugin</summary>

@@ -42,16 +42,6 @@
       <summary>Wacom touch feature</summary>
       <description>Enable this to move the cursor when the user touches the tablet.</description>
     </key>
-    <key type="(ii)" name="last-calibrated-resolution">
-      <default>(-1, -1)</default>
-      <summary>Wacom last calibrated resolution</summary>
-      <description>Holds the last calibrated resolution to help check if calibration is needed.</description>
-    </key>
-    <key type="as" name="display">
-      <default>["", "", ""]</default>
-      <summary>Wacom display mapping</summary>
-      <description>EDID information of monitor to map tablet to. Must be in the format [vendor, product, serial]. ["","",""] disables mapping.</description>
-    </key>
   </schema>
   <schema id="com.deepin.wrap.gnome.settings-daemon.peripherals.wacom.stylus" gettext-domain="gnome-settings-daemon">
     <key type="ai" name="pressurecurve">
