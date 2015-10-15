@@ -26,7 +26,7 @@
       <summary>Font size</summary>
       <description>The desktop font size</description>
     </key>
-    <key name="extra-picture-uris" type="ss">
+    <key name="extra-picture-uris" type="as">
       <default>[]</default>
       <summary>Extra Picture URIs for multiple background</summary>
       <description>
