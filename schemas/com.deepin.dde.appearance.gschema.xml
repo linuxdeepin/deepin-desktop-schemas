@@ -26,5 +26,13 @@
       <summary>Font size</summary>
       <description>The desktop font size</description>
     </key>
+    <key name="extra-picture-uris" type="ss">
+      <default>[]</default>
+      <summary>Extra Picture URIs for multiple background</summary>
+      <description>
+        URIs to use for the background images since 2nd workspace. Note
+        that the backend only supports local (file://) URIs.
+      </description>
+    </key>
   </schema>
 </schemalist>
