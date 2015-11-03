@@ -1,0 +1,3 @@
+[com.deepin.dde.dock]
+docked-apps=['org.gnome.nautilus','deepin-software-center','deepin-music-player','deepin-movie','google-chrome','dde-control-center']
+hide-mode='keep-showing'
