@@ -1,11 +1,10 @@
-#Deepin desktop schemas
+# Deepin desktop schemas
 
-##Required
-
-* dde-workspace
-
-* dde-daemon
-
-* startdde
+## Required by
 
 * dde-api
+* dde-daemon
+* dde-workspace
+* deepin-metacity
+* deepin-mutter
+* startdde
