@@ -27,9 +27,9 @@
       <description></description>
     </key>
     <key type="u" name="pressure-sensitive">
-      <default>27</default>
-      <summary>Pressure sensitive</summary>
-      <description></description>
+      <default>6</default>
+      <summary>Pressure Curve</summary>
+      <description>Pressure curve level, detail see: daemon/inputdevices/wacom.go</description>
     </key>
   </schema>
 </schemalist>
