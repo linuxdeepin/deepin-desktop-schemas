@@ -23,7 +23,7 @@
       </description>
     </key>
     <key type="s" name="sound-theme-name">
-      <default>'LinuxDeepin'</default>
+      <default>'deepin'</default>
       <summary>System sound theme</summary>
       <description>Set the system sound theme</description>
     </key>
@@ -71,7 +71,7 @@
       <default>'both-horiz'</default>
       <summary>Toolbar Style</summary>
       <description>
-        Toolbar Style. Valid values are "both", "both-horiz", "icons", 
+        Toolbar Style. Valid values are "both", "both-horiz", "icons",
         and "text"
       </description>
     </key>
@@ -228,7 +228,7 @@
       <default>30</default>
       <summary></summary>
       <description>
-        The maximum age, in days, of the items inside the recently used resources list. 
+        The maximum age, in days, of the items inside the recently used resources list.
         Items older than this setting will be excised from the list.
         If set to 0, the list will always be empty; if set to -1, no item will be removed.
       </description>

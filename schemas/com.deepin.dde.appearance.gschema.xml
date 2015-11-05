@@ -7,7 +7,7 @@
       <description>Current Desktop Theme</description>
     </key>
     <key type="s" name="sound-theme">
-      <default>'LinuxDeepin'</default>
+      <default>'deepin'</default>
       <summary>Current Sound Theme</summary>
       <description>Current System Sound Theme</description>
     </key>

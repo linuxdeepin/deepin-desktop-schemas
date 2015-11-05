@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/com/deepin/dde/sound-effect/" id="com.deepin.dde.sound-effect" gettext-domain="DDE">
+    <key name="login" type="b">
+      <default>true</default>
+      <summary>System login</summary>
+      <description></description>
+    </key>
+    <key name="shutdown" type="b">
+      <default>true</default>
+      <summary>System shutdown</summary>
+      <description></description>
+    </key>
+    <key name="logout" type="b">
+      <default>true</default>
+      <summary>DE logout</summary>
+      <description></description>
+    </key>
+    <key name="wakeup" type="b">
+      <default>true</default>
+      <summary>System wakeup</summary>
+      <description></description>
+    </key>
+    <key name="notification" type="b">
+      <default>true</default>
+      <summary>DE notification</summary>
+      <description></description>
+    </key>
+    <key name="unable-operate" type="b">
+      <default>true</default>
+      <summary>Unable to opearate</summary>
+      <description></description>
+    </key>
+    <key name="empty-trash" type="b">
+      <default>true</default>
+      <summary>Empty trash</summary>
+      <description></description>
+    </key>
+    <key name="volume-change" type="b">
+      <default>true</default>
+      <summary>Audio volume changed</summary>
+      <description></description>
+    </key>
+    <key name="battery-low" type="b">
+      <default>true</default>
+      <summary>Battery low</summary>
+      <description></description>
+    </key>
+    <key name="power-plug" type="b">
+      <default>true</default>
+      <summary>Power plugged</summary>
+      <description></description>
+    </key>
+    <key name="power-unplug" type="b">
+      <default>true</default>
+      <summary>Power unplugged</summary>
+      <description></description>
+    </key>
+    <key name="device-plug" type="b">
+      <default>true</default>
+      <summary>Add removable device</summary>
+      <description></description>
+    </key>
+    <key name="device-unplug" type="b">
+      <default>true</default>
+      <summary>Remove removable device</summary>
+      <description></description>
+    </key>
+    <key name="icon-to-desktop" type="b">
+      <default>false</default>
+      <summary></summary>
+      <description></description>
+    </key>
+    <key name="screenshot" type="b">
+      <default>false</default>
+      <summary>Start screenshot</summary>
+      <description></description>
+    </key>
+  </schema>
+</schemalist>
