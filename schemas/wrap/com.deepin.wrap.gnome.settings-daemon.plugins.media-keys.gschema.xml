@@ -91,6 +91,11 @@
       <summary>Stop playback</summary>
       <description>Binding to stop playback.</description>
     </key>
+    <key type="s" name="video-out">
+      <default>'&lt;Super&gt;p'</default>
+      <summary>Video output</summary>
+      <description>Binding to switch the video output device.</description>
+    </key>
     <key type="s" name="volume-down">
       <default>'XF86AudioLowerVolume'</default>
       <summary>Volume down</summary>
