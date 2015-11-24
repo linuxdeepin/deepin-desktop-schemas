@@ -1,5 +1,5 @@
 [com.deepin.wrap.pantheon.desktop.gala.appearance]
-button-layout='menu:minimize,maximize,close'
+button-layout=':minimize,maximize,close'
 
 [com.deepin.wrap.pantheon.desktop.gala.animations]
 enable-animations=true
