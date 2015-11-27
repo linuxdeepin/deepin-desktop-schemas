@@ -1,6 +1,5 @@
 [com.deepin.wrap.gnome.mutter]
 auto-maximize=false
-center-new-windows=true
 overlay-key=""
 
 [com.deepin.wrap.gnome.mutter.keybindings]
