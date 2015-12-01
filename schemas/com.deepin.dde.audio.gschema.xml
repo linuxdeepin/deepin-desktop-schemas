@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/com/deepin/dde/audio/" id="com.deepin.dde.audio">
+	<key type="b" name="first-run">
+	    <default>true</default>
+	    <summary>Whether has initialized</summary>
+	    <description>If no initialized, do it, otherwise nothing to do.</description>
+	</key>
+	<key type="i" name="output-volume">
+	    <default>50</default>
+	    <summary>Output volume percentage</summary>
+	    <description>Output volume percentage range 0 ~ 100</description>
+	</key>
+    	<key type="i" name="input-volume">
+	    <default>10</default>
+	    <summary>Input volume percentage</summary>
+	    <description>Input volume percentage range 0 ~ 100</description>
+	</key>
+    </schema>
+</schemalist>
