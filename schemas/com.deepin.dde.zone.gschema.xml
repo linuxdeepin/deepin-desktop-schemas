@@ -21,25 +21,10 @@
             <summary>left down corner</summary>
             <description>move to left-down corner to show</description>
         </key>
-        <key type="i" name="left-up-delay">
-            <default>250</default>
-            <summary>left up delay time(ms)</summary>
-            <description>left-up delay time</description>
-        </key>
-        <key type="i" name="left-down-delay">
-            <default>250</default>
-            <summary>left down delay time(ms)</summary>
-            <description>left-down delay time</description>
-        </key>
-        <key type="i" name="right-up-delay">
-            <default>250</default>
-            <summary>right up delay time(ms)</summary>
-            <description>right-up delay time</description>
-        </key>
-        <key type="i" name="right-down-delay">
-            <default>250</default>
-            <summary>right down delay time(ms)</summary>
-            <description>right-down delay time</description>
+        <key type="i" name="delay">
+            <default>300</default>
+            <summary>Delay time(ms)</summary>
+            <description>Delay time(ms) before exec command.</description>
         </key>
         <key type="as" name="black-list">
             <default>[]</default>

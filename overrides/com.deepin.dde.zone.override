@@ -3,9 +3,6 @@ left-up="/usr/bin/dde-launcher"
 left-down="/usr/lib/deepin-daemon/desktop-toggle"
 right-down="dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.Toggle"
 right-up=""
-left-up-delay=300
-left-down-delay=300
-right-up-delay=300
-right-down-delay=300
+delay=300
 black-list=['pyrogenesis','0ad']
 white-list=['dde-launcher']
