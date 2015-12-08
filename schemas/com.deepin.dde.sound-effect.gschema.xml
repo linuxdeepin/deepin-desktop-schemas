@@ -71,6 +71,11 @@
       <summary></summary>
       <description></description>
     </key>
+    <key name="camera-shutter" type="b">
+      <default>true</default>
+      <summary>Camera shutter</summary>
+      <description></description>
+    </key>
     <key name="screenshot" type="b">
       <default>false</default>
       <summary>Start screenshot</summary>
