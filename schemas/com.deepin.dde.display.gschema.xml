@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<enum id="com.deepin.dde.display.BrightnessSetter">
+		<value value="0" nick="auto" />
+		<value value="1" nick="gamma" />
+		<value value="2" nick="backlight" />
+		<value value="3" nick="backlight-raw" />
+		<value value="4" nick="backlight-platform" />
+		<value value="5" nick="backlight-firmware" />
+	</enum>
+
+	<schema path="/com/deepin/dde/display/" id="com.deepin.dde.display">
+		<key name="brightness-setter" enum="com.deepin.dde.display.BrightnessSetter">
+			<default>'auto'</default>
+			<summary>the method for setting brightness</summary>
+			<description>the method for setting brightness.</description>
+		</key>
+	</schema>
+</schemalist>
