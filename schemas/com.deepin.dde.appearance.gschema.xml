@@ -34,5 +34,10 @@
         that the backend only supports local (file://) URIs.
       </description>
     </key>
+    <key name="excluded-icon-themes" type="as">
+      <default>['hicolor','gnome','Adwaita']</default>
+      <summary>blacklist</summary>
+      <description>Icon theme black list.</description>
+    </key>
   </schema>
 </schemalist>
