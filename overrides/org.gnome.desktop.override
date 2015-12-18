@@ -11,19 +11,19 @@ picture-uri='file:///usr/share/backgrounds/default_background.jpg'
 picture-options='zoom'
 
 [org.gnome.desktop.interface]
-cursor-theme='Deepin'
+cursor-theme='deepin'
 gtk-key-theme='Default'
-gtk-theme='Deepin'
-icon-theme='Deepin'
+gtk-theme='deepin'
+icon-theme='deepin'
 gtk-im-module='fcitx'
 
 [org.gnome.desktop.sound]
-theme-name='LinuxDeepin'
+theme-name='deepin'
 event-sounds=true
 
 [org.gnome.desktop.wm.preferences]
 button-layout='menu:minimize,maximize,close'
-theme='Deepin'
+theme='deepin'
 audible-bell=false
 
 [org.gnome.desktop.wm.keybindings]

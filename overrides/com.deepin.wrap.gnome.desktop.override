@@ -4,19 +4,19 @@ secondary-color='#023c88'
 picture-uri='file:///usr/share/backgrounds/default_background.jpg'
 
 [com.deepin.wrap.gnome.desktop.sound]
-theme-name='LinuxDeepin'
+theme-name='deepin'
 event-sounds=true
 
 [com.deepin.wrap.gnome.desktop.wm.preferences]
-theme='Deepin'
+theme='deepin'
 audible-bell=false
 mouse-button-modifier='<Alt>'
 
 [com.deepin.wrap.gnome.desktop.interface]
-cursor-theme='Deepin'
+cursor-theme='deepin'
 gtk-key-theme='Default'
-gtk-theme='Deepin'
-icon-theme='Deepin'
+gtk-theme='deepin'
+icon-theme='deepin'
 gtk-im-module='fcitx'
 
 [com.deepin.wrap.gnome.desktop.wm.keybindings]

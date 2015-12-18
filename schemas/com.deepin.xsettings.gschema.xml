@@ -2,14 +2,14 @@
 <schemalist>
   <schema id="com.deepin.xsettings" path="/com/deepin/xsettings/">
     <key type="s" name="theme-name">
-      <default>'Deepin'</default>
+      <default>'deepin'</default>
       <summary>System theme</summary>
       <description>
         Theme to use for gtk+ and qt.
       </description>
     </key>
     <key type="s" name="icon-theme-name">
-      <default>'Deepin'</default>
+      <default>'deepin'</default>
       <summary>Icon theme</summary>
       <description>
         Icon theme to use for the panel, nautilus etc.
@@ -28,14 +28,14 @@
       <description>Set the system sound theme</description>
     </key>
     <key type="s" name="gtk-theme-name">
-      <default>'Deepin'</default>
+      <default>'deepin'</default>
       <summary>Gtk+ theme</summary>
       <description>
         Basename of the default theme used by gtk+.
       </description>
     </key>
     <key type="s" name="gtk-cursor-theme-name">
-      <default>'Deepin'</default>
+      <default>'deepin'</default>
       <summary>Cursor theme</summary>
       <description>
         Cursor theme name. Used only by Xservers that support the Xcursor extension.

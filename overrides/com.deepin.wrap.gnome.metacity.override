@@ -1,5 +1,5 @@
 [com.deepin.wrap.gnome.metacity]
-theme='Deepin'
+theme='deepin'
 
 [com.deepin.wrap.gnome.metacity.keybindings]
 expose-all-windows=['<Super>A']

@@ -2,7 +2,7 @@
 <schemalist>
   <schema path="/com/deepin/dde/appearance/" id="com.deepin.dde.appearance" gettext-domain="DDE">
     <key type="s" name="theme">
-      <default>'Deepin'</default>
+      <default>'deepin'</default>
       <summary>Current Theme</summary>
       <description>Current Desktop Theme</description>
     </key>
