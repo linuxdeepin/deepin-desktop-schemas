@@ -26,11 +26,6 @@
       <summary></summary>
       <description></description>
     </key>
-    <key type="b"  name="dsc">
-      <default>true</default>
-      <summary></summary>
-      <description></description>
-    </key>
     <key type="b"  name="inputdevices">
       <default>true</default>
       <summary></summary>
