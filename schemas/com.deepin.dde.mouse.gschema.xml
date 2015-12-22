@@ -45,5 +45,15 @@
       <summary>Middle button emulation</summary>
       <description>Enables middle mouse button emulation through simultaneous left and right button click.</description>
     </key>
+    <key type="b" name="wheel-emulation">
+      <default>true</default>
+      <summary>Wheel emulation</summary>
+      <description>Enables mouse wheel emulation.</description>
+    </key>
+    <key type="i" name="wheel-emulation-button">
+      <default>2</default>
+      <summary>Wheel button for emulation</summary>
+      <description>Mouse button for wheel emulation.</description>
+    </key>
   </schema>
 </schemalist>
