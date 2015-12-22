@@ -72,7 +72,7 @@
       <description></description>
     </key>
     <key name="camera-shutter" type="b">
-      <default>true</default>
+      <default>false</default>
       <summary>Camera shutter</summary>
       <description></description>
     </key>
