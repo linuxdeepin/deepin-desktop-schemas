@@ -22,7 +22,7 @@
       <description>URI to use for the background image. Note that the backend only supports local (file://) URIs.</description>
     </key>
     <key type="i" name="font-size">
-      <default>10</default>
+      <default>11</default>
       <summary>Font size</summary>
       <description>The desktop font size</description>
     </key>
