@@ -101,12 +101,12 @@
             <summary>Audio Forward</summary>
             <description></description>
         </key>
+        <!--
         <key type="as" name="audio-repeat">
             <default>['XF86AudioRepeat']</default>
             <summary>Audio Repeat</summary>
             <description></description>
         </key>
-        <!--
         <key type="as" name="audio-rand-play">
             <default>['XF86AudioRandomPlay']</default>
             <summary>Audio Random Play</summary>
@@ -145,11 +145,13 @@
             <summary>Sleep</summary>
             <description></description>
         </key>
+        <!--
         <key type="as" name="hibernate">
             <default>['XF86Hibernate']</default>
             <summary>Hibernate</summary>
             <description></description>
         </key>
+        -->
         <key type="as" name="mon-brightness-up">
             <default>['XF86MonBrightnessUp']</default>
             <summary>Mon Brightness Up</summary>
