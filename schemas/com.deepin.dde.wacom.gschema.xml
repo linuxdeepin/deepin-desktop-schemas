@@ -1,35 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
     <schema path="/com/deepin/dde/wacom/" id="com.deepin.dde.wacom">
-    <key type="b" name="left-handed">
-      <default>false</default>
-      <summary>Wacom Rotate</summary>
-      <description></description>
-    </key>
-    <key type="b" name="cursor-mode">
-      <default>true</default>
-      <summary>Set Wacom Mode</summary>
-      <description>Set this to TRUE to enable wacom relative mode</description>
-    </key>
-    <key type="s" name="keyup-action">
-      <default>"RightClick"</default>
-      <summary>Set Button 3</summary>
-      <description></description>
-    </key>
-    <key type="s" name="keydown-action">
-      <default>"MiddleClick"</default>
-      <summary>Set Button 2</summary>
-      <description></description>
-    </key>
-    <key type="u" name="double-delta">
-      <default>2</default>
-      <summary>Double click distance</summary>
-      <description></description>
-    </key>
-    <key type="u" name="pressure-sensitive">
-      <default>6</default>
-      <summary>Pressure Curve</summary>
-      <description>Pressure curve level, detail see: daemon/inputdevices/wacom.go</description>
-    </key>
-  </schema>
+        <key type="b" name="left-handed">
+            <default>false</default>
+            <summary>Wacom Rotate</summary>
+            <description></description>
+        </key>
+        <key type="b" name="cursor-mode">
+            <default>false</default>
+            <summary>Set Wacom Mode</summary>
+            <description>Set this to TRUE to enable wacom relative mode</description>
+        </key>
+        <key type="s" name="keyup-action">
+            <default>"RightClick"</default>
+            <summary>Set Button 3</summary>
+            <description></description>
+        </key>
+        <key type="s" name="keydown-action">
+            <default>"MiddleClick"</default>
+            <summary>Set Button 2</summary>
+            <description></description>
+        </key>
+        <key type="s" name="map-output">
+            <default>""</default>
+            <summary>Mapping to output</summary>
+            <description></description>
+        </key>
+        <key type="u" name="raw-sample">
+            <default>4</default>
+            <range min="1" max="20"></range>
+            <summary>The window size for input tool data points</summary>
+            <description></description>
+        </key>
+        <key type="u" name="threshold">
+            <default>27</default>
+            <range min="0" max="2047"></range>
+            <summary>The minimun pressure for pointer event</summary>
+            <description></description>
+        </key>
+        <key type="u" name="double-delta">
+            <default>2</default>
+            <range min="0" max="100"></range>
+            <summary>The minimun distance for movement</summary>
+            <description></description>
+        </key>
+        <key type="u" name="pressure-sensitive">
+            <default>6</default>
+            <summary>Pressure Curve</summary>
+            <description>Pressure curve level, detail see: daemon/inputdevices/wacom.go</description>
+        </key>
+    </schema>
 </schemalist>
