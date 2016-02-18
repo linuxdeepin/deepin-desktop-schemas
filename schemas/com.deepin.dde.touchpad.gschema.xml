@@ -32,14 +32,19 @@
       <description>Swap left and right mouse buttons for left-handed mice with 'left', 'right' for right-handed, 'mouse' to follow the mouse setting.</description>
     </key>
     <key type="d" name="motion-acceleration">
-      <default>1.5</default>
-      <summary>Single Click</summary>
+      <default>1.0</default>
+      <summary>Device Accel Constant Deceleration</summary>
       <description>Acceleration multiplier for mouse motion. A value of -1 is the system default.</description>
     </key>
     <key type="d" name="motion-threshold">
-      <default>1</default>
-      <summary>Motion Threshold</summary>
+      <default>1.0</default>
+      <summary>Device Accel Adaptive Deceleration</summary>
       <description>Distance in pixels the pointer must move before accelerated mouse motion is activated. A value of -1 is the system default.</description>
+    </key>
+    <key type="d" name="motion-scaling">
+      <default>10.0</default>
+      <summary>Device Accel Velocity Scaling</summary>
+      <description>Acceleration multiplier for mouse motion. A value of -1 is the system default.</description>
     </key>
     <key type="b" name="natural-scroll">
       <default>false</default>
