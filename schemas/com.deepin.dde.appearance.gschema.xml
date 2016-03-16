@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
   <schema path="/com/deepin/dde/appearance/" id="com.deepin.dde.appearance" gettext-domain="DDE">
-    <key type="s" name="theme">
+    <key type="s" name="gtk-theme">
       <default>'deepin'</default>
-      <summary>Current Theme</summary>
-      <description>Current Desktop Theme</description>
+      <summary>Gtk+ theme</summary>
+      <description>
+        Basename of the default theme used by gtk+.
+      </description>
+    </key>
+    <key type="s" name="icon-theme">
+      <default>'deepin'</default>
+      <summary>Icon theme</summary>
+      <description>
+        Icon theme to use for the panel, nautilus etc.
+      </description>
+    </key>
+    <key type="s" name="cursor-theme">
+      <default>'deepin'</default>
+      <summary>Cursor theme</summary>
+      <description>
+        Cursor theme name. Used only by Xservers that support the Xcursor extension.
+      </description>
     </key>
     <key type="s" name="sound-theme">
       <default>'deepin'</default>
-      <summary>Current Sound Theme</summary>
-      <description>Current System Sound Theme</description>
+      <summary>System sound theme</summary>
+      <description>Set the system sound theme</description>
     </key>
-    <key type="s" name="greeter-theme">
-      <default>'sky'</default>
-      <summary>theme of greeter and lock</summary>
-      <description>the theme of greeter and lock</description>
+    <key type="s" name="font-standard">
+      <default>'sans-serif'</default>
+      <summary>Standard Font</summary>
+      <description>The standard font for desktop</description>
     </key>
-    <key type="s" name="background">
-      <default>'file:///usr/share/backgrounds/default_background.jpg'</default>
-      <summary>Background</summary>
-      <description>URI to use for the background image. Note that the backend only supports local (file://) URIs.</description>
+    <key type="s" name="font-monospace">
+      <default>'monospace'</default>
+      <summary>Monospace Font</summary>
+      <description>The monospace font for desktop</description>
     </key>
     <key type="i" name="font-size">
       <default>11</default>
