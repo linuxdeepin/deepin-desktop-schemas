@@ -1,5 +1,5 @@
 [com.deepin.dde.zone]
-left-up="/usr/bin/dde-launcher"
+left-up="dbus-send --print-reply --dest=com.deepin.dde.Launcher /com/deepin/dde/Launcher com.deepin.dde.Launcher.Toggle"
 left-down="/usr/lib/deepin-daemon/desktop-toggle"
 right-down="dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.Toggle"
 right-up=""
