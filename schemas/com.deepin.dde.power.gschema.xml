@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/com/deepin/dde/power/" id="com.deepin.dde.power">
+    <key type="i" name="battery-screen-black-delay">
+        <default>900</default>
+        <summary></summary>
+        <description>default 15min</description>
+    </key>
+
+    <key type="i" name="battery-sleep-delay">
+        <default>300</default>
+        <summary></summary>
+        <description>default 5min</description>
+    </key>
+
+    <key type="i" name="line-power-screen-black-delay">
+        <default>900</default>
+        <summary></summary>
+        <description>default 15min</description>
+    </key>
+
+    <key type="i" name="line-power-sleep-delay">
+        <default>300</default>
+        <summary></summary>
+        <description>default 5min</description>
+    </key>
+
+
+    <key type="b" name="screen-black-lock">
+        <default>false</default>
+        <summary></summary>
+        <description></description>
+    </key>
+
+    <key type="b" name="sleep-lock">
+        <default>true</default>
+        <summary></summary>
+        <description></description>
+    </key>
+
+    <key type="s" name="lid-closed-exec">
+        <default>'dbus-send --print-reply --dest=com.deepin.SessionManager /com/deepin/SessionManager com.deepin.SessionManager.RequestSuspend'</default>
+        <summary></summary>
+        <description></description>
+    </key>
+
+    <key type="b" name="multi-screen-prevent-lid-closed-exec">
+        <default>false</default>
+        <summary></summary>
+        <description></description>
+    </key>
+
+    <key type="s" name="power-button-pressed-exec">
+        <default>'dde-shutdown'</default>
+        <summary></summary>
+        <description></description>
+    </key>
+
+    <key type="b" name="fullscreen-workaround-enabled">
+	    <default>true</default>
+	    <summary>for debug purposes</summary>
+	    <description>for debug purposes, set this key to false to disable fullscreen-workaround.</description>
+    </key>
+
+     <key type="as" name="fullscreen-workaround-app-list">
+            <default>['libflash','chrome','firefox','mplayer','operaplugin','soffice','wpp','evince','vlc','totem']</default>
+            <summary>fullscreen workground app list</summary>
+            <description>app in list fullscreen inhbit screensaver</description>
+     </key>
+
+     <key type="b" name="use-percentage-for-policy">
+	    <default>false</default>
+	    <summary></summary>
+	    <description></description>
+     </key>
+
+    </schema>
+</schemalist>
