@@ -3,26 +3,30 @@
     <schema path="/com/deepin/dde/power/" id="com.deepin.dde.power">
     <key type="i" name="battery-screen-black-delay">
         <default>900</default>
+        <range min="0" />
         <summary></summary>
-        <description>default 15min</description>
+        <description>default 15 min</description>
     </key>
 
     <key type="i" name="battery-sleep-delay">
-        <default>300</default>
+        <default>1800</default>
+        <range min="0" />
         <summary></summary>
-        <description>default 5min</description>
+        <description>default 30 min</description>
     </key>
 
     <key type="i" name="line-power-screen-black-delay">
         <default>900</default>
+        <range min="0" />
         <summary></summary>
-        <description>default 15min</description>
+        <description>default 15 min</description>
     </key>
 
     <key type="i" name="line-power-sleep-delay">
-        <default>300</default>
+        <default>1800</default>
+        <range min="0" />
         <summary></summary>
-        <description>default 5min</description>
+        <description>default 30 min</description>
     </key>
 
 
