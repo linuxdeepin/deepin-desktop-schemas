@@ -1,14 +1,13 @@
 PREFIX = /usr
-performance = normal
+ARCH = x86
 
 all: test
 
 prepare:
-	@echo build with performance: $(performance)
+	@echo build with Arch: $(ARCH)
 	mkdir -p result
 	@find schemas -name "*.xml" -exec cp {} result \;
-	@find overrides -name "*.override" -exec cat {} \; > result/99_deepin-default-gsettings.gschema.override
-	@find overrides -name "*.override.$(performance)" -exec cat {} \; >> result/99_deepin-default-gsettings.gschema.override
+	@find overrides/$(ARCH) -name "*.override" -exec cat {} \; >> result/99_deepin-default-gsettings.gschema.override
 
 test: prepare 
 	@echo "Testing schemas with glib-compile-shemas..."
