@@ -1,0 +1,3 @@
+[com.deepin.dde.dock]
+docked-apps=['deepin-wm-multitaskingview','org.gnome.nautilus','audiacious-qt','smplayer','firefox','wps-office-wps','wps-office-wpp','wps-office-et','dde-control-center']
+hide-mode='keep-showing'
