@@ -78,5 +78,11 @@
 	    <description></description>
      </key>
 
+     <key type="b" name="power-module-initialized">
+        <default>false</default>
+	    <summary></summary>
+	    <description></description>
+     </key>
+
     </schema>
 </schemalist>
