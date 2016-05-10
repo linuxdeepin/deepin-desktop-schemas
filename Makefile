@@ -1,15 +1,15 @@
 PREFIX = /usr
 ARCH = x86
 
-all: test
+all: build
 
-prepare:
+build:
 	@echo build with Arch: $(ARCH)
 	mkdir -p result
 	@find schemas -name "*.xml" -exec cp {} result \;
-	@find overrides/$(ARCH) -name "*.override" -exec cat {} \; >> result/99_deepin-default-gsettings.gschema.override
+	@find -L overrides/$(ARCH) -name "*.override" -exec cat {} \; >> result/99_deepin-default-gsettings.gschema.override
 
-test: prepare 
+test: 
 	@echo "Testing schemas with glib-compile-shemas..."
 	@glib-compile-schemas --dry-run result
 
