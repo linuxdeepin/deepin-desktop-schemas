@@ -59,5 +59,11 @@
             <summary>Default icon zoom level.</summary>
             <description>Defaut icon zoom level used by the icon view.</description>
         </key>
-    </schema>
+
+         <key name="first-run" type="b">
+            <default>true</default>
+            <summary>First run flag.</summary>
+            <description>First fun flags.</description>
+        </key>
+   </schema>
 </schemalist>
