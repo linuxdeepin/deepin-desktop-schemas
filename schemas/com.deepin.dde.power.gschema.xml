@@ -84,5 +84,47 @@
 	    <description></description>
      </key>
 
+     <key type="i" name="percentage-low">
+         <range min="0" max="100"></range>
+         <default>20</default>
+         <summary></summary>
+         <description></description>
+    </key>
+
+     <key type="i" name="percentage-critical">
+         <range min="0" max="100"></range>
+         <default>10</default>
+         <summary></summary>
+         <description></description>
+    </key>
+
+     <key type="i" name="percentage-action">
+         <range min="0" max="100"></range>
+         <default>5</default>
+         <summary></summary>
+         <description></description>
+    </key>
+
+     <key type="i" name="time-to-empty-low">
+         <range min="0"></range>
+         <default>1200</default>
+         <summary>20 mins</summary>
+         <description></description>
+    </key>
+
+     <key type="i" name="time-to-empty-critical">
+         <range min="0"></range>
+         <default>600</default>
+         <summary>10 mins</summary>
+         <description></description>
+    </key>
+
+     <key type="i" name="time-to-empty-action">
+         <range min="0"></range>
+         <default>300</default>
+         <summary>5 mins</summary>
+         <description></description>
+    </key>
+
     </schema>
 </schemalist>
