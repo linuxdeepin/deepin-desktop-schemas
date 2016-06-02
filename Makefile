@@ -1,5 +1,12 @@
-PREFIX = /usr
-ARCH = x86
+PREFIX	:= /usr
+UNAME	:= $(shell uname -m)
+
+
+ifeq ($(UNAME), mips64)
+	ARCH=mips
+else
+	ARCH=x86
+endif
 
 all: build
 
