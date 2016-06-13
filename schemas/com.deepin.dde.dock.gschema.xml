@@ -11,6 +11,13 @@
         <value value="2" nick="classic" />
     </enum>
 
+    <enum id="com.deepin.dde.dock.Position">
+        <value value="0" nick="top" />
+        <value value="1" nick="right" />
+        <value value="2" nick="bottom" />
+        <value value="3" nick="left" />
+    </enum>
+
     <schema path="/com/deepin/dde/dock/" id="com.deepin.dde.dock">
         <key name="hide-mode" enum="com.deepin.dde.dock.HideMode">
             <default>'keep-showing'</default>
@@ -26,6 +33,12 @@
             <default>'fashion'</default>
             <summary>The display mode.</summary>
             <description>The dock gets different display mode, for instance, dock looks like win7 taskbar on classic mode.</description>
+        </key>
+
+        <key name="position" enum="com.deepin.dde.dock.Position">
+            <default>'bottom'</default>
+            <summary></summary>
+            <description></description>
         </key>
     </schema>
 </schemalist>
