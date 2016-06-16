@@ -1,3 +1,4 @@
 [com.deepin.dde.dock]
 docked-apps=['deepin-toggle-desktop', 'deepin-wm-multitaskingview','org.gnome.nautilus','deepin-appstore','deepin-music-player','deepin-movie','google-chrome','dde-control-center']
 hide-mode='keep-showing'
+display-mode='efficient'
