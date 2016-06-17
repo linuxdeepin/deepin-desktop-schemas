@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-    <enum id="com.deepin.dde.launcher.CategoryDisplayMode">
+   <enum id="com.deepin.dde.launcher.DisplayMode">
+        <value value="0" nick="free"/>
+        <value value="1" nick="category"/>
+   </enum>
+   <enum id="com.deepin.dde.launcher.CategoryDisplayMode">
         <value value="0" nick="icon"/>
         <value value="1" nick="text"/>
     </enum>
@@ -12,7 +16,12 @@
     </enum>
 
     <schema path="/com/deepin/dde/launcher/" id="com.deepin.dde.launcher">
-        <key name="category-display-mode" enum="com.deepin.dde.launcher.CategoryDisplayMode">
+        <key name="display-mode" enum="com.deepin.dde.launcher.DisplayMode">
+            <default>'free'</default>
+            <summary>Launcher display mode.</summary>
+            <description>Launcher display mode.</description>
+       </key>
+       <key name="category-display-mode" enum="com.deepin.dde.launcher.CategoryDisplayMode">
             <default>'icon'</default>
             <summary>The category bar display mode.</summary>
             <description>Display icon or text on launcher's category bar.</description>
