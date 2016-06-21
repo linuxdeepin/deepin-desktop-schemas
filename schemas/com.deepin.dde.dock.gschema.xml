@@ -40,5 +40,11 @@
             <summary></summary>
             <description></description>
         </key>
+
+        <key type="u" name="icon-size">
+            <default>48</default>
+            <summary></summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
