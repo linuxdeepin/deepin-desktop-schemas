@@ -62,7 +62,7 @@
 		<description>system shortcut</description>
 	</key>
 	<key type="as" name="wm-switcher">
-		<default>['&lt;Super&gt;Tab']</default>
+		<default>['&lt;Shift&gt;&lt;Super&gt;Tab']</default>
 		<summary>Switch window manager</summary>
 		<description>system shortcut</description>
 	</key>
