@@ -42,7 +42,7 @@
         </key>
 
         <key type="u" name="icon-size">
-            <default>48</default>
+            <default>36</default>
             <summary></summary>
             <description></description>
         </key>
