@@ -43,12 +43,14 @@
       <description>The desktop font size</description>
     </key>
     <key name="extra-picture-uris" type="as">
-      <default>[]</default>
-      <summary>Extra Picture URIs for multiple background</summary>
-      <description>
-        URIs to use for the background images since 2nd workspace. Note
-        that the backend only supports local (file://) URIs.
-      </description>
+        <default>[]</default>
+        <summary>Deprecated</summary>
+        <description></description>
+    </key>
+    <key name="background-uris" type="as">
+        <default>[]</default>
+        <summary>desktop background picture URIs for workspaces</summary>
+        <description>Note that the backend only supports local (file://) URIs.</description>
     </key>
     <key name="excluded-icon-themes" type="as">
       <default>['hicolor','gnome','Adwaita']</default>
