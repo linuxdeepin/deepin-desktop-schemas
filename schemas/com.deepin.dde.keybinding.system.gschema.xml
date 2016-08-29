@@ -27,7 +27,7 @@
 		<description>system shortcut</description>
 	</key>
 	<key type="as" name="terminal-quake">
-		<default>['F4']</default>
+		<default>['&lt;Alt&gt;F2']</default>
 		<summary>shortcut</summary>
 		<description>system shortcut</description>
 	</key>
