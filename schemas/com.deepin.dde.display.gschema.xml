@@ -1,37 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-	<enum id="com.deepin.dde.display.BrightnessSetter">
-		<value value="0" nick="auto" />
-		<value value="1" nick="gamma" />
-		<value value="2" nick="backlight" />
-		<value value="3" nick="backlight-raw" />
-		<value value="4" nick="backlight-platform" />
-		<value value="5" nick="backlight-firmware" />
-	</enum>
+    <enum id="com.deepin.dde.display.BrightnessSetter">
+	<value value="0" nick="auto" />
+	<value value="1" nick="gamma" />
+	<value value="2" nick="backlight" />
+	<value value="3" nick="backlight-raw" />
+	<value value="4" nick="backlight-platform" />
+	<value value="5" nick="backlight-firmware" />
+    </enum>
 
-        <enum id="com.deepin.dde.display.DisplayMode">
-            <value value="0" nick="custom" />
-            <value value="1" nick="mirrors" />
-            <value value="2" nick="extend" />
-            <value value="3" nick="onlyone" />
-            <value value="4" nick="unknow" />
-        </enum>
+    <enum id="com.deepin.dde.display.DisplayMode">
+        <value value="0" nick="custom" />
+        <value value="1" nick="mirrors" />
+        <value value="2" nick="extend" />
+        <value value="3" nick="onlyone" />
+        <value value="4" nick="unknow" />
+    </enum>
 
-	<schema path="/com/deepin/dde/display/" id="com.deepin.dde.display">
-		<key name="brightness-setter" enum="com.deepin.dde.display.BrightnessSetter">
-			<default>'auto'</default>
-			<summary>the method for setting brightness</summary>
-			<description>the method for setting brightness.</description>
-		</key>
-                <key name="display-mode" enum="com.deepin.dde.display.DisplayMode">
-                    <default>'unknow'</default>
-                    <summary>the multi monitors display mode</summary>
-                    <description>The mode of multi monitors</description>
-                </key>
-                <key type="d" name="brightness">
-                    <default>1.0</default>
-                    <summary>the current brightness</summary>
-                    <description>The monitor brightness</description>
-                </key>
-	</schema>
+    <schema path="/com/deepin/dde/display/" id="com.deepin.dde.display">
+	<key name="brightness-setter" enum="com.deepin.dde.display.BrightnessSetter">
+	    <default>'auto'</default>
+	    <summary>the method for setting brightness</summary>
+	    <description>the method for setting brightness.</description>
+	</key>
+        <key name="display-mode" enum="com.deepin.dde.display.DisplayMode">
+            <default>'unknow'</default>
+            <summary>the multi monitors display mode</summary>
+            <description>The mode of multi monitors</description>
+        </key>
+        <key type="s" name="brightness">
+            <default>''</default>
+            <summary>the outputs brightness</summary>
+            <description>The monitor brightness</description>
+        </key>
+        <key type="s" name="map-output">
+            <default>''</default>
+            <summary>Map output to monitor</summary>
+            <description>Output monitor map</description>
+        </key>
+    </schema>
 </schemalist>
