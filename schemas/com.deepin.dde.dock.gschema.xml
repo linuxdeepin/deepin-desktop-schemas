@@ -46,5 +46,17 @@
             <summary></summary>
             <description></description>
         </key>
+
+        <key type="u" name="show-timeout">
+            <default>100</default>
+            <summary></summary>
+            <description></description>
+        </key>
+
+        <key type="u" name="hide-timeout">
+            <default>0</default>
+            <summary></summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
