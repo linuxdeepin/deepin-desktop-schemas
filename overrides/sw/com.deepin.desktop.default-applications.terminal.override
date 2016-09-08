@@ -1,0 +1,2 @@
+[com.deepin.desktop.default-applications.terminal]
+exec='deepin-terminal'

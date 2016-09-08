@@ -1,0 +1,4 @@
+[com.deepin.dde.dock]
+docked-apps=['deepin-toggle-desktop','dde-file-manager','audacious','deepin-movie-2d','firefox','wps-office-wps','wps-office-wpp','wps-office-et','dde-control-center']
+hide-mode='keep-showing'
+display-mode='efficient'
