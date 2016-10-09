@@ -233,16 +233,15 @@
         If set to 0, the list will always be empty; if set to -1, no item will be removed.
       </description>
     </key>
-    <!--
     <key type="i" name="xft-dpi">
       <range min="-1" max="1048576" />
       <default>-1</default>
       <summary>Xft DPI</summary>
       <description>
         Resolution for Xft, in 1024 * dots/inch. -1 to use default value.
+        Do not modify it manually.
       </description>
     </key>
-    -->
     <key type="b" name="cursor-blink">
       <default>true</default>
       <summary>Cursor Blink</summary>
@@ -357,6 +356,14 @@
       <summary>Xft hinting</summary>
       <description>
         Whether to hint Xft fonts; 0=no, 1=yes, -1=default.
+      </description>
+    </key>
+    <key type="d" name="scale-factor">
+      <range min="0" max="10" />
+      <default>1</default>
+      <summary>Gdk Window Scale Factor</summary>
+      <description>
+        Window scale for Gdk.
       </description>
     </key>
   </schema>
