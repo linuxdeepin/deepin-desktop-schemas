@@ -73,9 +73,9 @@
      </key>
 
      <key type="b" name="use-percentage-for-policy">
-	    <default>false</default>
-	    <summary></summary>
-	    <description></description>
+	    <default>true</default>
+	    <summary>Policy for warning and action based on battery levels</summary>
+	    <description>Whether battery percentage based policy should be used. It should work around broken firmwares. It is also more reliable than the time left.</description>
      </key>
 
      <key type="b" name="power-module-initialized">
