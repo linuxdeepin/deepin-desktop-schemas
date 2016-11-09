@@ -66,5 +66,10 @@
 		<summary>Switch window manager</summary>
 		<description>system shortcut</description>
 	</key>
+	<key type="as" name="turn-off-screen">
+		<default>['&lt;Shift&gt;&lt;Super&gt;L']</default>
+		<summary>Turn off the screen</summary>
+		<description></description>
+	</key>
 	</schema>
 </schemalist>
