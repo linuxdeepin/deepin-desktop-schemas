@@ -711,7 +711,7 @@
         <!-- ignore XF86LogWindowTree-->
         <!-- ignore XF86LogGrabInfo-->
         <key type="as" name="switch-monitors">
-            <default>['mod4-p']</default>
+            <default>['&lt;Super&gt;p']</default>
             <summary></summary>
             <description></description>
         </key>
