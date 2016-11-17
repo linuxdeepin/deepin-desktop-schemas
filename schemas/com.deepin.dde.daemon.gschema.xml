@@ -91,6 +91,11 @@
       <summary></summary>
       <description></description>
     </key>
+    <key type="b"  name="gesture">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
     <key type="b"  name="debug">
       <default>false</default>
       <summary></summary>
