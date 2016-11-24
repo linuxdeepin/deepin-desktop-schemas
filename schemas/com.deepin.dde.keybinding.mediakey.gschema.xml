@@ -711,7 +711,7 @@
         <!-- ignore XF86LogWindowTree-->
         <!-- ignore XF86LogGrabInfo-->
         <key type="as" name="switch-monitors">
-            <default>['&lt;Super&gt;p']</default>
+            <default><![CDATA[['<Super>P']]]></default>
             <summary></summary>
             <description></description>
         </key>
