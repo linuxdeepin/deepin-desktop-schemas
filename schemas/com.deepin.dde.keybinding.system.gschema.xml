@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
 	<schema id="com.deepin.dde.keybinding.system" path="/com/deepin/dde/keybinding/system/">
-        <key type="as" name="switch-layout">
-		<default>['&lt;Super&gt;Space']</default>
-            <summary>Switch Keyboard Layout</summary>
-            <description></description>
-        </key>
-	<key type="as" name="launcher">
-		<default>['Super_L','Super_R']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="terminal">
-        <default>['&lt;Control&gt;&lt;Alt&gt;T']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="lock-screen">
-		<default>['&lt;Super&gt;L']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="logout">
-		<default>['&lt;Control&gt;&lt;Alt&gt;Delete']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="terminal-quake">
-		<default>['&lt;Alt&gt;F2']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="screenshot">
-		<default>['&lt;Control&gt;&lt;Alt&gt;A']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="screenshot-fullscreen">
-		<default>['Print']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="screenshot-window">
-		<default>['&lt;Alt&gt;Print']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="screenshot-delayed">
-		<default>['&lt;Control&gt;Print']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="file-manager">
-		<default>['&lt;Super&gt;E']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="disable-touchpad">
-		<default>['']</default>
-		<summary>shortcut</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="wm-switcher">
-		<default>['&lt;Shift&gt;&lt;Super&gt;Tab']</default>
-		<summary>Switch window manager</summary>
-		<description>system shortcut</description>
-	</key>
-	<key type="as" name="turn-off-screen">
-		<default>['&lt;Shift&gt;&lt;Super&gt;L']</default>
-		<summary>Turn off the screen</summary>
-		<description></description>
-	</key>
+		<key type="as" name="switch-layout">
+			<default><![CDATA[['<Super>Space']]]></default>
+			<summary>Switch Keyboard Layout</summary>
+			<description/>
+		</key>
+		<key type="as" name="launcher">
+			<default>['Super_L','Super_R']</default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="terminal">
+			<default><![CDATA[['<Control><Alt>T']]]></default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="lock-screen">
+			<default><![CDATA[['<Super>L']]]></default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="logout">
+			<default><![CDATA[['<Control><Alt>Delete']]]></default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="terminal-quake">
+			<default><![CDATA[['<Alt>F2']]]></default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="screenshot">
+			<default><![CDATA[['<Control><Alt>A']]]></default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="screenshot-fullscreen">
+			<default>['Print']</default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="screenshot-window">
+			<default><![CDATA[['<Alt>Print']]]></default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="screenshot-delayed">
+			<default><![CDATA[['<Control>Print']]]></default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="file-manager">
+			<default><![CDATA[['<Super>E']]]></default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="disable-touchpad">
+			<default>['']</default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="wm-switcher">
+			<default><![CDATA[['<Shift><Super>Tab']]]></default>
+			<summary>Switch window manager</summary>
+			<description>system shortcut</description>
+		</key>
+		<key type="as" name="turn-off-screen">
+			<default><![CDATA[['<Shift><Super>L']]]></default>
+			<summary>Turn off the screen</summary>
+			<description/>
+		</key>
 	</schema>
 </schemalist>
