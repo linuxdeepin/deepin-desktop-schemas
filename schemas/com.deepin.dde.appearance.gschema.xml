@@ -28,12 +28,12 @@
       <description>Set the system sound theme</description>
     </key>
     <key type="s" name="font-standard">
-      <default>'sans-serif'</default>
+      <default>'Noto Sans'</default>
       <summary>Standard Font</summary>
       <description>The standard font for desktop</description>
     </key>
     <key type="s" name="font-monospace">
-      <default>'monospace'</default>
+      <default>'Noto Mono'</default>
       <summary>Monospace Font</summary>
       <description>The monospace font for desktop</description>
     </key>
