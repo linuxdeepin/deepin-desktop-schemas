@@ -38,5 +38,10 @@
             <summary>Map output to monitor</summary>
             <description>Output monitor map</description>
         </key>
+        <key type="s" name="primary">
+            <default>''</default>
+            <summary>the primary output</summary>
+            <description>The primary output</description>
+        </key>
     </schema>
 </schemalist>
