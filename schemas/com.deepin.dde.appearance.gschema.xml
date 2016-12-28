@@ -37,8 +37,8 @@
       <summary>Monospace Font</summary>
       <description>The monospace font for desktop</description>
     </key>
-    <key type="i" name="font-size">
-      <default>11</default>
+    <key type="d" name="font-size">
+      <default>9.0</default>
       <summary>Font size</summary>
       <description>The desktop font size</description>
     </key>
