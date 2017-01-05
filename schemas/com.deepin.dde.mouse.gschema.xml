@@ -98,5 +98,10 @@
             <summary>Device Accel Velocity Scaling</summary>
             <description>Acceleration multiplier for mouse motion. A value of -1 is the system default.</description>
         </key>
+        <key type="b" name="left-handed">
+            <default>false</default>
+            <summary>Left-handed mode</summary>
+            <description>Set it to true to enable left-handed mode</description>
+        </key>
     </schema>
 </schemalist>
