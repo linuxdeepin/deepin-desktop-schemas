@@ -4,9 +4,6 @@
 	<value value="0" nick="auto" />
 	<value value="1" nick="gamma" />
 	<value value="2" nick="backlight" />
-	<value value="3" nick="backlight-raw" />
-	<value value="4" nick="backlight-platform" />
-	<value value="5" nick="backlight-firmware" />
     </enum>
 
     <enum id="com.deepin.dde.display.DisplayMode">
