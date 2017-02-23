@@ -15,12 +15,12 @@
 			<default><![CDATA[['<Control><Alt>T']]]></default>
 			<summary>shortcut</summary>
 			<description>system shortcut</description>
-        </key>
-        <key type="as" name="deepin-screen-recorder">
-            <default><![CDATA[['<Control><Alt>R']]]></default>
-            <summary>shortcut</summary>
-            <description>system shortcut</description>
-        </key>
+		</key>
+		<key type="as" name="deepin-screen-recorder">
+			<default><![CDATA[['<Control><Alt>R']]]></default>
+			<summary>shortcut</summary>
+			<description>system shortcut</description>
+		</key>
 		<key type="as" name="lock-screen">
 			<default><![CDATA[['<Super>L']]]></default>
 			<summary>shortcut</summary>
