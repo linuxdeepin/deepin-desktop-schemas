@@ -111,5 +111,10 @@
       <summary></summary>
       <description></description>
     </key>
+    <key type="b"  name="housekeeping">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
     </schema>
 </schemalist>
