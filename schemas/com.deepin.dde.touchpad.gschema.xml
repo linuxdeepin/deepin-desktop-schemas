@@ -67,7 +67,7 @@
       <description>Distance before a drag is started.</description>
     </key>
     <key type="b" name="edge-scroll-enabled">
-      <default>true</default>
+      <default>false</default>
       <summary>Edge scroll scrolling.</summary>
       <description>Enable(or disable) edge scrolling.</description>
     </key>
