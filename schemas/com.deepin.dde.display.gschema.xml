@@ -40,5 +40,10 @@
             <summary>the primary output</summary>
             <description>The primary output</description>
         </key>
+        <key type="s" name="current-custom-mode">
+            <default>''</default>
+            <summary>the current custom id</summary>
+            <description>The id of config only in custom mode</description>
+        </key>
     </schema>
 </schemalist>
