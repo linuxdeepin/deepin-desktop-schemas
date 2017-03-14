@@ -58,5 +58,11 @@
             <summary></summary>
             <description></description>
         </key>
+
+        <key type="as" name="win-icon-preferred-apps">
+            <default>['apps.com.qq.im', 'deepin.com.qq.im', 'apps.com.qq.im.light', 'apps.com.qq.b.eim', 'apps.com.qq.rtxclient']</default>
+            <summary></summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
