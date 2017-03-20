@@ -7,7 +7,7 @@
             <description>move to left-up corner to show</description>
         </key>
         <key type="s" name="right-up">
-            <default>''</default>
+            <default>'!wm:close'</default>
             <summary>right up corner</summary>
             <description>move to right-up corner to show</description>
         </key>
