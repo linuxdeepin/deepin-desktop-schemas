@@ -45,5 +45,15 @@
             <summary>the current custom id</summary>
             <description>The id of config only in custom mode</description>
         </key>
+        <key type="as" name="blacklist">
+            <default>[]</default>
+            <summary>the output blacklist</summary>
+            <description>Filter some invalid outputs</description>
+        </key>
+        <key type="as" name="priority">
+            <default>[]</default>
+            <summary>The output priority</summary>
+            <description>Outputs priority, the first will be primary</description>
+        </key>
     </schema>
 </schemalist>
