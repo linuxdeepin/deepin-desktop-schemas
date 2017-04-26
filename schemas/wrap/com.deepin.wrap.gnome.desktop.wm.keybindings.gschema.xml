@@ -4,7 +4,7 @@
           path="/com/deepin/wrap/gnome/desktop/wm/keybindings/"
           gettext-domain="gsettings-desktop-schemas">
     <key name="switch-to-workspace-1" type="as">
-      <default><![CDATA[['<Super>Home']]]></default>
+      <default>[]</default>
       <summary>Switch to workspace 1</summary>
     </key>
     <key name="switch-to-workspace-2" type="as">
@@ -66,6 +66,10 @@
     <key name="switch-to-workspace-down" type="as">
       <default><![CDATA[['<Super>Page_Down','<Control><Alt>Down']]]></default>
       <summary>Switch to workspace below</summary>
+    </key>
+    <key name="switch-to-workspace-first" type="as">
+      <default><![CDATA[['<Super>Home']]]></default>
+      <summary>Switch to workspace 1</summary>
     </key>
     <key name="switch-to-workspace-last" type="as">
       <default><![CDATA[['<Super>End']]]></default>
@@ -192,7 +196,7 @@
       <summary>Toggle window on all workspaces or one</summary>
     </key>
     <key name="move-to-workspace-1" type="as">
-      <default><![CDATA[['<Super><Shift>Home']]]></default>
+      <default>[]</default>
       <summary>Move window to workspace 1</summary>
     </key>
     <key name="move-to-workspace-2" type="as">
@@ -238,6 +242,10 @@
     <key name="move-to-workspace-12" type="as">
       <default>[]</default>
       <summary>Move window to workspace 12</summary>
+    </key>
+    <key name="move-to-workspace-first" type="as">
+      <default><![CDATA[['<Super><Shift>Home']]]></default>
+      <summary>Move window to workspace 1</summary>
     </key>
     <key name="move-to-workspace-last" type="as">
       <default><![CDATA[['<Super><Shift>End']]]></default>
@@ -346,6 +354,30 @@
       <summary>Toggle window to be always on top</summary>
       <description>Set or unset window to appear always on top</description>
     </key>
+
+	<key type="as" name="expose-windows">
+		<default><![CDATA[['<Super>w']]]></default>
+		<summary>Shortcut to open the window overview</summary>
+		<description/>
+	</key>
+	<key type="as" name="expose-all-windows">
+		<default><![CDATA[['<Super>a']]]></default>
+		<summary>Shortcut to open the window overview for all windows</summary>
+		<description/>
+	</key>
+	<key type="as" name="preview-workspace">
+		<default><![CDATA[['<Super>s']]]></default>
+		<summary>Preview all workspaces</summary>
+	</key>
+   <key type="as" name="zoom-in">
+	   <default><![CDATA[['<Super>plus', '<Super>KP_Add']]]></default>
+	   <summary>Zoom in</summary>
+	   <description></description>
+   </key>
+   <key type="as" name="zoom-out">
+	   <default><![CDATA[['<Super>minus', '<Super>KP_Subtract']]]></default>
+	   <summary>Zoom out</summary>
+   </key>
   </schema>
 
 </schemalist>
