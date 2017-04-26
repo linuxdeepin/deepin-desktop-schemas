@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/com/deepin/dde/startdde/" id="com.deepin.dde.startdde">
+        <key type="i"  name="autostart-delay">
+            <default>0</default>
+            <summary>Autostart Delay Seconds</summary>
+            <description>The delay seconds for autostart</description>
+        </key>
+    </schema>
+</schemalist>
