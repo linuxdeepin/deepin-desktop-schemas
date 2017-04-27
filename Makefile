@@ -8,6 +8,10 @@ else
 	ARCH=x86
 endif
 
+ifeq ($(UNAME), sw_64)
+	ARCH=sw
+endif
+
 all: build
 
 build:

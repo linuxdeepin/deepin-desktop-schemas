@@ -1,0 +1,3 @@
+[org.gnome.desktop.media-handling]
+automount=true
+automount-open=true
