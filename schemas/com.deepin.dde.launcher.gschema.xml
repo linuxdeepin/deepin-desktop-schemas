@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
    <enum id="com.deepin.dde.launcher.DisplayMode">
-        <value value="0" nick="fullscreen"/>
-        <value value="1" nick="mini"/>
+        <value value="0" nick="free"/>
+        <value value="1" nick="category"/>
    </enum>
     <schema path="/com/deepin/dde/launcher/" id="com.deepin.dde.launcher">
         <key name="display-mode" enum="com.deepin.dde.launcher.DisplayMode">
-            <default>'fullscreen'</default>
+            <default>'free'</default>
             <summary>Launcher display mode.</summary>
             <description>Launcher display mode.</description>
+       </key>
+       <key name="fullscreen" type="b">
+            <default>true</default>
        </key>
     </schema>
 </schemalist>
