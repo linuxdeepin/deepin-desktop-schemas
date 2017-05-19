@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
 	<schema id="com.deepin.dde.keybinding.system" path="/com/deepin/dde/keybinding/system/">
-		<key type="as" name="switch-layout">
-			<default><![CDATA[['<Super>Space']]]></default>
-			<summary>Switch Keyboard Layout</summary>
-			<description/>
-		</key>
 		<key type="as" name="launcher">
 			<default>['Super_L','Super_R']</default>
 			<summary>shortcut</summary>
