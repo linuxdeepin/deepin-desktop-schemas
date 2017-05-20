@@ -21,6 +21,12 @@
 			<summary>Keyboard Layout</summary>
 			<description/>
 		</key>
+		<key type="u" name="shortcut-switch-layout">
+			<range min="0" max="7" />
+			<default>6</default>
+			<summary>Shortucts for switch keyboard layout</summary>
+			<description>Perform bitwise or operation: Ctrl-Shift=1, Alt-Shift=2, Super-Space=4</description>
+		</key>
 		<key type="b" name="repeat-enabled">
 			<default>true</default>
 		</key>
