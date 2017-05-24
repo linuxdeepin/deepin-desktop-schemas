@@ -1,3 +1,5 @@
 [com.deepin.dde.dock]
-docked-apps=['deepin-toggle-desktop', 'deepin-wm-multitaskingview','org.gnome.nautilus','audacious-qt','smplayer','firefox','wps-office-wps','wps-office-wpp','wps-office-et','dde-control-center']
+docked-apps=['deepin-toggle-desktop', 'deepin-wm-multitaskingview','dde-file-manager','audacious-qt','smplayer','firefox','wps-office-wps','wps-office-wpp','wps-office-et','dde-control-center']
 hide-mode='keep-showing'
+[com.deepin.dde.dock]
+display-mode='efficient'
