@@ -1,3 +1,6 @@
 [com.deepin.dde.dock]
 docked-apps=['dde-launcher','deepin-toggle-desktop', 'dde-file-manager','deepin-music','deepin-movie-2d','google-chrome','wps-office-wps','wps-office-wpp','wps-office-et','dde-control-center']
 hide-mode='keep-showing'
+
+[com.deepin.dde.dock]
+display-mode='efficient'
