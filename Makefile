@@ -1,4 +1,5 @@
 PREFIX	:= /usr
+ARCH    := common
 
 all: build
 
