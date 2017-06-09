@@ -1,3 +1,4 @@
 [com.deepin.dde.sound-effect]
 enabled=false
 player='paplay'
+

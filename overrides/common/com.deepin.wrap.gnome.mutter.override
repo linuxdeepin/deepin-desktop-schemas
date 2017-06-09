@@ -5,3 +5,4 @@ overlay-key=""
 [com.deepin.wrap.gnome.mutter.keybindings]
 toggle-tiled-right=[]
 toggle-tiled-left=[]
+

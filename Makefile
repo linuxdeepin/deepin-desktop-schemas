@@ -1,5 +1,5 @@
 PREFIX	:= /usr
-ARCH    := common
+ARCH    := x86
 
 all: build
 
@@ -7,7 +7,7 @@ build:
 	@echo build with Arch: $(ARCH)
 	mkdir -p result
 	@find schemas -name "*.xml" -exec cp {} result \;
-	@find -L overrides/$(ARCH) -name "*.override" -exec cat {} \; >> result/99_deepin-default-gsettings.gschema.override
+	@python tools/overrides.py $(ARCH) result/99_deepin-default-gsettings.gschema.override
 
 test: 
 	@echo "Testing schemas with glib-compile-shemas..."

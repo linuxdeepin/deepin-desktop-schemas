@@ -3,3 +3,4 @@ autostart-delay=5
 
 [com.deepin.dde.display]
 brightness-setter='backlight'
+
