@@ -51,7 +51,7 @@
         <key type="u" name="threshold">
             <default>27</default>
             <range min="1" max="2047"></range>
-            <summary>The minimun pressure to generate a Button event</summary>
+            <summary>The minimum pressure to generate a Button event</summary>
             <description>Set the minimum pressure necessary to generate a Button event for the stylus tip, eraser, or touch. The pressure levels of all tablets are normalized to 2048 levels irregardless of the actual hardware supported levels</description>
         </key>
         <key type="u" name="raw-sample">
@@ -73,7 +73,7 @@
         <key type="u" name="threshold">
             <default>27</default>
             <range min="1" max="2047"></range>
-            <summary>The minimun pressure to generate a Button event</summary>
+            <summary>The minimum pressure to generate a Button event</summary>
             <description>Set the minimum pressure necessary to generate a Button event for the stylus tip, eraser, or touch. The pressure levels of all tablets are normalized to 2048 levels irregardless of the actual hardware supported levels</description>
         </key>
         <key type="u" name="raw-sample">
