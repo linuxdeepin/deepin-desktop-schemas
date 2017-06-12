@@ -26,6 +26,9 @@ if __name__ == "__main__":
             if section not in cf.sections():
                 cf.add_section(section)
             for key, value in _override.items(section):
+                # value should not be \"\" or empty
+                if value == '':
+                    raise Exception("%s %s value is empty" % (key, value))
                 cf.set(section, key, value)
     
     print("Save override schemas to %s" % args.result)
