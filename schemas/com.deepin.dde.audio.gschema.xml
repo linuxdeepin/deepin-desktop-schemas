@@ -16,5 +16,10 @@
 	    <summary>Input volume percentage</summary>
 	    <description>Input volume percentage range 0 ~ 100</description>
 	</key>
+	<key type="i" name="output-volume-max">
+	    <default>150</default>
+	    <summary>Output volume max percentage</summary>
+	    <description>The max percentage for output volume</description>
+	</key>
     </schema>
 </schemalist>
