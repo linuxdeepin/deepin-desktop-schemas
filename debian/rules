@@ -1,26 +1,26 @@
 #!/usr/bin/make -f
 include /usr/share/dpkg/default.mk
 
-ARCH = common
+DISTRO = x86
 ifeq ($(DEB_BUILD_ARCH), amd64)
-	ARCH = x86
+	DISTRO = x86
 endif
 ifeq ($(DEB_BUILD_ARCH), i386)
-	ARCH = x86
+	DISTRO = x86
 endif
 ifeq ($(DEB_BUILD_ARCH), mipsel)
-	ARCH = mips
+	DISTRO = mips
 endif
 ifeq ($(DEB_BUILD_ARCH), mips64el)
-	ARCH = mips
+	DISTRO = mips
 endif
 ifeq ($(DEB_BUILD_ARCH), sw_64)
-	ARCH = sw
+	DISTRO = sw
 endif
-export ARCH
+export DISTRO
 
 %: 
 	dh $@
 
 override_dh_auto_build:
-	dh_auto_build -- ARCH=$(ARCH)
+	dh_auto_build -- DISTRO=$(DISTRO)
