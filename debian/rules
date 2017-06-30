@@ -1,12 +1,17 @@
 #!/usr/bin/make -f
 include /usr/share/dpkg/default.mk
 
+SYSTYPE = Desktop
 DISTRO = x86
 ifeq ($(DEB_BUILD_ARCH), amd64)
 	DISTRO = x86
 endif
 ifeq ($(DEB_BUILD_ARCH), i386)
 	DISTRO = x86
+endif
+SYSTYPE=$(shell cat /etc/deepin-version | grep Type= | awk -F'=' '{print $$2}')
+ifeq ($(SYSTYPE), Professional)
+        DISTRO = pro
 endif
 ifeq ($(DEB_BUILD_ARCH), mipsel)
 	DISTRO = mips
