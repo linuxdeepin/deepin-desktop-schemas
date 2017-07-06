@@ -13,5 +13,20 @@
        <key name="fullscreen" type="b">
             <default>true</default>
        </key>
+	<key name='apps-order' type='as'>
+		<default>[]</default>
+		<summary>launcher apps order</summary>
+		<description>launcher apps order</description>
+	</key>
+	<key name='apps-order-zh-cn' type='as'>
+		<default>[]</default>
+		<summary>launcher apps order</summary>
+		<description>launcher apps order</description>
+	</key>
+	<key name='apps-order-zh-tw' type='as'>
+		<default>[]</default>
+		<summary>launcher apps order</summary>
+		<description>launcher apps order</description>
+	</key>
     </schema>
 </schemalist>
