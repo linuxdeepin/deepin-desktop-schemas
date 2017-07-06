@@ -1,0 +1,5 @@
+[com.deepin.dde.dock]
+docked-apps=['deepin-toggle-desktop', 'deepin-wm-multitaskingview','dde-file-manager','deepin-music','deepin-movie','google-chrome','wps-office-wps', 'wps-office-wpp', 'wps-office-et', 'thunderbird', 'dde-control-center']
+hide-mode='keep-showing'
+display-mode='efficient'
+
