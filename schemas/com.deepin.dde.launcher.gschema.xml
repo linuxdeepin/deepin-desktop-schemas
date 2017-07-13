@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-   <enum id="com.deepin.dde.launcher.DisplayMode">
-        <value value="0" nick="free"/>
-        <value value="1" nick="category"/>
-   </enum>
-    <schema path="/com/deepin/dde/launcher/" id="com.deepin.dde.launcher">
-        <key name="display-mode" enum="com.deepin.dde.launcher.DisplayMode">
-            <default>'free'</default>
-            <summary>Launcher display mode.</summary>
-            <description>Launcher display mode.</description>
-       </key>
-       <key name="fullscreen" type="b">
-            <default>true</default>
-       </key>
-	<key name='apps-order' type='as'>
-		<default>[]</default>
-		<summary>launcher apps order</summary>
-		<description>launcher apps order</description>
-	</key>
-	<key name='apps-order-zh-cn' type='as'>
-		<default>[]</default>
-		<summary>launcher apps order</summary>
-		<description>launcher apps order</description>
-	</key>
-	<key name='apps-order-zh-tw' type='as'>
-		<default>[]</default>
-		<summary>launcher apps order</summary>
-		<description>launcher apps order</description>
-	</key>
-    </schema>
+	<enum id="com.deepin.dde.launcher.DisplayMode">
+		<value value="0" nick="free"/>
+		<value value="1" nick="category"/>
+	</enum>
+	<schema path="/com/deepin/dde/launcher/" id="com.deepin.dde.launcher">
+		<key name="display-mode" enum="com.deepin.dde.launcher.DisplayMode">
+			<default>'free'</default>
+			<summary>Launcher display mode.</summary>
+			<description>Launcher display mode.</description>
+		</key>
+		<key name="fullscreen" type="b">
+			<default>true</default>
+		</key>
+		<key name='apps-hold-list' type='as'>
+			<default>[]</default>
+			<summary>apps not allowed to uninstall</summary>
+			<description>apps not allowed to uninstall</description>
+		</key>
+		<key name='apps-order' type='as'>
+			<default>[]</default>
+			<summary>launcher apps order</summary>
+			<description>launcher apps order</description>
+		</key>
+		<key name='apps-order-zh-cn' type='as'>
+			<default>[]</default>
+			<summary>launcher apps order</summary>
+			<description>launcher apps order</description>
+		</key>
+		<key name='apps-order-zh-tw' type='as'>
+			<default>[]</default>
+			<summary>launcher apps order</summary>
+			<description>launcher apps order</description>
+		</key>
+	</schema>
 </schemalist>
