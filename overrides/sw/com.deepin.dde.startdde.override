@@ -1,5 +1,6 @@
 [com.deepin.dde.startdde]
 autostart-delay=5
+launch-welcome=false
 
 [com.deepin.dde.display]
 brightness-setter='backlight'
