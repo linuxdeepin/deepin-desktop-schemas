@@ -12,50 +12,64 @@
             <summary>sound effect main switch</summary>
             <description></description>
         </key>
-
-        <key name="login" type="b">
-            <default>true</default>
-            <summary>System login</summary>
-            <description></description>
-        </key>
-        <key name="shutdown" type="b">
-            <default>true</default>
-            <summary>System shutdown</summary>
-            <description></description>
-        </key>
-        <key name="logout" type="b">
-            <default>true</default>
-            <summary>DE logout</summary>
-            <description></description>
-        </key>
-        <key name="wakeup" type="b">
-            <default>true</default>
-            <summary>System wakeup</summary>
-            <description></description>
-        </key>
-        <key name="notification" type="b">
-            <default>true</default>
-            <summary>DE notification</summary>
-            <description></description>
-        </key>
-        <key name="unable-operate" type="b">
-            <default>true</default>
-            <summary>Unable to opearate</summary>
-            <description></description>
-        </key>
-        <key name="empty-trash" type="b">
-            <default>true</default>
-            <summary>Empty trash</summary>
-            <description></description>
-        </key>
-        <key name="volume-change" type="b">
+        <key name="audio-volume-change" type="b">
             <default>true</default>
             <summary>Audio volume changed</summary>
             <description></description>
         </key>
-        <key name="battery-low" type="b">
+        <key name="camera-shutter" type="b">
             <default>true</default>
-            <summary>Battery low</summary>
+            <summary>Camera shutter</summary>
+            <description></description>
+        </key>
+        <key name="complete-copy" type="b">
+            <default>true</default>
+            <summary>file completed copy</summary>
+            <description></description>
+        </key>
+        <key name="complete-print" type="b">
+            <default>true</default>
+            <summary></summary>
+            <description></description>
+        </key>
+        <key name="desktop-login" type="b">
+            <default>true</default>
+            <summary>DE login</summary>
+            <description></description>
+        </key>
+        <key name="desktop-logout" type="b">
+            <default>true</default>
+            <summary>DE logout</summary>
+            <description></description>
+        </key>
+        <key name="device-added" type="b">
+            <default>true</default>
+            <summary>Add removable device</summary>
+            <description></description>
+        </key>
+        <key name="device-removed" type="b">
+            <default>true</default>
+            <summary>Remove removable device</summary>
+            <description></description>
+        </key>
+        <key name="dialog-error-critical" type="b">
+            <default>true</default>
+            <summary></summary>
+            <description></description>
+        </key>
+        <key name="dialog-error" type="b">
+            <default>true</default>
+            <summary></summary>
+            <description></description>
+        </key>
+        <key name="dialog-error-serious" type="b">
+            <default>true</default>
+            <summary></summary>
+            <description></description>
+        </key>
+        <key name="message" type="b">
+            <default>true</default>
+            <summary>DE notification</summary>
             <description></description>
         </key>
         <key name="power-plug" type="b">
@@ -68,29 +82,39 @@
             <summary>Power unplugged</summary>
             <description></description>
         </key>
-        <key name="device-plug" type="b">
+        <key name="power-unplug-battery-low" type="b">
             <default>true</default>
-            <summary>Add removable device</summary>
+            <summary>Battery low</summary>
             <description></description>
         </key>
-        <key name="device-unplug" type="b">
+        <key name="screen-capture-complete" type="b">
             <default>true</default>
-            <summary>Remove removable device</summary>
+            <summary>screenshot completed</summary>
             <description></description>
         </key>
-        <key name="icon-to-desktop" type="b">
-            <default>false</default>
-            <summary></summary>
-            <description></description>
-        </key>
-        <key name="camera-shutter" type="b">
-            <default>false</default>
-            <summary>Camera shutter</summary>
-            <description></description>
-        </key>
-        <key name="screenshot" type="b">
-            <default>false</default>
+        <key name="screen-capture" type="b">
+            <default>true</default>
             <summary>Start screenshot</summary>
+            <description></description>
+        </key>
+        <key name="suspend-resume" type="b">
+            <default>true</default>
+            <summary>System wakeup</summary>
+            <description></description>
+		</key>
+        <key name="system-shutdown" type="b">
+            <default>true</default>
+            <summary>System shutdown</summary>
+            <description></description>
+        </key>
+        <key name="trash-empty" type="b">
+            <default>true</default>
+            <summary>trash empty</summary>
+            <description></description>
+        </key>
+        <key name="x-deepin-app-sent-to-desktop" type="b">
+            <default>true</default>
+            <summary></summary>
             <description></description>
         </key>
         <key name="player" enum="com.deepin.dde.sound-effect.Player">
