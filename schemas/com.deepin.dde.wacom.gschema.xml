@@ -29,6 +29,11 @@
             <summary>Suppress</summary>
             <description>Set the delta (difference) cutoff level for further processing of incoming input tool coordinate values. For example a X or Y coordinate event will be sent only if the change between the current X or Y coordinate and the previous one is greater than the Suppress value. The same applies to pressure level (Z coordinate) and Tilt rotation values. With a current absolute wheel (AbsWheel) or Tilt value the delta between it and the previous value must be equal to or greater than the Suppress value in order to be sent on.</description>
         </key>
+        <key type="b" name="force-proportions">
+            <default>true</default>
+            <summary>Force Proportions</summary>
+            <description>Force the proportions of the drawing surface to match the aspect ratio of your screen</description>
+        </key>
     </schema>
 
     <schema path="/com/deepin/dde/wacom/stylus/" id="com.deepin.dde.wacom.stylus">
