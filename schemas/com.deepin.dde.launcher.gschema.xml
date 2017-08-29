@@ -33,5 +33,11 @@
 			<summary>launcher apps order</summary>
 			<description>launcher apps order</description>
 		</key>
+
+		<key name='apps-use-proxy' type='as'>
+			<default>[]</default>
+			<summary>apps use proxy</summary>
+			<description></description>
+		</key>
 	</schema>
 </schemalist>
