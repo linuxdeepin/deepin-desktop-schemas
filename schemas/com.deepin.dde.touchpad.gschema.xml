@@ -76,5 +76,20 @@
       <summary>Edge scroll scrolling.</summary>
       <description>Enable(or disable) edge scrolling.</description>
     </key>
+    <key type="b" name="palm-detect">
+      <default>true</default>
+      <summary>Enable palm detect</summary>
+      <description>Set this to TRUE to enable touchpad palm detect.</description>
+    </key>
+    <key type="i" name="palm-min-width">
+      <default>6</default>
+      <summary>Touchpad palm min width</summary>
+      <description>The min width for palm detect.</description>
+    </key>
+    <key type="i" name="palm-min-pressure">
+      <default>50</default>
+      <summary>Touchpad palm min pressure</summary>
+      <description>The min pressure for palm detect.</description>
+    </key>
   </schema>
 </schemalist>
