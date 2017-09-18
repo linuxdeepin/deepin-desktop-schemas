@@ -39,5 +39,12 @@
 			<summary>apps use proxy</summary>
 			<description></description>
 		</key>
+
+		<key name="apps-hidden" type='as'>
+			<default>[]</default>
+			<summary>apps hidden</summary>
+			<description></description>
+		</key>
+
 	</schema>
 </schemalist>
