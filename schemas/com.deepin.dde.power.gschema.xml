@@ -51,7 +51,7 @@
 			<description>for debug purposes, set this key to false to disable fullscreen-workaround.</description>
 		</key>
 		<key type="as" name="fullscreen-workaround-app-list">
-			<default>['libflash','chrome','firefox','mplayer','operaplugin','soffice','wpp','evince','vlc','totem']</default>
+			<default>['libflash','chrome','firefox','mplayer','operaplugin','soffice','wpp','evince','vlc','totem','deepin-movie']</default>
 			<summary>fullscreen workground app list</summary>
 			<description>app in list fullscreen inhbit screensaver</description>
 		</key>
