@@ -116,5 +116,10 @@
       <summary></summary>
       <description></description>
     </key>
+    <key type="b"  name="fprintd">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
     </schema>
 </schemalist>
