@@ -3,68 +3,73 @@
 	<schema id="com.deepin.dde.keybinding.system" path="/com/deepin/dde/keybinding/system/">
 		<key type="as" name="launcher">
 			<default>['Super_L','Super_R']</default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Show or hide dde-launcher</summary>
+			<description></description>
 		</key>
 		<key type="as" name="terminal">
 			<default><![CDATA[['<Control><Alt>T']]]></default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Launch default terminal emulator</summary>
+			<description></description>
 		</key>
 		<key type="as" name="deepin-screen-recorder">
 			<default><![CDATA[['<Control><Alt>R']]]></default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Launch deepin screen recorder</summary>
+			<description></description>
+		</key>
+		<key type="as" name="deepin-system-monitor">
+			<default><![CDATA[['<Control><Alt>Escape']]]></default>
+			<summary>Launch deepin system monitor</summary>
+			<description></description>
 		</key>
 		<key type="as" name="lock-screen">
 			<default><![CDATA[['<Super>L']]]></default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Lock screen</summary>
+			<description></description>
 		</key>
 		<key type="as" name="logout">
 			<default><![CDATA[['<Control><Alt>Delete']]]></default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Show shutdown interface</summary>
+			<description></description>
 		</key>
 		<key type="as" name="terminal-quake">
 			<default><![CDATA[['<Alt>F2']]]></default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Show or hide quake mode deepin terminal</summary>
+			<description></description>
 		</key>
 		<key type="as" name="screenshot">
 			<default><![CDATA[['<Control><Alt>A']]]></default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Take a screenshot</summary>
+			<description></description>
 		</key>
 		<key type="as" name="screenshot-fullscreen">
 			<default>['Print']</default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Take a screenshot the whole screen</summary>
+			<description></description>
 		</key>
 		<key type="as" name="screenshot-window">
 			<default><![CDATA[['<Alt>Print']]]></default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Take a screenshot of the most top window</summary>
+			<description></description>
 		</key>
 		<key type="as" name="screenshot-delayed">
 			<default><![CDATA[['<Control>Print']]]></default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Take a screenshot after a few seconds</summary>
+			<description></description>
 		</key>
 		<key type="as" name="file-manager">
 			<default><![CDATA[['<Super>E']]]></default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Launch default file manager</summary>
+			<description></description>
 		</key>
 		<key type="as" name="disable-touchpad">
 			<default>['']</default>
-			<summary>shortcut</summary>
-			<description>system shortcut</description>
+			<summary>Disable touchpad</summary>
+			<description></description>
 		</key>
 		<key type="as" name="wm-switcher">
 			<default><![CDATA[['<Shift><Super>Tab']]]></default>
-			<summary>Switch window manager</summary>
-			<description>system shortcut</description>
+			<summary>Switch window effects</summary>
+			<description></description>
 		</key>
 		<key type="as" name="turn-off-screen">
 			<default><![CDATA[['<Shift><Super>L']]]></default>
