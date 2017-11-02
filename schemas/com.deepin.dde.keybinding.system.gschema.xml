@@ -13,12 +13,17 @@
 		</key>
 		<key type="as" name="deepin-screen-recorder">
 			<default><![CDATA[['<Control><Alt>R']]]></default>
-			<summary>Launch deepin screen recorder</summary>
+			<summary>Launch screen recorder</summary>
 			<description></description>
 		</key>
-		<key type="as" name="deepin-system-monitor">
+		<key type="as" name="system-monitor">
 			<default><![CDATA[['<Control><Alt>Escape']]]></default>
-			<summary>Launch deepin system monitor</summary>
+			<summary>Launch system monitor</summary>
+			<description></description>
+		</key>
+		<key type="as" name="color-picker">
+			<default><![CDATA[['<Control><Alt>P']]]></default>
+			<summary>Launch color picker</summary>
 			<description></description>
 		</key>
 		<key type="as" name="lock-screen">
