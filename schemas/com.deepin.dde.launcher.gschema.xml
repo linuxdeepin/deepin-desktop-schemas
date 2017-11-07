@@ -24,17 +24,17 @@
 		<key name='apps-order' type='as'>
 			<default>[]</default>
 			<summary>launcher apps order</summary>
-			<description>launcher apps order</description>
+			<description>launcher apps order, ensure that all lowercase.</description>
 		</key>
 		<key name='apps-order-zh-cn' type='as'>
 			<default>[]</default>
 			<summary>launcher apps order</summary>
-			<description>launcher apps order</description>
+			<description>launcher apps order, ensure that all lowercase.</description>
 		</key>
 		<key name='apps-order-zh-tw' type='as'>
 			<default>[]</default>
 			<summary>launcher apps order</summary>
-			<description>launcher apps order</description>
+			<description>launcher apps order, ensure that all lowercase.</description>
 		</key>
 
 		<key name='apps-use-proxy' type='as'>
