@@ -1,7 +1,11 @@
 ## [Unreleased]
 
+## [3.2.1] - 2017-11-09
++ change apps-order: add deepin-clone and deepin-picker and deepin flatpak apps
++ revert "fix: repalce `Above_Tab` with other keysym string"
 
-## [3.2.0] - 2017-11-3
+
+## [3.2.0] - 2017-11-03
 + Change the icon size default value
 + Remove deepin-move from fullscreen workaround list
 + Add shortcut for color-picker
