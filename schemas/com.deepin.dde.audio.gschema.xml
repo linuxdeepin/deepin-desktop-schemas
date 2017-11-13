@@ -21,5 +21,10 @@
 	    <summary>Output volume max percentage</summary>
 	    <description>The max percentage for output volume</description>
 	</key>
+	<key type="b" name="auto-switch-port">
+	    <default>true</default>
+	    <summary>Auto switch to available port</summary>
+	    <description>If port available, switch to it.</description>
+	</key>
     </schema>
 </schemalist>
