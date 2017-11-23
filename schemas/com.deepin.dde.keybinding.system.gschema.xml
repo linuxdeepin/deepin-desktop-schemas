@@ -21,11 +21,6 @@
 			<summary>Launch system monitor</summary>
 			<description></description>
 		</key>
-		<key type="as" name="color-picker">
-			<default><![CDATA[['<Control><Alt>P']]]></default>
-			<summary>Launch color picker</summary>
-			<description></description>
-		</key>
 		<key type="as" name="lock-screen">
 			<default><![CDATA[['<Super>L']]]></default>
 			<summary>Lock screen</summary>
