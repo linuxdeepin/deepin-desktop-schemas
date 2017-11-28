@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+
+## [3.2.3] - 2017-11-28
++ remove shortcut color-picker
+
+
 ## [3.2.2] - 2017-11-16
 + correct the default backgrounds path
 + add audio port switcher
