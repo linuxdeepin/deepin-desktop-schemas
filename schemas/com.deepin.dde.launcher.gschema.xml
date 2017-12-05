@@ -43,6 +43,12 @@
 			<description></description>
 		</key>
 
+		<key name='apps-disable-scaling' type='as'>
+			<default>[]</default>
+			<summary>apps disable scaling</summary>
+			<description></description>
+		</key>
+
 		<key name="apps-hidden" type='as'>
 			<default>[]</default>
 			<summary>apps hidden</summary>
