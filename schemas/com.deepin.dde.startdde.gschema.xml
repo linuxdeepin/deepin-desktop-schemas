@@ -16,5 +16,11 @@
             <summary>Whether launch dde-welcome</summary>
             <description>This key will indicate whether showing dde-welcome.</description>
         </key>
+
+        <key type="b" name="swap-sched-enabled">
+            <default>true</default>
+            <summary>swap sched enabled</summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
