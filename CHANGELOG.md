@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+## [3.2.4] - 2017-12-13
++ add key apps-disable-scaling
++ add dcc schema file
++ add key swap-sched-enabled
+
 
 ## [3.2.3] - 2017-11-28
 + remove shortcut color-picker
