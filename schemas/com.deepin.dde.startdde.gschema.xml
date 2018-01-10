@@ -18,7 +18,7 @@
         </key>
 
         <key type="b" name="swap-sched-enabled">
-            <default>true</default>
+            <default>false</default>
             <summary>swap sched enabled</summary>
             <description></description>
         </key>
