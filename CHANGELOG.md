@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [3.2.5] - 2018-01-10
++ add key inputdevices wheel-speed
++ sw: remove brightness-setter override
++ sw: add dde-dock preset order list
++ set swap-sched-enabled default false
+
 ## [3.2.4] - 2017-12-13
 + add key apps-disable-scaling
 + add dcc schema file
