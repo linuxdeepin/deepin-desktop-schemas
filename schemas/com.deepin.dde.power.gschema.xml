@@ -25,6 +25,11 @@
 			<summary/>
 			<description>default 30 min</description>
 		</key>
+		<key type="b" name="adjust-brightness-enabled">
+			<default>true</default>
+			<summary>adjust display brigtness enabled</summary>
+			<description/>
+		</key>
 		<key type="b" name="screen-black-lock">
 			<default>false</default>
 			<summary/>
