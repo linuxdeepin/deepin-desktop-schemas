@@ -16,5 +16,10 @@
             <summary></summary>
             <description></description>
         </key>
+        <key type="b"  name="wm">
+            <default>true</default>
+            <summary></summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
