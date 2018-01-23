@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="DDE">
   <schema path="/com/deepin/desktop/default-applications/terminal/" id="com.deepin.desktop.default-applications.terminal">
+    <key type="s" name="app-id">
+        <default>'deepin-terminal'</default>
+        <summary>app id</summary>
+        <description></description>
+    </key>
     <key type="s" name="exec">
       <default>'deepin-terminal'</default>
       <summary>Terminal application</summary>
