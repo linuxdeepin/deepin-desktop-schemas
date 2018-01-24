@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+## [3.2.6] - 2018-01-24
++ add 'wm' in watchdog
++ dde.power add key 'adjust-brightness-enabled'
++ default-applications.terminal add key 'app-id'
+
 ## [3.2.5] - 2018-01-10
 + add key inputdevices wheel-speed
 + sw: remove brightness-setter override
