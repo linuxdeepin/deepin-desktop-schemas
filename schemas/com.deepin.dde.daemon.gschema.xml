@@ -121,5 +121,10 @@
       <summary></summary>
       <description></description>
     </key>
+    <key type="b"  name="service-trigger">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
     </schema>
 </schemalist>
