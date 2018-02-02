@@ -1,270 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-    <schema id="com.deepin.dde.keybinding.mediakey" path="/com/deepin/dde/keybinding/mediakey/" >
-        <key type="as" name="mode-lock">
-            <default>['XF86ModeLock']</default>
-            <summary>Mode Switch Lock</summary>
-            <description></description>
-        </key>
+    <schema id="com.deepin.dde.keybinding.mediakey" path="/com/deepin/dde/keybinding/mediakey/">
         <key type="as" name="mon-brightness-up">
             <default>['XF86MonBrightnessUp']</default>
             <summary>Monitor/panel brightness</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="mon-brightness-down">
             <default>['XF86MonBrightnessDown']</default>
             <summary>Monitor/panel brightness</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="kbd-light-on-off">
             <default>['XF86KbdLightOnOff']</default>
             <summary>Keyboards may be lit</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="kbd-brightness-up">
             <default>['XF86KbdBrightnessUp']</default>
             <summary>Keyboards may be lit</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="kbd-brightness-down">
             <default>['XF86KbdBrightnessDown']</default>
             <summary>Keyboards may be lit</summary>
-            <description></description>
-        </key>
-        <key type="as" name="standby">
-            <default>['XF86Standby']</default>
-            <summary>System into standby mode</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-lower-volume">
             <default>['XF86AudioLowerVolume']</default>
             <summary>Volume control down</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-mute">
             <default>['XF86AudioMute']</default>
             <summary>Mute sound from the system</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-raise-volume">
             <default>['XF86AudioRaiseVolume']</default>
             <summary>Volume control up</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-play">
             <default>['XF86AudioPlay']</default>
-            <summary>Start playing of audio ></summary>
-            <description></description>
+            <summary>Start playing of audio &gt;</summary>
+            <description/>
         </key>
         <key type="as" name="audio-stop">
             <default>['XF86AudioStop']</default>
             <summary>Stop playing audio</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-prev">
             <default>['XF86AudioPrev']</default>
             <summary>Previous track</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-next">
             <default>['XF86AudioNext']</default>
             <summary>Next track</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="home-page">
             <default>['XF86HomePage']</default>
             <summary>Display user's home page</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="mail">
             <default>['XF86Mail']</default>
             <summary>Invoke user's mail program</summary>
-            <description></description>
-        </key>
-        <key type="as" name="start">
-            <default>['XF86Start']</default>
-            <summary>Start application</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="search">
             <default>['XF86Search']</default>
             <summary>Search</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-record">
             <default>['XF86AudioRecord']</default>
             <summary>Record audio application</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="calculator">
             <default>['XF86Calculator']</default>
             <summary>Invoke calculator program</summary>
-            <description></description>
-        </key>
-        <key type="as" name="memo">
-            <default>['XF86Memo']</default>
-            <summary>Invoke Memo taking program</summary>
-            <description></description>
-        </key>
-        <key type="as" name="to-do-list">
-            <default>['XF86ToDoList']</default>
-            <summary>Invoke To Do List program</summary>
-            <description></description>
-        </key>
-        <key type="as" name="calendar">
-            <default>['XF86Calendar']</default>
-            <summary>Invoke Calendar program</summary>
-            <description></description>
-        </key>
-        <key type="as" name="power-down">
-            <default>['XF86PowerDown']</default>
-            <summary>Deep sleep the system</summary>
-            <description></description>
-        </key>
-        <key type="as" name="contrast-adjust">
-            <default>['XF86ContrastAdjust']</default>
-            <summary>Adjust screen contrast</summary>
-            <description></description>
-        </key>
-        <key type="as" name="rocker-up">
-            <default>['XF86RockerUp']</default>
-            <summary>Rocker switches exist up</summary>
-            <description></description>
-        </key>
-        <key type="as" name="rocker-down">
-            <default>['XF86RockerDown']</default>
-            <summary>and down</summary>
-            <description></description>
-        </key>
-        <key type="as" name="rocker-enter">
-            <default>['XF86RockerEnter']</default>
-            <summary>and let you press them</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="back">
             <default>['XF86Back']</default>
             <summary>Like back on a browser</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="forward">
             <default>['XF86Forward']</default>
             <summary>Like forward on a browser</summary>
-            <description></description>
-        </key>
-        <key type="as" name="stop">
-            <default>['XF86Stop']</default>
-            <summary>Stop current operation</summary>
-            <description></description>
-        </key>
-        <key type="as" name="refresh">
-            <default>['XF86Refresh']</default>
-            <summary>Refresh the page</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="power-off">
             <default>['XF86PowerOff']</default>
             <summary>Power off system entirely</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="wake-up">
             <default>['XF86WakeUp']</default>
             <summary>Wake up system from sleep</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="eject">
             <default>['XF86Eject']</default>
             <summary>Eject device (e.g. DVD)</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="screen-saver">
             <default>['XF86ScreenSaver']</default>
             <summary>Invoke screensaver</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="www">
             <default>['XF86WWW']</default>
             <summary>Invoke web browser</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="sleep">
             <default>['XF86Sleep']</default>
             <summary>Put system to sleep</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="favorites">
             <default>['XF86Favorites']</default>
             <summary>Show favorite locations</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-pause">
             <default>['XF86AudioPause']</default>
             <summary>Pause audio playing</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-media">
             <default>['XF86AudioMedia']</default>
             <summary>Launch media collection app</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="my-computer">
             <default>['XF86MyComputer']</default>
             <summary>Display "My Computer" window</summary>
-            <description></description>
-        </key>
-        <key type="as" name="vendor-home">
-            <default>['XF86VendorHome']</default>
-            <summary>Display vendor home web site</summary>
-            <description></description>
-        </key>
-        <key type="as" name="light-bulb">
-            <default>['XF86LightBulb']</default>
-            <summary>Light bulb keys exist</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="shop">
             <default>['XF86Shop']</default>
             <summary>Display shopping web site</summary>
-            <description></description>
-        </key>
-        <key type="as" name="history">
-            <default>['XF86History']</default>
-            <summary>Show history of web surfing</summary>
-            <description></description>
-        </key>
-        <key type="as" name="open-url">
-            <default>['XF86OpenURL']</default>
-            <summary>Open selected URL</summary>
-            <description></description>
-        </key>
-        <key type="as" name="add-favorite">
-            <default>['XF86AddFavorite']</default>
-            <summary>Add URL to favorites list</summary>
-            <description></description>
-        </key>
-        <key type="as" name="hot-links">
-            <default>['XF86HotLinks']</default>
-            <summary>Show "hot" links</summary>
-            <description></description>
-        </key>
-        <key type="as" name="brightness-adjust">
-            <default>['XF86BrightnessAdjust']</default>
-            <summary>Invoke brightness adj. UI</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="finance">
             <default>['XF86Finance']</default>
             <summary>Display financial site</summary>
-            <description></description>
-        </key>
-        <key type="as" name="community">
-            <default>['XF86Community']</default>
-            <summary>Display user's community</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-rewind">
             <default>['XF86AudioRewind']</default>
             <summary>"rewind" audio track</summary>
-            <description></description>
+            <description/>
         </key>
         <!-- ignore XF86BackForward-->
         <!-- ignore XF86Launch0-->
@@ -283,414 +178,189 @@
         <!-- ignore XF86LaunchD-->
         <!-- ignore XF86LaunchE-->
         <!-- ignore XF86LaunchF-->
-        <key type="as" name="application-left">
-            <default>['XF86ApplicationLeft']</default>
-            <summary>switch to application, left</summary>
-            <description></description>
-        </key>
-        <key type="as" name="application-right">
-            <default>['XF86ApplicationRight']</default>
-            <summary>switch to application, right</summary>
-            <description></description>
-        </key>
-        <key type="as" name="book">
-            <default>['XF86Book']</default>
-            <summary>Launch bookreader</summary>
-            <description></description>
-        </key>
-        <key type="as" name="cd">
-            <default>['XF86CD']</default>
-            <summary>Launch CD/DVD player</summary>
-            <description></description>
-        </key>
-        <key type="as" name="calculater">
-            <default>['XF86Calculater']</default>
-            <summary>Launch Calculater</summary>
-            <description></description>
-        </key>
-        <key type="as" name="clear">
-            <default>['XF86Clear']</default>
-            <summary>Clear window, screen</summary>
-            <description></description>
-        </key>
         <key type="as" name="close">
             <default>['XF86Close']</default>
             <summary>Close window</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="copy">
             <default>['XF86Copy']</default>
             <summary>Copy selection</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="cut">
             <default>['XF86Cut']</default>
             <summary>Cut selection</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="display">
             <default>['XF86Display']</default>
             <summary>Output switch key</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="dos">
             <default>['XF86DOS']</default>
             <summary>Launch DOS (emulation)</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="documents">
             <default>['XF86Documents']</default>
             <summary>Open documents window</summary>
-            <description></description>
-        </key>
-        <key type="as" name="excel">
-            <default>['XF86Excel']</default>
-            <summary>Launch spread sheet</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="explorer">
             <default>['XF86Explorer']</default>
             <summary>Launch file explorer</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="game">
             <default>['XF86Game']</default>
             <summary>Launch game</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="go">
             <default>['XF86Go']</default>
             <summary>Go to URL</summary>
-            <description></description>
+            <description/>
         </key>
         <!-- ignore XF86iTouch-->
-        <key type="as" name="log-off">
-            <default>['XF86LogOff']</default>
-            <summary>Log off system</summary>
-            <description></description>
-        </key>
         <!-- ignore XF86Market-->
-        <key type="as" name="meeting">
-            <default>['XF86Meeting']</default>
-            <summary>enter meeting in calendar</summary>
-            <description></description>
-        </key>
         <key type="as" name="menu-kb">
             <default>['XF86MenuKB']</default>
             <summary>distingush keyboard from PB</summary>
-            <description></description>
-        </key>
-        <key type="as" name="menu-pb">
-            <default>['XF86MenuPB']</default>
-            <summary>distinuish PB from keyboard</summary>
-            <description></description>
-        </key>
-        <key type="as" name="my-sites">
-            <default>['XF86MySites']</default>
-            <summary>Favourites</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="new">
             <default>['XF86New']</default>
             <summary>New (folder, document...</summary>
-            <description></description>
-        </key>
-        <key type="as" name="news">
-            <default>['XF86News']</default>
-            <summary>News</summary>
-            <description></description>
-        </key>
-        <key type="as" name="office-home">
-            <default>['XF86OfficeHome']</default>
-            <summary>Office home (old Staroffice)</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="open">
             <default>['XF86Open']</default>
             <summary>Open</summary>
-            <description></description>
-        </key>
-        <key type="as" name="option">
-            <default>['XF86Option']</default>
-            <summary>??</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="paste">
             <default>['XF86Paste']</default>
             <summary>Paste</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="phone">
             <default>['XF86Phone']</default>
             <summary>Launch phone; dial number</summary>
-            <description></description>
+            <description/>
         </key>
         <!-- ignore XF86Q-->
         <key type="as" name="reply">
             <default>['XF86Reply']</default>
             <summary>Reply e.g., mail</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="reload">
             <default>['XF86Reload']</default>
             <summary>Reload web page, file, etc.</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="rotate-windows">
             <default>['XF86RotateWindows']</default>
             <summary>Rotate windows e.g. xrandr</summary>
-            <description></description>
+            <description/>
         </key>
         <!-- ignore XF86RotationPB-->
         <!-- ignore XF86RotationKB-->
         <key type="as" name="save">
             <default>['XF86Save']</default>
             <summary>Save (file, document, state</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="scroll-up">
             <default>['XF86ScrollUp']</default>
             <summary>Scroll window/contents up</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="scroll-down">
             <default>['XF86ScrollDown']</default>
             <summary>Scrool window/contentd down</summary>
-            <description></description>
-        </key>
-        <key type="as" name="scroll-click">
-            <default>['XF86ScrollClick']</default>
-            <summary>Use XKB mousekeys instead</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="send">
             <default>['XF86Send']</default>
             <summary>Send mail, file, object</summary>
-            <description></description>
-        </key>
-        <key type="as" name="spell">
-            <default>['XF86Spell']</default>
-            <summary>Spell checker</summary>
-            <description></description>
-        </key>
-        <key type="as" name="split-screen">
-            <default>['XF86SplitScreen']</default>
-            <summary>Split window or screen</summary>
-            <description></description>
-        </key>
-        <key type="as" name="support">
-            <default>['XF86Support']</default>
-            <summary>Get support (??)</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="task-pane">
             <default>['XF86TaskPane']</default>
             <summary>Show tasks</summary>
-            <description></description>
-        </key>
-        <key type="as" name="terminal">
-            <default>['XF86Terminal']</default>
-            <summary>Launch terminal emulator</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="tools">
             <default>['XF86Tools']</default>
             <summary>toolbox of desktop/app.</summary>
-            <description></description>
+            <description/>
         </key>
         <!-- ignore XF86Travel-->
         <!-- ignore XF86UserPB-->
         <!-- ignore XF86User1KB-->
         <!-- ignore XF86User2KB-->
-        <key type="as" name="video">
-            <default>['XF86Video']</default>
-            <summary>Launch video player</summary>
-            <description></description>
-        </key>
-        <key type="as" name="wheel-button">
-            <default>['XF86WheelButton']</default>
-            <summary>button from a mouse wheel</summary>
-            <description></description>
-        </key>
-        <key type="as" name="word">
-            <default>['XF86Word']</default>
-            <summary>Launch word processor</summary>
-            <description></description>
-        </key>
         <key type="as" name="xfer">
             <default>['XF86Xfer']</default>
-            <summary></summary>
-            <description></description>
-        </key>
-        <key type="as" name="zoom-in">
-            <default>['XF86ZoomIn']</default>
-            <summary>zoom in view, map, etc.</summary>
-            <description></description>
-        </key>
-        <key type="as" name="zoom-out">
-            <default>['XF86ZoomOut']</default>
-            <summary>zoom out view, map, etc.</summary>
-            <description></description>
-        </key>
-        <key type="as" name="away">
-            <default>['XF86Away']</default>
-            <summary>mark yourself as away</summary>
-            <description></description>
+            <summary/>
+            <description/>
         </key>
         <key type="as" name="messenger">
             <default>['XF86Messenger']</default>
             <summary>as in instant messaging</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="web-cam">
             <default>['XF86WebCam']</default>
             <summary>Launch web camera app.</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="mail-forward">
             <default>['XF86MailForward']</default>
             <summary>Forward in mail</summary>
-            <description></description>
-        </key>
-        <key type="as" name="pictures">
-            <default>['XF86Pictures']</default>
-            <summary>Show pictures</summary>
-            <description></description>
-        </key>
-        <key type="as" name="music">
-            <default>['XF86Music']</default>
-            <summary>Launch music application</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="battery">
             <default>['XF86Battery']</default>
             <summary>Display battery information</summary>
-            <description></description>
-        </key>
-        <key type="as" name="bluetooth">
-            <default>['XF86Bluetooth']</default>
-            <summary>Enable/disable Bluetooth</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="wlan">
             <default>['XF86WLAN']</default>
             <summary>Enable/disable WLAN</summary>
-            <description></description>
-        </key>
-        <key type="as" name="uwb">
-            <default>['XF86UWB']</default>
-            <summary>Enable/disable UWB</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-forward">
             <default>['XF86AudioForward']</default>
             <summary>fast-forward audio track</summary>
-            <description></description>
-        </key>
-        <key type="as" name="audio-repeat">
-            <default>['XF86AudioRepeat']</default>
-            <summary>toggle repeat mode</summary>
-            <description></description>
-        </key>
-        <key type="as" name="audio-random-play">
-            <default>['XF86AudioRandomPlay']</default>
-            <summary>toggle shuffle mode</summary>
-            <description></description>
-        </key>
-        <key type="as" name="subtitle">
-            <default>['XF86Subtitle']</default>
-            <summary>cycle through subtitle</summary>
-            <description></description>
-        </key>
-        <key type="as" name="audio-cycle-track">
-            <default>['XF86AudioCycleTrack']</default>
-            <summary>cycle through audio tracks</summary>
-            <description></description>
-        </key>
-        <key type="as" name="cycle-angle">
-            <default>['XF86CycleAngle']</default>
-            <summary>cycle through angles</summary>
-            <description></description>
-        </key>
-        <key type="as" name="frame-back">
-            <default>['XF86FrameBack']</default>
-            <summary>video: go one frame back</summary>
-            <description></description>
-        </key>
-        <key type="as" name="frame-forward">
-            <default>['XF86FrameForward']</default>
-            <summary>video: go one frame forward</summary>
-            <description></description>
-        </key>
-        <key type="as" name="time">
-            <default>['XF86Time']</default>
-            <summary>display, or shows an entry for time seeking</summary>
-            <description></description>
-        </key>
-        <key type="as" name="select">
-            <default>['XF86Select']</default>
-            <summary>Select button on joypads and remotes</summary>
-            <description></description>
-        </key>
-        <key type="as" name="view">
-            <default>['XF86View']</default>
-            <summary>Show a view options/properties</summary>
-            <description></description>
-        </key>
-        <key type="as" name="top-menu">
-            <default>['XF86TopMenu']</default>
-            <summary>Go to a top-level menu in a video</summary>
-            <description></description>
-        </key>
-        <key type="as" name="red">
-            <default>['XF86Red']</default>
-            <summary>Red button</summary>
-            <description></description>
-        </key>
-        <key type="as" name="green">
-            <default>['XF86Green']</default>
-            <summary>Green button</summary>
-            <description></description>
-        </key>
-        <key type="as" name="yellow">
-            <default>['XF86Yellow']</default>
-            <summary>Yellow button</summary>
-            <description></description>
-        </key>
-        <key type="as" name="blue">
-            <default>['XF86Blue']</default>
-            <summary>Blue button</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="suspend">
             <default>['XF86Suspend']</default>
             <summary>Sleep to RAM</summary>
-            <description></description>
-        </key>
-        <key type="as" name="hibernate">
-            <default>['XF86Hibernate']</default>
-            <summary>Sleep to disk</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="touchpad-toggle">
             <default>['XF86TouchpadToggle']</default>
             <summary>Toggle between touchpad/trackstick</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="touchpad-on">
             <default>['XF86TouchpadOn']</default>
             <summary>The touchpad got switched on</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="touchpad-off">
             <default>['XF86TouchpadOff']</default>
             <summary>The touchpad got switched off</summary>
-            <description></description>
+            <description/>
         </key>
         <key type="as" name="audio-mic-mute">
             <default>['XF86AudioMicMute']</default>
             <summary>Mute the Mic from the system</summary>
-            <description></description>
+            <description/>
         </key>
         <!-- ignore XF86Switch_VT_1-->
         <!-- ignore XF86Switch_VT_2-->
@@ -712,18 +382,18 @@
         <!-- ignore XF86LogGrabInfo-->
         <key type="as" name="switch-monitors">
             <default><![CDATA[['<Super>P']]]></default>
-            <summary></summary>
-            <description></description>
+            <summary/>
+            <description/>
         </key>
         <key type="as" name="capslock">
             <default>['Caps_Lock']</default>
-            <summary></summary>
-            <description></description>
+            <summary/>
+            <description/>
         </key>
         <key type="as" name="numlock">
             <default>['Num_Lock']</default>
-            <summary></summary>
-            <description></description>
+            <summary/>
+            <description/>
         </key>
     </schema>
 </schemalist>
