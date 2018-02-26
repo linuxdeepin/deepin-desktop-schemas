@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema path="/com/deepin/dde/debug/" id="com.deepin.dde.debug" gettext-domain="DDE">
+  <schema path="/com/deepin/dde/calltrace/" id="com.deepin.dde.calltrace" gettext-domain="DDE">
     <key type="i" name="cpu-percentage">
       <range min="50" max="100" />
       <default>80</default>
