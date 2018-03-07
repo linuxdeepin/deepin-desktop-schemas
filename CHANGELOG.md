@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [3.2.7] - 2018-03-07
++ feat: add calltrace
++ feat: add debug
++ feat: remove the failed grab keys from mediakey
++ feat: com.deepin.dde.dameon add key 'service-trigger'
+
 ## [3.2.6] - 2018-01-24
 + add 'wm' in watchdog
 + dde.power add key 'adjust-brightness-enabled'
