@@ -1,3 +1,6 @@
+## [3.2.9] - 2018-03-20
+*   disable calltrace module
+
 <a name="3.2.8"></a>
 ## 3.2.8 (2018-03-16)
 
@@ -28,10 +31,6 @@
 *   add shortcut deepin-system-monitor ([bcaa6105](bcaa6105))
 * **schemas:**  add key inputdevices wheel-speed ([f59912e2](f59912e2))
 * **x86:**  add deepin flatpak apps to apps order ([ca1450d8](ca1450d8))
-
-
-
-## [Unreleased]
 
 ## [3.2.7] - 2018-03-07
 + feat: add calltrace
