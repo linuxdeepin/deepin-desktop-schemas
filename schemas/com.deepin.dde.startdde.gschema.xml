@@ -22,5 +22,15 @@
             <summary>swap sched enabled</summary>
             <description></description>
         </key>
+        <key type="b" name="iowait-enabled">
+            <default>false</default>
+            <summary>iowait enabled</summary>
+            <description></description>
+        </key>
+        <key type="b" name="memchecker-enabled">
+            <default>false</default>
+            <summary>memory checker enabled</summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
