@@ -13,6 +13,9 @@
 		<key name="fullscreen" type="b">
 			<default>true</default>
 		</key>
+		<key name="auto-exit" type="b">
+			<default>false</default>
+		</key>
 		<key name="apps-icon-ratio" type="d">
 			<default>0.3</default>
 		</key>
