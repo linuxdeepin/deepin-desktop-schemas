@@ -6,5 +6,9 @@
 			<range min="0.0" max="1.0"></range>
 			<summary>The minimum brightness rate</summary>
 		</key>
+		<key name="auto-exit" type="b">
+			<default>false</default>
+			<summary>auto-exit</summary>
+		</key>
 	</schema>
 </schemalist>
