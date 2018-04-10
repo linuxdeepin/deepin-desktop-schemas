@@ -2,7 +2,7 @@
 <schemalist>
     <schema path="/com/deepin/dde/osd/" id="com.deepin.dde.osd">
 	<key type="b" name="auto-exit">
-	    <default>true</default>
+	    <default>false</default>
 	    <summary>Auto Exit</summary>
 	</key>
     </schema>
