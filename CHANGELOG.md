@@ -1,3 +1,16 @@
+<a name="3.2.10"></a>
+### 3.2.10 (2018-04-11)
+
+
+#### Features
+
+*   add auto exit for deepin-notification ([23b19fbe](23b19fbe))
+*   add auto exit for dde-osd ([1c1e74fc](1c1e74fc))
+*   add auto-exit settings for dde-control-center ([b318a6fe](b318a6fe))
+*   startdde add key iowait-enabled and memchecker-enabled ([3591218f](3591218f))
+
+
+
 ## [3.2.9] - 2018-03-20
 *   disable calltrace module
 
