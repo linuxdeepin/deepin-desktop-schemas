@@ -65,5 +65,15 @@
             <summary>First run flag.</summary>
             <description>First fun flags.</description>
         </key>
+
+        <key name="enable-hotzone-settings" type="b">
+            <default>true</default>
+            <description>If true, desktop hotzone settings will enable.</description>
+        </key>
+
+        <key name="enable-hotzone-video" type="b">
+            <default>true</default>
+            <description>If true, desktop hotzone demo video will show.</description>
+        </key>
    </schema>
 </schemalist>
