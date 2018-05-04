@@ -64,5 +64,11 @@
             <summary></summary>
             <description></description>
         </key>
+
+        <key type="u" name="delay-plugins-time">
+            <default>2000</default>
+            <summary>Control plug-in delay loading time</summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
