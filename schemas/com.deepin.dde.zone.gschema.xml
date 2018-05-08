@@ -28,7 +28,7 @@
             <description>Delay time(ms) before exec command.</description>
         </key>
         <key type="as" name="black-list">
-            <default>['pyrogenesis','0ad']</default>
+            <default>['pyrogenesis','0ad','dde-welcome']</default>
             <summary>zone black list</summary>
             <description>fobidden zone if app in this list</description>
         </key>
