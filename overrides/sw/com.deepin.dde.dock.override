@@ -2,4 +2,4 @@
 docked-apps=['dde-launcher','deepin-toggle-desktop', 'deepin-wm-multitaskingview', 'dde-file-manager','deepin-music','deepin-movie-2d','firefox','wps-office-wps','wps-office-wpp','wps-office-et', 'thunderbird', 'dde-control-center']
 hide-mode='keep-showing'
 display-mode='efficient'
-
+delay-plugins-time='2000'
