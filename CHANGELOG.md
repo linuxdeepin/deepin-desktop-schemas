@@ -1,3 +1,12 @@
+<a name="3.2.12"></a>
+### 3.2.12 (2018-05-23)
+
+
+#### Bug Fixes
+
+* **dock:**  delay load dock plugins change to 200ms ([0ebe1b73](0ebe1b73))
+* **overrides/sw:**  docked-apps no firefox ([3049a5eb](3049a5eb))
+
 <a name="3.2.11"></a>
 ### 3.2.11 (2018-05-11)
 
