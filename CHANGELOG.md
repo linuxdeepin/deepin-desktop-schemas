@@ -1,3 +1,17 @@
+<a name="3.2.13"></a>
+## 3.2.13 (2018-05-30)
+
+
+#### Features
+
+* **launcher:**  update order list ([8db5855a](8db5855a))
+
+#### Bug Fixes
+
+* **dock:**  error type for delay-plugins-time ([d0f5588b](d0f5588b))
+
+
+
 <a name="3.2.12"></a>
 ### 3.2.12 (2018-05-23)
 
