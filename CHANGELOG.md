@@ -1,3 +1,8 @@
+
+## [3.2.14] - 2018-06-13
+*   chore(dock): update x86 dock docked-apps
+*   chore(appearance): update picture-uris
+
 <a name="3.2.13"></a>
 ## 3.2.13 (2018-05-30)
 
