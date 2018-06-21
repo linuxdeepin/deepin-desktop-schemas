@@ -1,3 +1,12 @@
+<a name="3.2.10.1"></a>
+### 3.2.10 (2018-06-21)
+
+#### Features
+
+*   desktop add enable hotzone setting ([5328975a](5328975a))
+
+
+
 <a name="3.2.10"></a>
 ### 3.2.10 (2018-04-11)
 
