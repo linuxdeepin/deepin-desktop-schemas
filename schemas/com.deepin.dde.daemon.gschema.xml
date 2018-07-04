@@ -126,6 +126,11 @@
       <summary></summary>
       <description></description>
     </key>
+    <key type="b"  name="lastore">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
     <key type="b"  name="calltrace">
       <default>false</default>
       <summary></summary>
