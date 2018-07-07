@@ -131,6 +131,16 @@
       <summary></summary>
       <description></description>
     </key>
+    <key type="b"  name="trayicon">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
+    <key type="b"  name="x-event-monitor">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
     <key type="b"  name="calltrace">
       <default>false</default>
       <summary></summary>
