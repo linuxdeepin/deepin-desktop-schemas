@@ -1,3 +1,7 @@
+## [3.2.15] - 2018-07-20
+*   chore: workspace number defaults to 2
+*   feat: com.deepin.dde.daemon add key 'trayicon' and 'x-event-monitor'
+*   feat: com.deepin.dde.daemon add key 'lastore'
 
 ## [3.2.14] - 2018-06-13
 *   chore(dock): update x86 dock docked-apps
