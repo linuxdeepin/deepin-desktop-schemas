@@ -20,6 +20,10 @@
             <summary>Disable touchpad when has mouse</summary>
             <description>Disable touchpad when has mouse.</description>
         </key>
+        <key type="b" name="adaptive-accel-profile">
+            <default>true</default>
+            <summary>Use adaptive mouse acceleration profile</summary>
+        </key>
         <key type="d" name="motion-acceleration">
             <default>1.0</default>
             <summary>Device Accel Constant Deceleration</summary>
