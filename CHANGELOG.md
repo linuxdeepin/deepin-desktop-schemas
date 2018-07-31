@@ -1,3 +1,6 @@
+## [3.2.16] - 2018-07-31
+*  feat(mouse): Mouse accel profile option
+
 ## [3.2.15] - 2018-07-20
 *   chore: workspace number defaults to 2
 *   feat: com.deepin.dde.daemon add key 'trayicon' and 'x-event-monitor'
