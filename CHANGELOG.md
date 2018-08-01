@@ -1,3 +1,6 @@
+## [3.2.18] - 2018-08-01
+*   update com.deepin.dde.launcher.override to add evince 
+
 ## [3.2.17] - 2018-08-01
 *   chore: rename org.deepin.flatdeb.deepin-calendar to org.deepin.flatdeb.dde-calendar
 
