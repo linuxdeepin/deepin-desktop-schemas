@@ -1,5 +1,8 @@
+## [3.2.17] - 2018-08-01
+*   chore: rename org.deepin.flatdeb.deepin-calendar to org.deepin.flatdeb.dde-calendar
+
 ## [3.2.16] - 2018-07-31
-*  feat(mouse): Mouse accel profile option
+*   feat(mouse): Mouse accel profile option
 
 ## [3.2.15] - 2018-07-20
 *   chore: workspace number defaults to 2
