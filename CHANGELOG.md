@@ -1,3 +1,9 @@
+## [3.2.18.1] - 2018-09-07
+*   chore: update sw background-uris
+*   chore: update mips background-uris
+*   feat(mips): set audio max volume to 150
+*   feat(mips): disable right up hotzone
+
 ## [3.2.18] - 2018-08-01
 *   update com.deepin.dde.launcher.override to add evince 
 
