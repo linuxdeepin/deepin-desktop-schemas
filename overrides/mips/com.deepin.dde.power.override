@@ -1,0 +1,4 @@
+[com.deepin.dde.power]
+percentage-low=35
+percentage-critical=25
+percentage-action=20
