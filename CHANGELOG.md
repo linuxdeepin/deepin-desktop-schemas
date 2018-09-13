@@ -1,3 +1,6 @@
+## [3.2.18.2] - 2018-09-13
+*   chore: override mips power percentage-critical
+
 ## [3.2.18.1] - 2018-09-07
 *   chore: update sw background-uris
 *   chore: update mips background-uris
