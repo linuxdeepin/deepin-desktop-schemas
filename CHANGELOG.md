@@ -1,3 +1,6 @@
+## [3.2.18.3] - 2018-09-14
+*   fix config launcher mode for sw
+
 ## [3.2.18.2] - 2018-09-13
 *   chore: override mips power percentage-critical
 
