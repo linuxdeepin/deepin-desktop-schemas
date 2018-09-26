@@ -1,3 +1,6 @@
+## [3.2.18.4] - 2018-09-26
+*   fix: update zone right up setting for sw
+
 ## [3.2.18.3] - 2018-09-14
 *   fix config launcher mode for sw
 
