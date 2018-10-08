@@ -30,6 +30,10 @@
 			<summary>adjust display brigtness enabled</summary>
 			<description/>
 		</key>
+		<key type="b" name="ambient-light-adjust-brightness">
+			<default>true</default>
+			<summary>auto adjust backlight brightness according to ambient light intensity</summary>
+		</key>
 		<key type="b" name="screen-black-lock">
 			<default>false</default>
 			<summary/>
