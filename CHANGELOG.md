@@ -1,3 +1,6 @@
+## [3.2.18.6] - 2018-10-09
+*   delete desktop hot-zone
+
 ## [3.2.18.5] - 2018-09-27
 *   feat(sw): set max audio volume to 150 for sw
 ## [3.2.18.4] - 2018-09-26
