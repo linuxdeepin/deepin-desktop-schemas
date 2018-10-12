@@ -1,3 +1,6 @@
+## [3.2.18.7] - 2018-10-12
+*   change mono font to Droid sans mono ([ccfb0a49](ccfb0a49))
+
 ## [3.2.18.6] - 2018-10-09
 *   delete desktop hot-zone
 
