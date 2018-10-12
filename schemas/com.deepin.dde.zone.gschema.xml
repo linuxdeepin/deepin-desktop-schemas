@@ -2,22 +2,22 @@
 <schemalist gettext-domain="DDE">
     <schema path="/com/deepin/dde/zone/" id="com.deepin.dde.zone">
         <key type="s" name="left-up">
-            <default>'dbus-send --print-reply --dest=com.deepin.dde.Launcher /com/deepin/dde/Launcher com.deepin.dde.Launcher.Toggle'</default>
+            <default>''</default>
             <summary>left up corner</summary>
             <description>move to left-up corner to show</description>
         </key>
         <key type="s" name="right-up">
-            <default>'!wm:close'</default>
+            <default>''</default>
             <summary>right up corner</summary>
             <description>move to right-up corner to show</description>
         </key>
         <key type="s" name="right-down">
-            <default>'dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.Toggle'</default>
+            <default>''</default>
             <summary>right down corner</summary>
             <description>move to right-down corner to show</description>
         </key>
         <key type="s" name="left-down">
-            <default>'dbus-send --session --dest=com.deepin.wm --print-reply /com/deepin/wm com.deepin.wm.PerformAction int32:6'</default>
+            <default>''</default>
             <summary>left down corner</summary>
             <description>move to left-down corner to show</description>
         </key>
