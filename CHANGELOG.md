@@ -1,3 +1,6 @@
+## [3.2.18.8] - 2018-10-16
+*   fix: remove duplicate override file
+
 ## [3.2.18.7] - 2018-10-12
 *   change mono font to Droid sans mono ([ccfb0a49](ccfb0a49))
 

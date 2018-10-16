@@ -1,2 +1,7 @@
+[com.deepin.xsettings]
+gtk-font-name='sans-serif 11'
+
 [com.deepin.dde.appearance]
+font-size=11
+background-uris=['file:///usr/share/wallpapers/deepin/desktop.bmp', 'file:///usr/share/wallpapers/deepin/Sunset_of_the_Lake_Nam_by_Wang_Jinyu.bmp', 'file:///usr/share/wallpapers/deepin/Reflection_of_the_Kanas_Lake_by_Wang_Jinyu.bmp']
 font-monospace='Droid Sans Mono'
