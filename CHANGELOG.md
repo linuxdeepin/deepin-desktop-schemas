@@ -1,3 +1,6 @@
+## [3.2.18.9] - 2018-10-18
+*   Revert "chore(sw): set brightness-setter to backlight for sw"
+
 ## [3.2.18.8] - 2018-10-16
 *   fix: remove duplicate override file
 
