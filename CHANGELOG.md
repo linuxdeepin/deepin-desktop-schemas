@@ -1,3 +1,20 @@
+## [3.3.0] - 2018-10-29
+*   refactor: clear all action for zone
+*   Merge "feat: appearance add key opacity"
+*   Merge "feat: power add key ambient-light-adjust-brightness"
+*   feat: appearance add key opacity
+*   fix: update zone right up setting for sw
+*   chore: update changelog
+*   fix config launcher mode for sw
+*   chore: update changelog
+*   chore: override mips power percentage-critical
+*   chore: update changelog
+*   chore: update sw background-uris
+*   chore: update mips background-uris
+*   feat(mips): disable right up hotzone
+*   feat: power add key ambient-light-adjust-brightness
+*   fix(audio): set audio max volume to 150 for mips
+
 ## [3.2.18.3] - 2018-09-14
 *   fix config launcher mode for sw
 
