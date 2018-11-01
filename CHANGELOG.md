@@ -1,3 +1,6 @@
+## [3.3.1] - 2018-11-01
+* **dock:**  remove show desktop for dock ([b904ba0d](b904ba0d))
+
 ## [3.3.0] - 2018-10-29
 *   refactor: clear all action for zone
 *   Merge "feat: appearance add key opacity"
