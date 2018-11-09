@@ -1,3 +1,6 @@
+## [3.4.0] - 2018-11-09
+*   chore: update disable while typing cmd
+
 ## [3.3.1] - 2018-11-01
 * **dock:**  remove show desktop for dock ([b904ba0d](b904ba0d))
 
