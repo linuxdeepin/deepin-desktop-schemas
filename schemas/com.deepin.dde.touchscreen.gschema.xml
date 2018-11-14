@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/com/deepin/dde/touchscreen/" id="com.deepin.dde.touchscreen">
+    <key type="i" name="longpress-duration">
+      <default>700</default>
+      <summary>Touchscreen longpress duration</summary>
+      <description>Set the duration for touchscreen longpress, default: 700ms.</description>
+    </key>
+  </schema>
+</schemalist>
