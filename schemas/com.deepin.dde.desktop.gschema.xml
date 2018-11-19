@@ -57,7 +57,7 @@
             <range min="50" max="500"/><!-- % -->
             <default>100</default>
             <summary>Default icon zoom level.</summary>
-            <description>Defaut icon zoom level used by the icon view.</description>
+            <description>Default icon zoom level used by the icon view.</description>
         </key>
 
          <key name="first-run" type="b">
