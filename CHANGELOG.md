@@ -1,3 +1,8 @@
+## [3.5.0] - 2018-11-23
+*   fix: some types
+*   add touchscreen settings
+*   add deepin-editor settings
+
 ## [3.4.0] - 2018-11-09
 *   chore: update disable while typing cmd
 
