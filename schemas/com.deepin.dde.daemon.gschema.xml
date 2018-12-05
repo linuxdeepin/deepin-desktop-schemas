@@ -146,5 +146,10 @@
       <summary></summary>
       <description></description>
     </key>
+    <key type="b" name="grub-gfx">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
     </schema>
 </schemalist>
