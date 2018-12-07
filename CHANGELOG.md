@@ -1,3 +1,8 @@
+## [3.6.0] - 2018-12-07
+*   fix(Launcher): type error
+*   feat(Launcher): set launcher default icon size to 0.5
+*   add dde session daemon module grub-gfx
+
 ## [3.5.0] - 2018-11-23
 *   fix: some types
 *   add touchscreen settings
