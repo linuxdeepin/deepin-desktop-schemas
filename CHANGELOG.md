@@ -1,3 +1,7 @@
+## [3.7.0] - 2018-12-13
+*   chore: override prop power ambient-light-adjust-brightness
+*   power add *-screensaver-delay
+
 ## [3.6.0] - 2018-12-07
 *   fix(Launcher): type error
 *   feat(Launcher): set launcher default icon size to 0.5
