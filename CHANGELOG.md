@@ -1,3 +1,6 @@
+## [3.8.0] - 2018-12-14
+*   chore: change the default value of touchscreen longpress-duration to 1s
+
 ## [3.7.0] - 2018-12-13
 *   chore: override prop power ambient-light-adjust-brightness
 *   power add *-screensaver-delay
