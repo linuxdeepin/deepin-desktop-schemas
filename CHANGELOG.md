@@ -1,3 +1,7 @@
+## [3.9.0] - 2018-12-18
+*   chore: override pro remove show desktop from docked apps
+*   fix: com.deepin.dde.power battery-*-delay
+
 ## [3.8.0] - 2018-12-14
 *   chore: change the default value of touchscreen longpress-duration to 1s
 
