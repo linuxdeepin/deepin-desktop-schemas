@@ -1,3 +1,6 @@
+## [3.9.1] - 2018-12-26
+*   feat(Launcher): set icon size to 0.5
+
 ## [3.9.0] - 2018-12-18
 *   chore: override pro remove show desktop from docked apps
 *   fix: com.deepin.dde.power battery-*-delay
