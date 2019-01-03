@@ -6,5 +6,10 @@
       <summary>Touchscreen longpress duration</summary>
       <description>Set the duration for touchscreen longpress, the unit is ms.</description>
     </key>
+    <key type="as" name="longpress-blacklist">
+      <default>['/opt/google/chrome/chrome']</default>
+      <summary>Touchscreen longpress blacklist</summary>
+      <description>Set app cmdline list for disable touchscreen longpress.</description>
+    </key>
   </schema>
 </schemalist>
