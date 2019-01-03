@@ -1,3 +1,6 @@
+## [3.10.0] - 2019-01-03
+*   feat(touchscreen): add longpress blacklist
+
 ## [3.9.1] - 2018-12-26
 *   feat(Launcher): set icon size to 0.5
 
