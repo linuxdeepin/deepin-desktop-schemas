@@ -70,5 +70,11 @@
             <summary>Control plug-in delay loading time</summary>
             <description></description>
         </key>
+
+        <key type="s" name="plugin-settings">
+            <default>'{}'</default>
+            <summary></summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
