@@ -63,5 +63,10 @@
       <description></description>
       <range min="0.0" max="1.0" />
     </key>
+    <key name="wallpaper-slideshow" type="s">
+      <default>''</default>
+      <summary></summary>
+      <description></description>
+    </key>
   </schema>
 </schemalist>
