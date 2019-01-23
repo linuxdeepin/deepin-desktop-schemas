@@ -1,4 +1,4 @@
 [com.deepin.dde.sound-effect]
-enabled=false
+enabled=true
 player='paplay'
 
