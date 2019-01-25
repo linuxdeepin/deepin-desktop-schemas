@@ -17,7 +17,7 @@
 			<default>false</default>
 		</key>
 		<key name="apps-icon-ratio" type="d">
-			<default>0.3</default>
+			<default>0.5</default>
 		</key>
 		<key name='apps-hold-list' type='as'>
 			<default>[]</default>
