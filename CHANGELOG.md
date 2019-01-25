@@ -1,3 +1,17 @@
+<a name=""></a>
+##  3.11.0 (2019-01-25)
+
+
+#### Features
+
+*   dock add plugin-settings ([97feaa19](97feaa19))
+* **sw:**  add deepin-movie and smplayer ([be2accba](be2accba))
+
+#### Bug Fixes
+
+* **Audio:**  set max volume to 150 for sw ([bc99a3bf](bc99a3bf))
+* **sw:**  wrong icon size ([d3f601df](d3f601df))
+
 ## [3.10.0] - 2019-01-03
 *   feat(touchscreen): add longpress blacklist
 
