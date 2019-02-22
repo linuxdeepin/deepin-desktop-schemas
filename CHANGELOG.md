@@ -1,3 +1,6 @@
+[3.12.0] 2019-02-22
+*   feat: appearance add key wallpaper-slideshow
+
 <a name=""></a>
 ##  3.11.0 (2019-01-25)
 
