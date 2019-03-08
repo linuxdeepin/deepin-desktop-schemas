@@ -1,3 +1,4 @@
 [com.deepin.dde.startdde]
 launch-welcome=false
 autostart-delay=20
+swap-sched-enabled=false
