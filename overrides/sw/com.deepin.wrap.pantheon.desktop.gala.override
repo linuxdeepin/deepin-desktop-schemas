@@ -1,9 +1,10 @@
 [com.deepin.wrap.pantheon.desktop.gala.animations]
 enable-animations=true
-open-duration=350
-snap-duration=250
-close-duration=300
-menu-duration=150
-minimize-duration=200
-workspace-switch-duration=300
+open-duration=0
+snap-duration=0
+close-duration=150
+menu-duration=0
+minimize-duration=150
+workspace-switch-duration=250
+multitasking-toggle-duration=300
 
