@@ -1,3 +1,8 @@
+[3.13.0] 2019-03-15
+*   chore: disable swap-sched for sw and longxin
+*   chore: copy gala.override from mips to sw
+*   feat: schema for monitor-dependent scaling.
+
 [3.12.0] 2019-02-22
 *   feat: appearance add key wallpaper-slideshow
 
