@@ -48,7 +48,7 @@
 			<summary>auto adjust backlight brightness according to ambient light intensity</summary>
 		</key>
 		<key type="b" name="screen-black-lock">
-			<default>false</default>
+			<default>true</default>
 			<summary/>
 			<description/>
 		</key>
