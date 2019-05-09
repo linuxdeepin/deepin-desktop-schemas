@@ -1,3 +1,7 @@
+[3.13.1] 2019-05-09
+*   chore: change the default value of power screen-black-lock to true
+*   chore(mips): remove deepin-movie in dde-dock
+
 [3.13.0] 2019-03-15
 *   chore: disable swap-sched for sw and longxin
 *   chore: copy gala.override from mips to sw
