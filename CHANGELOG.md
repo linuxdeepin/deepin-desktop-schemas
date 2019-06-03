@@ -1,3 +1,6 @@
+[3.13.2] 2019-06-03
+*   chore: update default desktop background
+
 [3.13.1] 2019-05-09
 *   chore: change the default value of power screen-black-lock to true
 *   chore(mips): remove deepin-movie in dde-dock
