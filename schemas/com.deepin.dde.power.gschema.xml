@@ -59,7 +59,12 @@
 		</key>
 		<key type="b" name="lid-closed-sleep">
 			<default>true</default>
-			<summary>Sleep when close the lid</summary>
+			<summary>Sleep when close the lid if use line power</summary>
+			<description/>
+		</key>
+		<key type="b" name="battery-lid-closed-sleep">
+			<default>true</default>
+			<summary>Sleep when close the lid if use battery</summary>
 			<description/>
 		</key>
 		<key type="s" name="power-button-pressed-exec">
