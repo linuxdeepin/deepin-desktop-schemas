@@ -22,7 +22,7 @@ endif
 ifeq ($(DEB_BUILD_ARCH), sw_64)
 	DISTRO = sw
 endif
-ifeq ($(DEB_BUILD_ARCH), aarch64)
+ifeq ($(DEB_BUILD_ARCH), arm64)
 	DISTRO = arm
 endif
 export DISTRO
