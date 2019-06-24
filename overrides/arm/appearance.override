@@ -1,0 +1,6 @@
+[com.deepin.xsettings]
+gtk-font-name='sans-serif 11'
+
+[com.deepin.dde.appearance]
+font-size=11
+
