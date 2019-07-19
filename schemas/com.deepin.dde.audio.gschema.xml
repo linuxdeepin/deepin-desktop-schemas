@@ -26,5 +26,10 @@
 	    <summary>Auto switch to available port</summary>
 	    <description>If port available, switch to it.</description>
 	</key>
+	<key type="b" name="headphone-unplug-auto-pause">
+	    <default>true</default>
+	    <summary>Auto pause media when headphone unplug</summary>
+	    <description>If headphone unplug and available, try pause all playing media.</description>
+	</key>
     </schema>
 </schemalist>
