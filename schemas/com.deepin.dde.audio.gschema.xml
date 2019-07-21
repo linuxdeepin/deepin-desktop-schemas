@@ -11,7 +11,12 @@
 	    <summary>Output volume percentage</summary>
 	    <description>Output volume percentage range 0 ~ 100</description>
 	</key>
-    	<key type="i" name="input-volume">
+	<key type="i" name="headphone-output-volume">
+	    <default>10</default>
+	    <summary>Headphone output volume percentage</summary>
+	    <description>Headphone output volume percentage range 0 ~ 100</description>
+	</key>
+	<key type="i" name="input-volume">
 	    <default>10</default>
 	    <summary>Input volume percentage</summary>
 	    <description>Input volume percentage range 0 ~ 100</description>
