@@ -8,6 +8,12 @@
         Basename of the default theme used by gtk+.
       </description>
     </key>
+    <key type="b" name="theme-auto">
+        <default>false</default>
+        <summary></summary>
+        <description></description>
+    </key>
+
     <key type="s" name="icon-theme">
       <default>'deepin'</default>
       <summary>Icon theme</summary>
