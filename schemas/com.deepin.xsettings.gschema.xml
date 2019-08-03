@@ -381,5 +381,10 @@
         Semicolon-separated list of name=value pairs, as used in QT_SCREEN_SCALE_FACTORS.
       </description>
     </key>
+    <key type="s" name="qt-active-color">
+      <default>''</default>
+      <summary></summary>
+      <description></description>
+    </key>
   </schema>
 </schemalist>
