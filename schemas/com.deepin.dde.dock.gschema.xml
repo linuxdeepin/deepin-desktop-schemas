@@ -47,6 +47,13 @@
             <description></description>
         </key>
 
+        <key type="u" name="height">
+            <default>72</default>
+            <range min="40" max="100" />
+            <summary></summary>
+            <description></description>
+        </key>
+
         <key type="u" name="show-timeout">
             <default>100</default>
             <summary></summary>
