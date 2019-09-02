@@ -151,5 +151,10 @@
       <summary></summary>
       <description></description>
     </key>
+    <key type="b" name="calendar">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
     </schema>
 </schemalist>
