@@ -47,7 +47,7 @@
             <description></description>
         </key>
 
-        <key type="u" name="height">
+        <key type="u" name="window-size">
             <default>72</default>
             <range min="40" max="100" />
             <summary></summary>
