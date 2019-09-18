@@ -2,7 +2,7 @@
 <schemalist>
   <schema path="/com/deepin/dde/touchpad/" id="com.deepin.dde.touchpad">
     <key type="s" name="disable-while-typing-cmd">
-      <default>'syndaemon -i 2 -K -t'</default>
+      <default>'syndaemon -i 2 -K'</default>
       <summary>The command of disable touchpad while typing</summary>
       <description>Set the command to disable touchpad hitting while typing.</description>
     </key>
