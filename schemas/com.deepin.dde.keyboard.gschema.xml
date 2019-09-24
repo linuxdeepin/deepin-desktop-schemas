@@ -5,6 +5,10 @@
 		<value value="1" nick="on"/>
 		<value value="2" nick="unknown"/>
 	</enum>
+    <enum id="com.deepin.dde.keyboard.LayoutScope">
+        <value value="0" nick="global"/>
+        <value value="1" nick="application"/>
+    </enum>
 	<schema path="/com/deepin/dde/keyboard/" id="com.deepin.dde.keyboard">
 		<key type="as" name="user-layout-list">
 			<default>[]</default>
@@ -19,6 +23,18 @@
 		<key type="s" name="layout">
 			<default>""</default>
 			<summary>Keyboard Layout</summary>
+			<description/>
+		</key>
+        
+		<key name="layout-scope" enum="com.deepin.dde.keyboard.LayoutScope">
+			<default>'global'</default>
+			<summary>Keyboard Layout Scope</summary>
+			<description/>
+		</key>
+
+		<key type="s" name="app-layout-map">
+			<default>""</default>
+			<summary>App keyboard layout map</summary>
 			<description/>
 		</key>
 		<key type="u" name="shortcut-switch-layout">
