@@ -1,3 +1,6 @@
+[5.1.2] 2019-10-12
+*   update appstore settings
+
 [3.13.2] 2019-06-03
 *   chore: update default desktop background
 
