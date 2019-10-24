@@ -64,7 +64,7 @@
       <description>Icon theme black list.</description>
     </key>
     <key name="opacity" type="d">
-      <default>0.4</default>
+      <default>0.2</default>
       <summary>dde ui opacity</summary>
       <description></description>
       <range min="0.0" max="1.0" />
