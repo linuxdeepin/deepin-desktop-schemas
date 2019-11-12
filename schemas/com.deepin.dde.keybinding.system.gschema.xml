@@ -76,5 +76,20 @@
 			<summary>Turn off the screen</summary>
 			<description/>
 		</key>
+		<key type="as" name="ai-assistant">
+			<default><![CDATA[['<Super>Q']]]></default>
+			<summary>Desktop AI Assistant</summary>
+			<description/>
+		</key>
+		<key type="as" name="text-to-speech">
+			<default><![CDATA[['<Control><Alt>P']]]></default>
+			<summary>Text to speech</summary>
+			<description/>
+		</key>
+		<key type="as" name="speech-to-text">
+			<default><![CDATA[['<Control><Alt>O']]]></default>
+			<summary>Speech to text</summary>
+			<description/>
+		</key>
 	</schema>
 </schemalist>
