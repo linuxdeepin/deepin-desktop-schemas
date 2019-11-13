@@ -44,7 +44,7 @@
       <description>The monospace font for desktop</description>
     </key>
     <key type="d" name="font-size">
-      <default>9.0</default>
+      <default>10.5</default>
       <summary>Font size</summary>
       <description>The desktop font size</description>
     </key>
