@@ -1,4 +1,3 @@
 [com.deepin.dde.dock]
-docked-apps=['deepin-toggle-desktop', 'dde-file-manager', 'deepin-music', 'smplayer', 'firefox', 'libreoffice-writer', 'libreoffice-impress', 'libreoffice-calc', 'wps-office-wps', 'wps-office-wpp', 'wps-office-et', 'dde-control-center']
-hide-mode='keep-showing'
+docked-apps=['dde-file-manager','uosbrowser-cn','deepin-appstore','deepin-app-store','deepin-album','deepin-music', 'deepin-movie','smplayer','dde-calendar', 'dde-control-center']
 display-mode='efficient'

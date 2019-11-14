@@ -1,3 +1,2 @@
 [com.deepin.dde.dock]
-docked-apps=['deepin-wm-multitaskingview','dde-file-manager','deepin-appstore','org.deepin.flatdeb.deepin-music','deepin-music','org.deepin.flatdeb.deepin-movie','deepin-movie','google-chrome','dde-control-center']
-hide-mode='keep-showing'
+docked-apps=['dde-file-manager','uosbrowser-cn','deepin-appstore','deepin-app-store','deepin-album','deepin-music','deepin-movie','dde-calendar', 'dde-control-center']
