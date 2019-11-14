@@ -91,5 +91,10 @@
 			<summary>Speech to text</summary>
 			<description/>
 		</key>
+		<key type="as" name="clipboard">
+			<default><![CDATA[['<Control><Shift>V']]]></default>
+			<summary>Show clipboard</summary>
+			<description/>
+		</key>
 	</schema>
 </schemalist>
