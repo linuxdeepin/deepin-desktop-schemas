@@ -10,5 +10,15 @@
 			<default>false</default>
 			<summary>auto-exit</summary>
 		</key>
+		<key name="window-width" type="i">
+			<default>820</default>
+			<range min="820" max="9999"></range>
+			<summary>The window width last time</summary>
+		</key>
+		<key name="window-height" type="i">
+			<default>634</default>
+			<range min="634" max="9999"></range>
+			<summary>The window height last time</summary>
+		</key>
 	</schema>
 </schemalist>
