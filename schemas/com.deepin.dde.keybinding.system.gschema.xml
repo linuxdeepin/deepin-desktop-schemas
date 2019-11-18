@@ -92,7 +92,7 @@
 			<description/>
 		</key>
 		<key type="as" name="clipboard">
-			<default><![CDATA[['<Control><Shift>V']]]></default>
+			<default><![CDATA[['<Control><Alt>V']]]></default>
 			<summary>Show clipboard</summary>
 			<description/>
 		</key>
