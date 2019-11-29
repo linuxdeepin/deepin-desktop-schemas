@@ -15,14 +15,14 @@
     </key>
 
     <key type="s" name="icon-theme">
-      <default>'deepin'</default>
+      <default>'bloom'</default>
       <summary>Icon theme</summary>
       <description>
         Icon theme to use for the panel, nautilus etc.
       </description>
     </key>
     <key type="s" name="cursor-theme">
-      <default>'deepin'</default>
+      <default>'bloom'</default>
       <summary>Cursor theme</summary>
       <description>
         Cursor theme name. Used only by Xservers that support the Xcursor extension.
