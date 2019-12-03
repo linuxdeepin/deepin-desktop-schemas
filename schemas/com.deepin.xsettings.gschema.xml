@@ -42,7 +42,7 @@
       </description>
     </key>
     <key type="s" name="gtk-font-name">
-      <default>'sans-serif 10'</default>
+      <default>'sans-serif 10.5'</default>
       <summary>Default font</summary>
       <description>
         Name of the default font used by gtk+.
