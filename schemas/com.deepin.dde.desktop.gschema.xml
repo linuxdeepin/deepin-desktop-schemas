@@ -67,7 +67,7 @@
         </key>
 
         <key name="enable-hotzone-settings" type="b">
-            <default>true</default>
+            <default>false</default>
             <description>If true, desktop hotzone settings will enable.</description>
         </key>
 
