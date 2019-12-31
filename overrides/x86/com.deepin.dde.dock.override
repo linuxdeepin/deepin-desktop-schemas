@@ -1,2 +1,3 @@
 [com.deepin.dde.dock]
-docked-apps=['dde-file-manager','uos-browser','deepin-appstore','deepin-app-store','deepin-album','deepin-music','deepin-movie','dde-calendar', 'dde-control-center']
+docked-apps=['dde-file-manager','uos-browser-stable','deepin-appstore','deepin-app-store','deepin-album','deepin-music', 'deepin-contacts','dde-calendar', 'dde-control-center']
+docked-apps-server=['dde-file-manager','uos-browser-stable','deepin-appstore','deepin-app-store','deepin-album','deepin-music', 'deepin-contacts','dde-calendar', 'dde-control-center']

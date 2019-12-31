@@ -39,7 +39,21 @@
 			<summary>launcher apps order</summary>
 			<description>launcher apps order, ensure that all lowercase.</description>
 		</key>
-
+		<key name='apps-order-server' type='as'>
+			<default>[]</default>
+			<summary>launcher apps order</summary>
+			<description>launcher apps order, ensure that all lowercase.</description>
+		</key>
+		<key name='apps-order-server-zh-cn' type='as'>
+			<default>[]</default>
+			<summary>launcher apps order</summary>
+			<description>launcher apps order, ensure that all lowercase.</description>
+		</key>
+		<key name='apps-order-server-zh-tw' type='as'>
+			<default>[]</default>
+			<summary>launcher apps order</summary>
+			<description>launcher apps order, ensure that all lowercase.</description>
+		</key>
 		<key name='apps-use-proxy' type='as'>
 			<default>[]</default>
 			<summary>apps use proxy</summary>
