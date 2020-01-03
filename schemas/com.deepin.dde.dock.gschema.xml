@@ -29,11 +29,6 @@
             <summary>The default apps on dock.</summary>
             <description>The default apps which is docked when dock is started.</description>
         </key>
-        <key type="as" name="docked-apps-server">
-            <default>[]</default>
-            <summary>The default apps on dock.</summary>
-            <description>The default apps which is docked when dock is started.</description>
-        </key>
         <key name="display-mode" enum="com.deepin.dde.dock.DisplayMode">
             <default>'fashion'</default>
             <summary>The display mode.</summary>
