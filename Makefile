@@ -1,24 +1,35 @@
 PREFIX	:= /usr
 DISTRO    := x86
+ARCH    := x86
 
 all: build
 
-build:
-	@echo build for distro: $(DISTRO)
+bin:
+	mkdir -p bin
+	env GO111MODULE=off go build -o bin/override_tool tools/override/*.go
+
+build: bin
+	@echo build for arch: $(ARCH)
 	mkdir -p result
-	@find schemas -name "*.xml" -exec cp {} result \;
-	@python tools/overrides.py $(DISTRO) result/90_deepin-default-gsettings.gschema.override
+	find schemas -name "*.xml" -exec cp {} result \;
+	bin/override_tool -arch $(ARCH)
 
 test: 
 	@echo "Testing schemas with glib-compile-shemas..."
-	@glib-compile-schemas --dry-run result
+	glib-compile-schemas --dry-run result
 
 install:
-	@echo install for distro:$(DISTRO)
+	@echo install for distro:$(DISTRO) arch:$(ARCH)
 	mkdir -p $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas
-	@cp result/* $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas/
+	cp -v result/*.xml result/*.override $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas/
+	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-desktop-schemas
+	cp -v result/*-override $(DESTDIR)$(PREFIX)/share/deepin-desktop-schemas
+
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-appstore/
-	@cp deepin-appstore/$(DISTRO)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-appstore/
+	cp deepin-appstore/$(DISTRO)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-appstore/
 
 clean:
-	@-rm -rf result
+	-rm -rf bin
+	-rm -rf result
+
+.PHONY: bin
