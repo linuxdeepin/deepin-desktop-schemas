@@ -395,5 +395,11 @@
             <summary/>
             <description/>
         </key>
+
+        <key type="b" name="upper-layer-wlan">
+            <default>true</default>
+            <summary>enable or disable the wireless network in upper layer</summary>
+            <description/>
+        </key>
     </schema>
 </schemalist>
