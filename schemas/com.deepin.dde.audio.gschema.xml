@@ -26,6 +26,11 @@
 	    <summary>Output volume max percentage</summary>
 	    <description>The max percentage for output volume</description>
 	</key>
+	<key type="b" name="volume-increase">
+	    <default>false</default>
+	    <summary>switch sound increase</summary>
+	    <description>if true, max volume be 1.5 ,else 1.0</description>
+	</key>
 	<key type="b" name="auto-switch-port">
 	    <default>false</default>
 	    <summary>Auto switch to available port</summary>
