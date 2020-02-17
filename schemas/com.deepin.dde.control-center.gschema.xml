@@ -24,5 +24,13 @@
 			<default>[]</default>
 			<summary>The module to display</summary>
 		</key>
+        <key name="show-autologin" type="b">
+			<default>true</default>
+			<summary>auto-exit</summary>
+		</key>
+        <key name="show-update" type="b">
+			<default>true</default>
+			<summary>auto-exit</summary>
+		</key>
 	</schema>
 </schemalist>
