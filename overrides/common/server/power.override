@@ -1,1 +1,3 @@
-../pro/power.override
+[com.deepin.dde.power]
+ambient-light-adjust-brightness=false
+screen-black-lock=false
