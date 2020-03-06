@@ -96,5 +96,10 @@
 			<summary>Show clipboard</summary>
 			<description/>
 		</key>
+		<key type="as" name="translation">
+			<default><![CDATA[['<Control><Alt>U']]]></default>
+			<summary>Translation</summary>
+			<description/>
+		</key>
 	</schema>
 </schemalist>
