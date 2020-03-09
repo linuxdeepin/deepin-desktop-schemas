@@ -27,7 +27,7 @@
 			<description></description>
 		</key>
 		<key type="as" name="logout">
-			<default><![CDATA[['<Control><Alt>Delete']]]></default>
+			<default><![CDATA[['<Control><Alt>Delete','<Control><Alt>KP_Delete']]]></default>
 			<summary>Show shutdown interface</summary>
 			<description></description>
 		</key>
