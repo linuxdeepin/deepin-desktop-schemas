@@ -31,11 +31,6 @@
 			<summary>Show shutdown interface</summary>
 			<description></description>
 		</key>
-		<key type="as" name="terminal-quake">
-			<default><![CDATA[['<Alt>F2']]]></default>
-			<summary>Show or hide quake mode deepin terminal</summary>
-			<description></description>
-		</key>
 		<key type="as" name="screenshot">
 			<default><![CDATA[['<Control><Alt>A']]]></default>
 			<summary>Take a screenshot</summary>
