@@ -112,6 +112,12 @@
 			<summary/>
 			<description/>
 		</key>
+		<key type="i" name="percentage-danger">
+			<range min="0" max="100"/>
+			<default>15</default>
+			<summary/>
+			<description/>
+		</key>
 		<key type="i" name="percentage-critical">
 			<range min="0" max="100"/>
 			<default>10</default>
@@ -128,6 +134,12 @@
 			<range min="0"/>
 			<default>1200</default>
 			<summary>20 mins</summary>
+			<description/>
+		</key>
+		<key type="i" name="time-to-empty-danger">
+			<range min="0"/>
+			<default>900</default>
+			<summary>15 mins</summary>
 			<description/>
 		</key>
 		<key type="i" name="time-to-empty-critical">
