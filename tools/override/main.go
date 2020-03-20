@@ -17,7 +17,7 @@ func init() {
 	flag.StringVar(&optArch, "arch", "", "")
 }
 
-var products = []string{"pro", "server"}
+var products = []string{"pro", "server", "personal"}
 
 func main() {
 	log.SetFlags(log.Lshortfile)

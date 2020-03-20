@@ -8,14 +8,19 @@ gschemas_dir=/usr/share/glib-2.0/schemas
 case "$1" in
 	configure)
         SYSTYPE=$(grep Type= /etc/deepin-version|cut -d= -f 2)
+	product_override_file=$gschemas_dir/91_deepin_product.gschema.override
         case "$SYSTYPE" in
             Professional)
-                ln -sf $data_dir/pro-override $gschemas_dir/91_deepin_product.gschema.override
+                ln -sf $data_dir/pro-override $product_override_file
             ;;
 
             Server)
-                ln -sf $data_dir/server-override $gschemas_dir//91_deepin_product.gschema.override
+                ln -sf $data_dir/server-override $product_override_file
             ;;
+
+	    Personal)
+                ln -sf $data_dir/personal-override $product_override_file
+	    ;;
         esac
 	;;
 	abort-upgrade|abort-remove|abort-deconfigure)
