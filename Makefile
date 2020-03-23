@@ -28,6 +28,9 @@ install:
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-appstore/
 	cp deepin-appstore/$(DISTRO)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-appstore/
 
+	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-app-store/
+	cp deepin-app-store/$(DISTRO)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-app-store/
+
 clean:
 	-rm -rf bin
 	-rm -rf result
