@@ -18,7 +18,11 @@ case "$1" in
                 ln -sf $data_dir/server-override $product_override_file
             ;;
 
-	    Personal)
+            Desktop)
+                ln -sf $data_dir/desktop-override $product_override_file
+            ;;
+
+	       Personal)
                 ln -sf $data_dir/personal-override $product_override_file
 	    ;;
         esac
