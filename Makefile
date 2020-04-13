@@ -1,5 +1,4 @@
 PREFIX	:= /usr
-DISTRO    := x86
 ARCH    := x86
 
 all: build
@@ -19,19 +18,17 @@ test:
 	glib-compile-schemas --dry-run result
 
 install:
-	@echo install for distro:$(DISTRO) arch:$(ARCH)
+	@echo install for arch:$(ARCH)
 	mkdir -p $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas
 	cp -v result/*.xml result/*.override $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas/
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-desktop-schemas
 	cp -v result/*-override $(DESTDIR)$(PREFIX)/share/deepin-desktop-schemas
 
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-appstore/
-	if [ -f deepin-appstore/$(DISTRO)/settings.ini ]; then\
-		cp deepin-appstore/$(DISTRO)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-appstore/;\
-	fi
+	cp deepin-appstore/$(ARCH)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-appstore/
 
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-app-store/
-	cp deepin-app-store/$(DISTRO)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-app-store/
+	cp deepin-app-store/$(ARCH)/*.ini $(DESTDIR)$(PREFIX)/share/deepin-app-store/
 
 clean:
 	-rm -rf bin
