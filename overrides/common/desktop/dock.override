@@ -1,2 +1,3 @@
 [com.deepin.dde.dock]
 display-mode='fashion'
+docked-apps=['dde-file-manager', 'chromium', 'deepin-appstore', 'deepin-app-store', 'deepin-album', 'deepin-music', 'deepin-contacts', 'dde-calendar', 'dde-control-center']
