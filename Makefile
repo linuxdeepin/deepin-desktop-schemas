@@ -26,7 +26,9 @@ install:
 	cp -v result/*-override $(DESTDIR)$(PREFIX)/share/deepin-desktop-schemas
 
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-appstore/
-	cp deepin-appstore/$(DISTRO)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-appstore/
+	if [ -f deepin-appstore/$(DISTRO)/settings.ini ]; then\
+		cp deepin-appstore/$(DISTRO)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-appstore/;\
+	fi
 
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-app-store/
 	cp deepin-app-store/$(DISTRO)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-app-store/

@@ -18,6 +18,10 @@ SYSTYPE=$(shell cat /etc/deepin-version | grep Type= | awk -F'=' '{print $$2}')
 ifeq ($(SYSTYPE), Professional)
 	DISTRO = pro
 endif
+ifeq ($(SYSTYPE), Desktop)
+	DISTRO = community
+endif
+
 ifeq ($(DEB_BUILD_ARCH), mipsel)
 	ARCH = mips
 	DISTRO = mips
