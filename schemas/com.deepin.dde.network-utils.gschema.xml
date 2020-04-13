@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/com/deepin/dde/network-utils/" id="com.deepin.dde.network-utils">
+        <key type="as"  name="network-checker-urls">
+            <default>['https://www.google.cn/generate_204', 'https://www.google.com/generate_204']</default>
+            <summary>network-checker-urls</summary>
+        </key>
+    </schema>
+</schemalist>
