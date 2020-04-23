@@ -8,6 +8,7 @@ app_store_dir=/usr/share/deepin-app-store
 app_store_ini_file=$app_store_dir/settings.ini
 app_store_ini_file_pro=$app_store_dir/settings-pro.ini
 app_store_ini_file_community=$app_store_dir/settings-community.ini
+app_store_ini_file_personal=$app_store_dir/settings-personal.ini
 
 case "$1" in
     configure)
@@ -42,7 +43,7 @@ case "$1" in
            Personal)
                 ln -sf $data_dir/personal-override $product_override_file
                 if [ ! -f $app_store_ini_file ]; then
-                    ln -sf $app_store_ini_file_pro $app_store_ini_file
+                    ln -sf $app_store_ini_file_personal $app_store_ini_file
                 fi
             ;;
         esac
