@@ -20,7 +20,7 @@
 			<default>0.5</default>
 		</key>
 		<key name='apps-hold-list' type='as'>
-			<default>[]</default>
+			<default>['dde-control-center','dde-computer','dde-trash','dde-file-manager','deepin-appstore','deepin-app-store','deepin-toggle-desktop','deepin-wm-multitaskingview','dde-calendar','deepin-manual','deepin-terminal','deepin-defender','kwin-wm-multitaskingview']</default>
 			<summary>apps not allowed to uninstall</summary>
 			<description>apps not allowed to uninstall</description>
 		</key>
