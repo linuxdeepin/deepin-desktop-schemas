@@ -101,5 +101,10 @@
 			<summary>Translation</summary>
 			<description/>
 		</key>
+		<key type="as" name="notification-center">
+			<default><![CDATA[['<Super>M']]]></default>
+			<summary>open notification center</summary>
+			<description/>
+		</key>
 	</schema>
 </schemalist>
