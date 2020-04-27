@@ -21,5 +21,30 @@
         <summary>DST Offset</summary>
         <description>Current DST Offset</description>
     </key>
+    <key type="i" name="weekday-format">
+        <default>0</default>
+        <summary>Weekday Format</summary>
+        <description>Show Weekday Format</description>
+    </key>
+    <key type="i" name="short-date-format">
+        <default>0</default>
+        <summary>ShortDate Format</summary>
+        <description>Show ShortDate Format</description>
+    </key>
+    <key type="i" name="long-date-format">
+        <default>0</default>
+        <summary>LongDate Format</summary>
+        <description>Show LongDate Format</description>
+    </key>
+    <key type="i" name="short-time-format">
+        <default>0</default>
+        <summary>ShortTime Format</summary>
+        <description>Show ShortTime Format</description>
+    </key>
+    <key type="i" name="long-time-format">
+        <default>0</default>
+        <summary>LongTime Format</summary>
+        <description>Show LongTime Format</description>
+    </key>
   </schema>
 </schemalist>
