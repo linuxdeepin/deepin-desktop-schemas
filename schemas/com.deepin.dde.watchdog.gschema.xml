@@ -26,5 +26,10 @@
             <summary></summary>
             <description></description>
         </key>
+        <key type="b"  name="deepinid-daemon">
+            <default>true</default>
+            <summary></summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
