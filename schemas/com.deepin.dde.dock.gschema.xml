@@ -55,7 +55,7 @@
         </key>
 
         <key type="u" name="window-size-fashion">
-            <default>72</default>
+            <default>48</default>
             <range min="40" max="100" />
             <summary>Fashion mode window size</summary>
             <description></description>
