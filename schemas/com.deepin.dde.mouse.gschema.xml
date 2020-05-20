@@ -25,7 +25,7 @@
             <summary>Use adaptive mouse acceleration profile</summary>
         </key>
         <key type="d" name="motion-acceleration">
-            <default>1.0</default>
+            <default>0.2</default>
             <summary>Device Accel Constant Deceleration</summary>
             <description>Acceleration multiplier for mouse motion. A value of -1 is the system default.</description>
         </key>

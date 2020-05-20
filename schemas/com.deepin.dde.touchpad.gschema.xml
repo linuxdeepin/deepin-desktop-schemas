@@ -37,7 +37,7 @@
       <description>Swap left and right mouse buttons for left-handed mice with 'left', 'right' for right-handed, 'mouse' to follow the mouse setting.</description>
     </key>
     <key type="d" name="motion-acceleration">
-      <default>1.0</default>
+      <default>0.2</default>
       <summary>Device Accel Constant Deceleration</summary>
       <description>Acceleration multiplier for mouse motion. A value of -1 is the system default.</description>
     </key>
