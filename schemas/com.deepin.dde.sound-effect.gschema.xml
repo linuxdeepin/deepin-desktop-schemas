@@ -103,7 +103,7 @@
             <description></description>
 		</key>
         <key name="system-shutdown" type="b">
-            <default>true</default>
+            <default>false</default>
             <summary>System shutdown</summary>
             <description></description>
         </key>
