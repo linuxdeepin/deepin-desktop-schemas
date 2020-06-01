@@ -14,6 +14,11 @@
         <value value="4" nick="unknow" />
     </enum>
 
+    <enum id="com.deepin.dde.display.AdjustColorTemperatureMode">
+        <value value="0" nick="normal" />
+        <value value="1" nick="auto" />
+        <value value="2" nick="manual" />
+    </enum>
     <schema path="/com/deepin/dde/display/" id="com.deepin.dde.display">
 	<key name="brightness-setter" enum="com.deepin.dde.display.BrightnessSetter">
 	    <default>'auto'</default>
@@ -55,5 +60,14 @@
             <summary>The output priority</summary>
             <description>Outputs priority, the first will be primary</description>
         </key>
+        <key enum="com.deepin.dde.display.AdjustColorTemperatureMode" name="color-temperature-mode">
+			<default>'normal'</default>
+			<summary>method of adjust color temperature according to current time and location</summary>
+		</key>
+		<key type="i" name="color-temperature-manual">
+			<default>6500</default>
+			<range min="1000" max="25000"/>
+			<summary>current color temperature when manual adjustment</summary>
+		</key>
     </schema>
 </schemalist>
