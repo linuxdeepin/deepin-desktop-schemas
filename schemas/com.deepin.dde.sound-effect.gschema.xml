@@ -33,7 +33,7 @@
             <description></description>
         </key>
         <key name="desktop-login" type="b">
-            <default>true</default>
+            <default>false</default>
             <summary>DE login</summary>
             <description></description>
         </key>
