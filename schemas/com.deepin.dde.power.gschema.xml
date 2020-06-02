@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
+	<enum id="com.deepin.dde.power.PowerPressAction">
+		<value value="0" nick="shutdown" />
+		<value value="1" nick="suspend" />
+		<value value="2" nick="hibernate" />
+		<value value="3" nick="turnOffScreen" />
+		<value value="4" nick="showSessionUI" />
+	</enum>
+	<enum id="com.deepin.dde.power.LidCloseAction">
+		<value value="0" nick="shutdown" />
+		<value value="1" nick="suspend" />
+		<value value="2" nick="hibernate" />
+		<value value="3" nick="turnOffScreen" />
+		<value value="4" nick="doNothing" />
+	</enum>
 	<schema path="/com/deepin/dde/power/" id="com.deepin.dde.power">
 		<key type="i" name="line-power-screensaver-delay">
 			<default>0</default>
@@ -153,6 +167,30 @@
 			<default>300</default>
 			<summary>5 mins</summary>
 			<description/>
+		</key>
+		<key enum="com.deepin.dde.power.LidCloseAction" name="line-power-lid-closed-action">
+			<default>'suspend'</default>
+			<summary>system action when laptop close lid with linePower</summary>
+		</key>
+		<key enum="com.deepin.dde.power.PowerPressAction" name="line-power-press-power-button">
+			<default>'shutdown'</default>
+			<summary>system action when pc press power button with linePower</summary>
+		</key>
+		<key enum="com.deepin.dde.power.LidCloseAction" name="battery-lid-closed-action">
+			<default>'suspend'</default>
+			<summary>system action when laptop close lid with battery</summary>
+		</key>
+		<key enum="com.deepin.dde.power.PowerPressAction" name="battery-press-power-button">
+			<default>'shutdown'</default>
+			<summary>system action when pc press power button with battery</summary>
+		</key>
+		<key type="b" name="low-power-notify-enable">
+			<default>false</default>
+			<summary>enable system notify when low power</summary>
+		</key>
+		<key type="i" name="brightness-drop-percent">
+			<default>20</default>
+			<summary>saving mode lower brightness</summary>
 		</key>
 	</schema>
 </schemalist>
