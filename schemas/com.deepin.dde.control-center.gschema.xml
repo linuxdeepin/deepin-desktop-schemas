@@ -38,11 +38,11 @@
 		</key>
         <key name="show-multiscreen" type="b">
 			<default>true</default>
-			<summary>auto-exit</summary>
+			<summary>The multiscreen setting show or not</summary>
 		</key>
         <key name="show-suspend" type="b">
 			<default>true</default>
-			<summary>auto-exit</summary>
+			<summary>The suspend options show or not</summary>
 		</key>
 	</schema>
 </schemalist>
