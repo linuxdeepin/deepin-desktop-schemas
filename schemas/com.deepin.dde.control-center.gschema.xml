@@ -33,11 +33,11 @@
 			<summary>auto-exit</summary>
 		</key>
         <key name="show-createuser" type="b">
-			<default>false</default>
+			<default>true</default>
 			<summary>The create user module show or not</summary>
 		</key>
         <key name="show-multiscreen" type="b">
-			<default>false</default>
+			<default>true</default>
 			<summary>auto-exit</summary>
 		</key>
         <key name="show-suspend" type="b">
