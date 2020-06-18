@@ -44,5 +44,9 @@
 			<default>true</default>
 			<summary>The suspend options show or not</summary>
 		</key>
+	<key name="effect-load" type="b">
+			<default>false</default>
+			<summary>Magiclamp is loaded or not</summary>
+		</key>
 	</schema>
 </schemalist>
