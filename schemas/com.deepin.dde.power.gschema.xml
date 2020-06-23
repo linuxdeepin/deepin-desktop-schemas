@@ -185,7 +185,7 @@
 			<summary>system action when pc press power button with battery</summary>
 		</key>
 		<key type="b" name="low-power-notify-enable">
-			<default>false</default>
+			<default>true</default>
 			<summary>enable system notify when low power</summary>
 		</key>
 		<key type="i" name="brightness-drop-percent">
