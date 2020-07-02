@@ -192,5 +192,9 @@
 			<default>20</default>
 			<summary>saving mode lower brightness</summary>
 		</key>
+		<key type="b" name="power-saving-mode-enabled">
+			<default>false</default>
+			<summary>power saving mode enabled</summary>
+		</key>
 	</schema>
 </schemalist>
