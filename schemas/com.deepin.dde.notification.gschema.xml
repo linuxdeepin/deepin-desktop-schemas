@@ -5,5 +5,9 @@
 	    <default>false</default>
 	    <summary>Auto Exit</summary>
 	</key>
+    <key type="s" name="notifycations-settings">
+	    <default>''</default>
+	    <summary>Notification Settings</summary>
+	</key>
     </schema>
 </schemalist>
