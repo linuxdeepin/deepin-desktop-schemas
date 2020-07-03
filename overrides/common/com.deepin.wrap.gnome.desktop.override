@@ -13,10 +13,10 @@ audible-bell=false
 mouse-button-modifier=''
 
 [com.deepin.wrap.gnome.desktop.interface]
-cursor-theme='deepin'
+cursor-theme='bloom'
 gtk-key-theme='Default'
 gtk-theme='deepin'
-icon-theme='deepin'
+icon-theme='bloom'
 gtk-im-module='fcitx'
 
 [com.deepin.wrap.gnome.desktop.wm.keybindings]

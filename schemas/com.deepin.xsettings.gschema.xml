@@ -35,7 +35,7 @@
       </description>
     </key>
     <key type="s" name="gtk-cursor-theme-name">
-      <default>'deepin'</default>
+      <default>'bloom'</default>
       <summary>Cursor theme</summary>
       <description>
         Cursor theme name. Used only by Xservers that support the Xcursor extension.
