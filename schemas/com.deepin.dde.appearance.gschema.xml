@@ -74,5 +74,10 @@
       <summary></summary>
       <description></description>
     </key>
+    <key name="wallpaper-uris" type="s">
+      <default>''</default>
+      <summary></summary>
+      <description>wallpaper json string</description>
+    </key>
   </schema>
 </schemalist>

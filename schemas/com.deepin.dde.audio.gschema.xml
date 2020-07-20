@@ -45,5 +45,9 @@
 	    <default>true</default>
 	    <summary>Whether to disable ALSA Mixer Auto-Mute Mode</summary>
 	</key>
+	<key type="b" name="reduce-input-noise">
+	    <default>false</default>
+	    <summary>Whether to reduce input noise</summary>
+	</key>
     </schema>
 </schemalist>
