@@ -2,7 +2,7 @@ Source: deepin-desktop-schemas
 Section: misc
 Priority: optional
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Build-depends: debhelper (>= 9), libglib2.0-bin, deepin-desktop-base | deepin-desktop-server, 
+Build-depends: debhelper (>= 9), libglib2.0-bin, deepin-desktop-base | deepin-desktop-server | deepin-desktop-device, 
  golang-go, golang-dlib-dev
 Standards-Version: 3.9.5
 Homepage: http://www.deepin.org/
@@ -11,7 +11,7 @@ Package: deepin-desktop-schemas
 Section: misc
 Architecture: any
 Depends: ${misc:Depends},
-         ${shlibs:Depends}, deepin-desktop-base | deepin-desktop-server
+         ${shlibs:Depends}, deepin-desktop-base | deepin-desktop-server | deepin-desktop-device
 Conflicts: deepin-default-gsettings
 Replaces: deepin-default-gsettings
 Breaks: dde-daemon (<< 2.92.2),
