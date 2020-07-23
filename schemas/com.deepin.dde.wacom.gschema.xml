@@ -34,6 +34,11 @@
             <summary>Force Proportions</summary>
             <description>Force the proportions of the drawing surface to match the aspect ratio of your screen</description>
         </key>
+        <key type="b" name="mouse-enter-remap">
+            <default>true</default>
+            <summary>Mouse Enter Remap</summary>
+            <description>Remap when mouse enter new screen</description>
+        </key>
     </schema>
 
     <schema path="/com/deepin/dde/wacom/stylus/" id="com.deepin.dde.wacom.stylus">
