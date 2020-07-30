@@ -173,7 +173,7 @@
 			<summary>system action when laptop close lid with linePower</summary>
 		</key>
 		<key enum="com.deepin.dde.power.PowerPressAction" name="line-power-press-power-button">
-			<default>'shutdown'</default>
+			<default>'showSessionUI'</default>
 			<summary>system action when pc press power button with linePower</summary>
 		</key>
 		<key enum="com.deepin.dde.power.LidCloseAction" name="battery-lid-closed-action">
@@ -181,7 +181,7 @@
 			<summary>system action when laptop close lid with battery</summary>
 		</key>
 		<key enum="com.deepin.dde.power.PowerPressAction" name="battery-press-power-button">
-			<default>'shutdown'</default>
+			<default>'showSessionUI'</default>
 			<summary>system action when pc press power button with battery</summary>
 		</key>
 		<key type="b" name="low-power-notify-enable">
