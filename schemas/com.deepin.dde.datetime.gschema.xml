@@ -46,5 +46,10 @@
         <summary>LongTime Format</summary>
         <description>Show LongTime Format</description>
     </key>
+        <key type="b" name="weekday-begins">
+            <default>true</default>
+            <summary>It starts on Monday</summary>
+            <description>Week begins</description>
+        </key>
   </schema>
 </schemalist>
