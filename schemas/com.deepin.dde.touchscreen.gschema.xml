@@ -11,6 +11,11 @@
       <summary>Touchscreen shortpress duration</summary>
       <description>Set the duration for touchscreen shortpress, the unit is ms.</description>
     </key>
+    <key type="i" name="edgemovestop-duration">
+      <default>500</default>
+      <summary>Touchscreen edge move stop duration</summary>
+      <description>Set the duration for touchscreen edge move stop time, the unit is ms.</description>
+    </key>
     <key type="as" name="longpress-blacklist">
       <default>['/opt/google/chrome/chrome']</default>
       <summary>Touchscreen longpress blacklist</summary>
