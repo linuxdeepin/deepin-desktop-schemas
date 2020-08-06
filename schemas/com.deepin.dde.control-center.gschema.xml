@@ -44,9 +44,17 @@
 			<default>true</default>
 			<summary>The suspend options show or not</summary>
 		</key>
-	<key name="effect-load" type="b">
+		<key name="effect-load" type="b">
 			<default>false</default>
 			<summary>Magiclamp is loaded or not</summary>
+		</key>
+		<key name="auto-login-visable" type="b">
+			<default>true</default>
+			<summary>Account module automatic login visable control</summary>
+		</key>
+		<key name="nopasswd-login-visable" type="b">
+			<default>true</default>
+			<summary>Account module no password login visable control</summary>
 		</key>
 	</schema>
 </schemalist>
