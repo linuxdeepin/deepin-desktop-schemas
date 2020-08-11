@@ -5,5 +5,9 @@
 	    <default>false</default>
 	    <summary>Auto Exit</summary>
 	</key>
+    <key type="b" name="bubble-debug-privacy">
+        <default>true</default>
+        <summary>debug privacy data enable control</summary>
+    </key>
     </schema>
 </schemalist>
