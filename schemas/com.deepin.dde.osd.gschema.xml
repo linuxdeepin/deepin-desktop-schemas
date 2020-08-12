@@ -9,5 +9,9 @@
         <default>true</default>
         <summary>debug privacy data enable control</summary>
     </key>
+    <key type="u" name="pindialog-time-sec">
+        <default>60</default>
+        <summary>Control pinDialog show time,Unit second</summary>
+    </key>
     </schema>
 </schemalist>
