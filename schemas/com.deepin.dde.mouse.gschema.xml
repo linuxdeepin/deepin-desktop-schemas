@@ -40,7 +40,7 @@
             <description>Acceleration multiplier for mouse motion. A value of -1 is the system default.</description>
         </key>
         <key type="i" name="double-click">
-            <default>400</default>
+            <default>500</default>
             <summary>Double click time</summary>
             <description>Length of a double click in milliseconds.</description>
         </key>
