@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
+    <enum id="com.deepin.dde.control-center.PasswordType">
+        <value value="0" nick="NormalPassWord" />
+        <value value="1" nick="IncludeBlankSymbol" />
+    </enum>
 	<schema path="/com/deepin/dde/control-center/" id="com.deepin.dde.control-center">
 		<key name="brightness-minimum" type="d">
 			<default>0.1</default>
@@ -56,5 +60,15 @@
 			<default>true</default>
 			<summary>Account module no password login visable control</summary>
 		</key>
+        <key name="account-password-type" enum="com.deepin.dde.control-center.PasswordType">
+            <default>'NormalPassWord'</default>
+            <summary></summary>
+            <summary>Account password verification control</summary>
+            <description>NormalPassWord is default IncludeBlankSymbol mean special characters add blank symbol</description>
+        </key>
+        <key name="crash-signal-enable" type="b">
+            <default>true</default>
+            <summary>crash signal enable control</summary>
+        </key>
 	</schema>
 </schemalist>
