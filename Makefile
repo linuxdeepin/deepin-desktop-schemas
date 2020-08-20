@@ -17,6 +17,9 @@ test:
 	@echo "Testing schemas with glib-compile-shemas..."
 	glib-compile-schemas --dry-run result
 
+print_gopath:
+	GOPATH="${CURDIR}/${GOPATH_DIR}:${GOPATH}"
+
 install:
 	@echo install for arch:$(ARCH)
 	mkdir -p $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas
