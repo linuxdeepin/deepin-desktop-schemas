@@ -3,8 +3,8 @@
     <schema path="/com/deepin/dde/bluetooth/" id="com.deepin.dde.bluetooth">
         <key type="b" name="display-switch">
             <default>true</default>
-            <summary>Displays Bluetooth Devices without a name</summary>
-            <description>Displays Bluetooth Devices without a name.</description>
+            <summary>Displays Bluetooth devices without a name</summary>
+            <description>Displays Bluetooth devices without a name.</description>
         </key>
     </schema>
 </schemalist>
