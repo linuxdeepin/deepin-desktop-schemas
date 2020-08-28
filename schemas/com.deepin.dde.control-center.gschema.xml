@@ -48,5 +48,9 @@
 			<default>false</default>
 			<summary>Magiclamp is loaded or not</summary>
 		</key>
+	<key name="brightness-enable" type="b">
+			<default>true</default>
+			<summary>Display module show brightness settings or not</summary>
+		</key>
 	</schema>
 </schemalist>
