@@ -62,5 +62,9 @@
             <default>true</default>
             <summary>crash signal enable control</summary>
         </key>
+		<key name="brightness-enable" type="b">
+			<default>true</default>
+			<summary>Display module show brightness settings or not</summary>
+		</key>
 	</schema>
 </schemalist>
