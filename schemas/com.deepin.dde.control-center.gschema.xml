@@ -66,5 +66,9 @@
 			<default>true</default>
 			<summary>Display module show brightness settings or not</summary>
 		</key>
+	<key name="show-hibernate" type="b">
+			<default>true</default>
+			<summary>The hibernate options show or not</summary>
+		</key>
 	</schema>
 </schemalist>
