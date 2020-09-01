@@ -60,7 +60,7 @@
         </key>
 
         <key type="i" name="battery-lock-delay">
-			<default>0</default>
+			<default>300</default>
 			<range min="0"/>
 			<summary/>
 			<description></description>
