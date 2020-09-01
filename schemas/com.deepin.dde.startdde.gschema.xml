@@ -32,5 +32,10 @@
             <summary>memory checker enabled</summary>
             <description></description>
         </key>
+        <key type="b" name="turbo-invoker-enabled">
+            <default>true</default>
+            <summary>deepin-turbo-invoker enabled</summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
