@@ -196,5 +196,9 @@
 			<default>false</default>
 			<summary>power saving mode enabled</summary>
 		</key>
+		<key type="s" name="mode">
+			<default>'balance'</default>
+			<summary>power governor mode</summary>
+		</key>
 	</schema>
 </schemalist>
