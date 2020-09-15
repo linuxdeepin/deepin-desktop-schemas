@@ -7,7 +7,7 @@
       <description>Set the duration for touchscreen longpress, the unit is ms.</description>
     </key>
     <key type="i" name="shortpress-duration">
-      <default>200</default>
+      <default>250</default>
       <summary>Touchscreen shortpress duration</summary>
       <description>Set the duration for touchscreen shortpress, the unit is ms.</description>
     </key>
