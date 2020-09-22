@@ -200,5 +200,9 @@
 			<default>'balance'</default>
 			<summary>power governor mode</summary>
 		</key>
+		<key type="s" name="save-brightness-while-psm">
+			<default>""</default>
+			<summary>brightness saved while power saving mode enabled</summary>
+		</key>
 	</schema>
 </schemalist>
