@@ -1,16 +1,23 @@
 Name:           deepin-desktop-schemas
-Version:        5.5.0.6
-Release:        1
+Version:        5.8.0.20
+Release:        1%{?dist}
 Summary:        GSettings deepin desktop-wide schemas
 License:        GPLv3
 URL:            https://github.com/linuxdeepin/deepin-desktop-schemas
+%if 0%{?fedora}
+Source0:        %{url}/archive/%{version}/%{name}-%{version}.tar.gz
+%else
 Source0:        %{name}_%{version}.orig.tar.xz
+%endif
 
 BuildArch:      noarch
-BuildRequires:  python3 golang-bin
+BuildRequires:  python3
 BuildRequires:  glib2
 #add jzy
-BuildRequires:  go-lib-devel
+BuildRequires:  compiler(go-compiler)
+BuildRequires:  golang(pkg.deepin.io/lib/keyfile)
+ExclusiveArch:  %{go_arches}
+
 Requires:       dconf
 Requires:       deepin-gtk-theme
 Requires:       deepin-icon-theme
@@ -29,7 +36,7 @@ sed -i '/picture-uri/s|default_background.jpg|default.png|' \
 sed -i 's|python|python3|' Makefile tools/overrides.py
 
 %build
-export GOPATH=/usr/share/gocode
+export GOPATH=%{gopath}
 %make_build ARCH=x86
 
 %install
@@ -42,9 +49,9 @@ make test
 %doc README.md
 %license LICENSE
 %{_datadir}/glib-2.0/schemas/*
-/usr/share/deepin-app-store/*
-/usr/share/deepin-desktop-schemas/*
-/usr/share/deepin-appstore/*
+%{_datadir}/deepin-appstore/
+%{_datadir}/deepin-app-store/
+%{_datadir}/%{name}/
 
 
 %changelog
