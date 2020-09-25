@@ -34,6 +34,7 @@ export GOPATH=/usr/share/gocode
 
 %install
 %make_install PREFIX=%{_prefix}
+cp %{buildroot}/usr/share/deepin-desktop-schemas/server-override %{buildroot}/usr/share/glib-2.0/schemas/91_deepin_product.gschema.override
 
 %check
 make test
