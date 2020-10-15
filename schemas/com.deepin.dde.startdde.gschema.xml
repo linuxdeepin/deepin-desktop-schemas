@@ -37,5 +37,10 @@
             <summary>deepin-turbo-invoker enabled</summary>
             <description></description>
         </key>
+        <key type="b" name="quick-black-screen">
+            <default>false</default>
+            <summary>whether set DPMS after suspend and hibernate</summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
