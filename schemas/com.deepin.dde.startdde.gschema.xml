@@ -33,7 +33,7 @@
             <description></description>
         </key>
         <key type="b" name="turbo-invoker-enabled">
-            <default>true</default>
+            <default>false</default>
             <summary>deepin-turbo-invoker enabled</summary>
             <description></description>
         </key>
