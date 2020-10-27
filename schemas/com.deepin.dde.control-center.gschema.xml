@@ -24,37 +24,41 @@
 			<default>[]</default>
 			<summary>The module to display</summary>
 		</key>
-        <key name="show-autologin" type="b">
+        	<key name="show-autologin" type="b">
 			<default>true</default>
 			<summary>auto-exit</summary>
 		</key>
-        <key name="show-update" type="b">
+        	<key name="show-update" type="b">
 			<default>true</default>
 			<summary>auto-exit</summary>
 		</key>
-        <key name="show-createuser" type="b">
+        	<key name="show-createuser" type="b">
 			<default>true</default>
 			<summary>The create user module show or not</summary>
 		</key>
-        <key name="show-multiscreen" type="b">
+        	<key name="show-multiscreen" type="b">
 			<default>true</default>
 			<summary>The multiscreen setting show or not</summary>
 		</key>
-        <key name="show-suspend" type="b">
+        	<key name="show-suspend" type="b">
 			<default>true</default>
 			<summary>The suspend options show or not</summary>
 		</key>
-	<key name="effect-load" type="b">
+		<key name="effect-load" type="b">
 			<default>false</default>
 			<summary>Magiclamp is loaded or not</summary>
 		</key>
-	<key name="brightness-enable" type="b">
+		<key name="brightness-enable" type="b">
 			<default>true</default>
 			<summary>Display module show brightness settings or not</summary>
 		</key>
-	<key name="show-hibernate" type="b">
+		<key name="show-hibernate" type="b">
 			<default>true</default>
 			<summary>The hibernate options show or not</summary>
+		</key>
+		<key name="only-intscale" type="b">
+			<default>false</default>
+			<summary>Scale screen only integer multiple or not</summary>
 		</key>
 	</schema>
 </schemalist>
