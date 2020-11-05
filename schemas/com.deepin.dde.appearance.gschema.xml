@@ -79,9 +79,5 @@
       <summary></summary>
       <description>wallpaper json string</description>
     </key>
-    <key name="dtk-window-radius" type="i">
-      <default>18</default>
-      <summary>The window radius last time</summary>
-    </key>
   </schema>
 </schemalist>
