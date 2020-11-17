@@ -58,5 +58,11 @@
 			<description></description>
 		</key>
 
+		<key name="search-package-name" type='b'>
+			<default>false</default>
+			<summary>enable search package name</summary>
+			<description></description>
+		</key>
+
 	</schema>
 </schemalist>
