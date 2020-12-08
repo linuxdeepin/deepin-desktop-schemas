@@ -402,5 +402,9 @@
         <summary></summary>
         <description></description>
     </key>
+    <key type="i" name="dtk-window-radius">
+      <default>18</default>
+      <summary>The window radius last time</summary>
+    </key>
   </schema>
 </schemalist>

@@ -20,7 +20,7 @@
 			<default>0.5</default>
 		</key>
 		<key name='apps-hold-list' type='as'>
-			<default>['dde-control-center','dde-computer','dde-trash','dde-file-manager','deepin-appstore','deepin-app-store','deepin-toggle-desktop','deepin-wm-multitaskingview','dde-calendar','deepin-manual','deepin-terminal','deepin-defender','kwin-wm-multitaskingview']</default>
+			<default>['dde-file-manager','deepin-appstore','deepin-app-store','deepin-terminal','deepin-manual','dde-computer','dde-trash','deepin-defender','dde-control-center','fcitx-config-gtk3','fcitx-configtool','deepin-system-monitor','deepin-devicemanager','dde-printer','dde-calendar','uos-service-support','deepin-toggle-desktop','deepin-wm-multitaskingview','kwin-wm-multitaskingview']</default>
 			<summary>apps not allowed to uninstall</summary>
 			<description>apps not allowed to uninstall</description>
 		</key>
@@ -55,6 +55,12 @@
 		<key name="apps-hidden" type='as'>
 			<default>[]</default>
 			<summary>apps hidden</summary>
+			<description></description>
+		</key>
+
+		<key name="search-package-name" type='b'>
+			<default>false</default>
+			<summary>enable search package name</summary>
 			<description></description>
 		</key>
 

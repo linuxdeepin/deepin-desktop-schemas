@@ -307,6 +307,14 @@
             <summary/>
             <description/>
         </key>
+        <key type="as" name="away">
+            <default>['XF86Away']</default>
+            <summary>Lock user</summary>
+            <description></description>
+            <summary/>
+            <description/>
+        </key>
+
         <key type="as" name="messenger">
             <default>['XF86Messenger']</default>
             <summary>as in instant messaging</summary>
