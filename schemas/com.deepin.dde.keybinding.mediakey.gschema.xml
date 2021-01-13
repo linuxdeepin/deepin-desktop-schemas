@@ -370,6 +370,11 @@
             <summary>Mute the Mic from the system</summary>
             <description/>
         </key>
+        <key type="as" name="ariplane-mode-toggle">
+            <default>['XF86RFKill']</default>
+            <summary/>
+            <description/>
+        </key>
         <!-- ignore XF86Switch_VT_1-->
         <!-- ignore XF86Switch_VT_2-->
         <!-- ignore XF86Switch_VT_3-->
