@@ -23,15 +23,15 @@ print_gopath:
 install:
 	@echo install for arch:$(ARCH)
 	mkdir -p $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas
-	cp -v result/*.xml result/*.override $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas/
+	install -v -m0644 result/*.xml result/*.override $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas/
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-desktop-schemas
-	cp -v result/*-override $(DESTDIR)$(PREFIX)/share/deepin-desktop-schemas
+	install -v -m0644 result/*-override $(DESTDIR)$(PREFIX)/share/deepin-desktop-schemas
 
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-appstore/
-	cp deepin-appstore/$(ARCH)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-appstore/
+	install -v -m0644 deepin-appstore/$(ARCH)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-appstore/
 
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-app-store/
-	cp deepin-app-store/$(ARCH)/*.ini $(DESTDIR)$(PREFIX)/share/deepin-app-store/
+	install -v -m0644 deepin-app-store/$(ARCH)/*.ini $(DESTDIR)$(PREFIX)/share/deepin-app-store/
 
 clean:
 	-rm -rf bin
