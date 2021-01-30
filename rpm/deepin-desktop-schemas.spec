@@ -1,5 +1,5 @@
 Name:           deepin-desktop-schemas
-Version:        5.8.0.31
+Version:        5.9.5
 Release:        1%{?dist}
 Summary:        GSettings deepin desktop-wide schemas
 License:        GPLv3
@@ -16,6 +16,7 @@ BuildRequires:  glib2
 #add jzy
 BuildRequires:  compiler(go-compiler)
 BuildRequires:  golang(pkg.deepin.io/lib/keyfile)
+BuildRequires:  make
 ExclusiveArch:  %{go_arches}
 
 Requires:       dconf
