@@ -8,6 +8,6 @@
     <key type="s" name="notifycations-settings">
 	    <default>''</default>
 	    <summary>Notification Settings</summary>
-	</key>
+    </key>
     </schema>
 </schemalist>
