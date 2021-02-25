@@ -120,6 +120,12 @@
 			<summary/>
 			<description/>
 		</key>
+		<key type="i" name="low-power-notify-threshold">
+			<range min="0" max="100"/>
+			<default>20</default>
+			<summary/>
+			<description/>
+		</key>
 		<key type="i" name="percentage-low">
 			<range min="0" max="100"/>
 			<default>20</default>
