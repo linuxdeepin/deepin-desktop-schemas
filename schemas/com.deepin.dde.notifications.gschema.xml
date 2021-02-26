@@ -36,5 +36,9 @@
             <summary></summary>
             <description></description>
         </key>
+        <key type="b" name="notifycation-closed">
+            <default>false</default>
+            <summary>Close all notifycation, include system notifycation</summary>
+        </key>
     </schema>
 </schemalist>
