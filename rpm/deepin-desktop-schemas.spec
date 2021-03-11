@@ -4,7 +4,7 @@
 %endif
 
 Name:           deepin-desktop-schemas
-Version:        5.9.5
+Version:        5.9.6
 Release:        %{specrelease}
 Summary:        GSettings deepin desktop-wide schemas
 License:        GPLv3
@@ -97,5 +97,5 @@ esac
 %{_datadir}/deepin-appstore/*
 
 %changelog
-* Thu Mar 11 2021 uniontech <uoser@uniontech.com> - 5.9.5-1
-- Update to 5.9.5
+* Thu Mar 11 2021 uniontech <uoser@uniontech.com> - 5.9.6-1
+- Update to 5.9.6
