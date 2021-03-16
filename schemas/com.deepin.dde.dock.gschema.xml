@@ -25,7 +25,7 @@
             <description>The value will influence when the dock is shown or hidden.</description>
         </key>
         <key type="as" name="docked-apps">
-            <default>['dde-file-manager','uos-browser','deepin-appstore','deepin-app-store','deepin-album','deepin-music','deepin-contacts','dde-calendar', 'dde-control-center']</default>
+            <default>['dde-file-manager','uos-browser','deepin-appstore','deepin-app-store','com.deepin.store.intranet','deepin-album','deepin-music','deepin-contacts','dde-calendar', 'dde-control-center']</default>
             <summary>The default apps on dock.</summary>
             <description>The default apps which is docked when dock is started.</description>
         </key>
