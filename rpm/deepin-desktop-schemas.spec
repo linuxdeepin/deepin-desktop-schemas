@@ -4,7 +4,7 @@
 %endif
 
 Name:           deepin-desktop-schemas
-Version:        5.9.6
+Version:        5.9.7
 Release:        %{specrelease}
 Summary:        GSettings deepin desktop-wide schemas
 License:        GPLv3
@@ -20,6 +20,8 @@ BuildRequires:  golang
 BuildRequires:  glib2
 BuildRequires:  gocode
 BuildRequires:  deepin-desktop-base
+BuildRequires:  go-lib-devel
+
 
 Requires:  deepin-desktop-base
 
@@ -97,5 +99,5 @@ esac
 %{_datadir}/deepin-appstore/*
 
 %changelog
-* Thu Mar 11 2021 uniontech <uoser@uniontech.com> - 5.9.6-1
-- Update to 5.9.6
+* Thu Mar 11 2021 uniontech <uoser@uniontech.com> - 5.9.7-1
+- Update to 5.9.7
