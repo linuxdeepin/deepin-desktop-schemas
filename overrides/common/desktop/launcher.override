@@ -4,3 +4,6 @@ apps-order=['org.deepin.browser', 'dde-file-manager', 'deepin-app-store', 'deepi
 
 apps-order-zh-cn=@ref:KEY=apps-order
 apps-order-zh-tw=@ref:KEY=apps-order
+
+[com.deepin.dde.launcher.menu]
+use-proxy=true
