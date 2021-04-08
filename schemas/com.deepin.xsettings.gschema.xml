@@ -360,7 +360,7 @@
     </key>
     <key type="d" name="scale-factor">
       <range min="0" max="10" />
-      <default>1</default>
+      <default>1.5</default>
       <summary>Text Scale Factor</summary>
       <description>
         Text scale for Gdk.
