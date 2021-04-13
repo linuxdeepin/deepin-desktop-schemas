@@ -3,7 +3,7 @@ include /usr/share/dpkg/default.mk
 
 export GOPATH = /usr/share/gocode
 
-SYSTYPE = Desktop
+SYSTYPE = $(shell cat /usr/lib/deepin/desktop-version | grep Type= | awk -F'=' '{print $$2}')
 ARCH = x86
 ifeq ($(DEB_BUILD_ARCH), amd64)
 	ARCH = x86
@@ -26,6 +26,20 @@ ifeq ($(DEB_BUILD_ARCH), arm64)
 endif
 export ARCH
 
+ifeq ($(SYSTYPE), Professional)
+override_dh_gencontrol:
+	dh_gencontrol -- -Vdist:Depends="deepin-desktop-base"
+endif
+
+ifeq ($(SYSTYPE), Server)
+override_dh_gencontrol:
+	dh_gencontrol -- -Vdist:Depends="deepin-desktop-server"
+endif
+
+ifeq ($(SYSTYPE), Device)
+override_dh_gencontrol:
+	dh_gencontrol -- -Vdist:Depends="deepin-desktop-device"
+endif
 %: 
 	dh $@
 

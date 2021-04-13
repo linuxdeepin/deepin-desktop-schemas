@@ -11,7 +11,8 @@ Package: deepin-desktop-schemas
 Section: misc
 Architecture: any
 Depends: ${misc:Depends},
-         ${shlibs:Depends}, deepin-desktop-base | deepin-desktop-server | deepin-desktop-device
+         ${shlibs:Depends}, 
+         ${dist:Depends}
 Conflicts: deepin-default-gsettings
 Replaces: deepin-default-gsettings
 Breaks: dde-daemon (<< 2.92.2),
