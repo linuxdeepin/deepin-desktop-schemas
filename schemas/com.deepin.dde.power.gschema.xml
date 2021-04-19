@@ -40,7 +40,7 @@
 			<description></description>
 		</key>
 		<key type="i" name="line-power-screen-black-delay">
-			<default>900</default>
+			<default>10</default>
 			<range min="0"/>
 			<summary/>
 			<description></description>
