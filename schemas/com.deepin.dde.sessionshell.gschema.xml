@@ -34,5 +34,12 @@
         2: disabled show switch user button
       </description>
     </key>
+    <key name='islockvisbile' type='b'>
+      <default>true</default>
+      <summary>islockvisbile</summary>
+      <description>
+        If true, the lock is visible.
+      </description>
+    </key>
   </schema>
 </schemalist>
