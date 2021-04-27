@@ -90,5 +90,15 @@
             <summary></summary>
             <description></description>
         </key>
+
+        <key type="b" name="islockvisbile">
+            <default>true</default>
+            <summary>islockvisbile</summary>
+        </key>
+
+        <key type="b" name="plugin-in">
+			<default>true</default>
+			<summary>plugin-in</summary>
+		</key>
     </schema>
 </schemalist>

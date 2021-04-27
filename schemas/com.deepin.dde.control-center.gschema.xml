@@ -70,9 +70,13 @@
 			<default>'{\"mainwindow\":{\"voice\":{\"enable\":true,\"index\":\"keyboard\",\"maxmenu\":3}}}'</default>
 			<summary>plugin settings about position</summary>
 		</key>
-	<key name="show-hibernate" type="b">
+		<key name="show-hibernate" type="b">
 			<default>true</default>
 			<summary>The hibernate options show or not</summary>
+		</key>
+		<key name="plugin-in" type="b">
+			<default>true</default>
+			<summary>Display plugin-in or not</summary>
 		</key>
 	</schema>
 </schemalist>
