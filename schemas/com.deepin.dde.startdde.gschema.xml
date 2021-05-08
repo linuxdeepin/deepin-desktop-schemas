@@ -42,5 +42,10 @@
             <summary>whether set DPMS after suspend and hibernate</summary>
             <description></description>
         </key>
+        <key type="i" name="battery-warn-level">
+            <default>0</default>
+            <summary>battery level</summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
