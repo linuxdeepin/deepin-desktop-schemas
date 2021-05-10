@@ -42,7 +42,7 @@
 	    <description>If headphone unplug and available, try pause all playing media.</description>
 	</key>
 	<key type="b" name="disable-auto-mute">
-	    <default>true</default>
+	    <default>false</default>
 	    <summary>Whether to disable ALSA Mixer Auto-Mute Mode</summary>
 	</key>
 	<key type="b" name="reduce-input-noise">
