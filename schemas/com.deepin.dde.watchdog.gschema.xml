@@ -2,12 +2,12 @@
 <schemalist>
     <schema path="/com/deepin/dde/watchdog/" id="com.deepin.dde.watchdog">
         <key type="b"  name="dde-dock">
-            <default>true</default>
+            <default>false</default>
             <summary></summary>
             <description></description>
         </key>
         <key type="b"  name="dde-desktop">
-            <default>true</default>
+            <default>false</default>
             <summary></summary>
             <description></description>
         </key>
@@ -27,6 +27,16 @@
             <description></description>
         </key>
         <key type="b"  name="deepinid-daemon">
+            <default>true</default>
+            <summary></summary>
+            <description></description>
+        </key>
+        <key type="b"  name="due-shell">
+            <default>true</default>
+            <summary></summary>
+            <description></description>
+        </key>
+        <key type="b"  name="due-launcher">
             <default>true</default>
             <summary></summary>
             <description></description>
