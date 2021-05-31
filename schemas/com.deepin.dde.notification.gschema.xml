@@ -5,7 +5,11 @@
 	    <default>false</default>
 	    <summary>Auto Exit</summary>
 	</key>
-    <key type="s" name="notifycations-settings">
+	<key type="b" name="notification-closed">
+	    <default>true</default>
+	    <summary>Disable All Notifications</summary>
+	</key>
+	<key type="s" name="notifycations-settings">
 	    <default>''</default>
 	    <summary>Notification Settings</summary>
 	</key>
