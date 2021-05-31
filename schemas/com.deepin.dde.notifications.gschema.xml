@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
     <schema path="/com/deepin/dde/notifications/" id="com.deepin.dde.notifications" gettext-domain="DDE">
+        <key type="b" name="notification-closed">
+            <default>true</default>
+            <summary>Disable All Notifications</summary>
+        </key>
         <key type="b" name="dndmode">
             <default>false</default>
             <summary></summary>
