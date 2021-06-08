@@ -53,9 +53,15 @@
 		</key>
 
 		<key name="apps-hidden" type='as'>
-			<default>[]</default>
+			<default>['dde-computer','dde-trash']</default>
 			<summary>apps hidden</summary>
 			<description></description>
+		</key>
+
+		<key name="apps-hidden-fixed" type='as'>
+			<default>['computerbtn','videobtn','musicbtn','picturebtn','documentbtn','downloadbtn']</default>
+			<summary>Resident application hiding</summary>
+			<description>['computerbtn','videobtn','musicbtn','picturebtn','documentbtn','downloadbtn','powerbtn','settingsbtn']</description>
 		</key>
 
 		<key name="search-package-name" type='b'>
