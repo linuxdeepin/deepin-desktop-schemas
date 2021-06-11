@@ -204,5 +204,9 @@
 			<default>""</default>
 			<summary>brightness saved while power saving mode enabled</summary>
 		</key>
+		<key type="b" name="light-sensor-enabled">
+			<default>false</default>
+			<summary>light sensor enabled</summary>
+		</key>
 	</schema>
 </schemalist>
