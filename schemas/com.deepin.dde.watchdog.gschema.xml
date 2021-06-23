@@ -7,7 +7,7 @@
             <description></description>
         </key>
         <key type="b"  name="dde-desktop">
-            <default>false</default>
+            <default>true</default>
             <summary></summary>
             <description></description>
         </key>
