@@ -204,5 +204,10 @@
 			<default>""</default>
 			<summary>brightness saved while power saving mode enabled</summary>
 		</key>
+		<key type="b"  name="wakeupscreen">
+		<default>false</default>
+			<summary></summary>
+			<description></description>
+		</key>
 	</schema>
 </schemalist>
