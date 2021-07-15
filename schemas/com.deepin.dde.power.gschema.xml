@@ -39,6 +39,12 @@
 			<summary/>
 			<description></description>
 		</key>
+		<key type="i" name="battery-hibernate-delay">
+			<default>600</default>
+			<range min="0"/>
+			<summary/>
+			<description></description>
+		</key>
 		<key type="i" name="line-power-screen-black-delay">
 			<default>900</default>
 			<range min="0"/>
@@ -51,7 +57,13 @@
 			<summary/>
 			<description></description>
 		</key>
-
+		
+		<key type="i" name="line-power-hibernate-delay">
+			<default>600</default>
+			<range min="0"/>
+			<summary/>
+			<description></description>
+		</key>
         <key type="i" name="line-power-lock-delay">
 			<default>900</default>
 			<range min="0"/>
