@@ -209,5 +209,10 @@
 			<summary></summary>
 			<description></description>
 		</key>
+		<key type="b"  name="low-power-ui-show">
+		<default>false</default>
+			<summary></summary>
+			<description></description>
+		</key>
 	</schema>
 </schemalist>
