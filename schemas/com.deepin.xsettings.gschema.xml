@@ -398,7 +398,7 @@
     </key>
     <key type="d" name="qt-font-point-size">
         <range min="0" max="30" />
-        <default>9.0</default>
+        <default>10.5</default>
         <summary></summary>
         <description></description>
     </key>
