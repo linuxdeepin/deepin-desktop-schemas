@@ -106,5 +106,10 @@
 			<summary>open notification center</summary>
 			<description/>
 		</key>
+		<key type="as" name="global-search">
+			<default><![CDATA[['<Shift>space']]]></default>
+			<summary>filemanager global search</summary>
+			<description></description>
+		</key>
 	</schema>
 </schemalist>
