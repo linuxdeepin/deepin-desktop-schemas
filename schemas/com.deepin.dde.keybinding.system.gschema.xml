@@ -114,6 +114,10 @@
 		<key type="as" name="screenshot-scroll">
 			<default><![CDATA[['<Control><Alt>L']]]></default>
 			<summary>Take a screenshot the scroll screen</summary>
+		</key>
+		<key type="as" name="global-search">
+			<default><![CDATA[['<Shift>space']]]></default>
+			<summary>filemanager global search</summary>
 			<description></description>
 		</key>
 	</schema>
