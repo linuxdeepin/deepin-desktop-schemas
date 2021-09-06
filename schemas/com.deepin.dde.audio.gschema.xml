@@ -49,5 +49,10 @@
 	    <default>false</default>
 	    <summary>Whether to reduce input noise</summary>
 	</key>
+	<key type="i" name="output-auto-switch-count-max">
+			<default>50</default>
+			<summary>Output auto switch count max</summary>
+			<description>The output auto swich count max</description>
+	</key>
     </schema>
 </schemalist>
