@@ -24,6 +24,11 @@
             <summary>the hide mode</summary>
             <description>The value will influence when the dock is shown or hidden.</description>
         </key>
+        <key type="b" name="mouse-activation-hide">
+            <default>false</default>
+            <summary>Mouse activation window</summary>
+            <description>In intelligent mode, the mouse makes the window display.</description>
+        </key>
         <key type="as" name="docked-apps">
             <default>['dde-file-manager','uos-browser','deepin-appstore','deepin-app-store','deepin-album','deepin-music','deepin-contacts','dde-calendar', 'dde-control-center']</default>
             <summary>The default apps on dock.</summary>
