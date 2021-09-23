@@ -2,7 +2,7 @@
 fullscreen=false
 apps-order=['uos-browser', 'dde-file-manager', 'deepin-app-store', 'deepin-music', 'deepin-movie', 'deepin-screen-recorder', 'deepin-image-viewer', 'deepin-album', 'deepin-draw', 'deepin-reader', 'deepin-editor', 'deepin-mail', 'deepin-terminal', 'deepin-contacts', 'deepin-voice-note', 'deepin-manual', 'org.deepin.scanner', 'dde-computer', 'dde-trash', 'dde-control-center', 'deepin-defender', 'fcitx-config-gtk3', 'chineseime-setting-wizard', 'deepin-system-monitor', 'deepin-boot-maker', 'deepin-devicemanager', 'deepin-log-viewer', 'dde-printer', 'dde-calendar', 'deepin-calculator', 'deepin-font-manager', 'deepin-compressor', 'deepin-deb-installer', 'deepin-diskmanager', 'dde-introduction', 'deepin-feedback', 'deepin-camera', 'wps-office-prometheus', 'wps-office-wps', 'wps-office-wpp', 'wps-office-et', 'wps-office-pdf']
 
-apps-hold-list=['dde-printer','dde-control-center','dde-computer', 'dde-trash', 'dde-file-manager', 'deepin-app-store', 'deepin-toggle-desktop', 'deepin-wm-multitaskingview', 'dde-calendar', 'deepin-manual', 'deepin-terminal', 'deepin-defender', 'kwin-wm-multitaskingview']
+apps-hold-list=['dde-printer','dde-control-center','dde-computer', 'dde-trash', 'dde-file-manager', 'deepin-app-store', 'deepin-toggle-desktop', 'deepin-wm-multitaskingview', 'dde-calendar', 'deepin-manual', 'deepin-terminal', 'deepin-defender', 'kwin-wm-multitaskingview', 'dde-advanced-control']
 
 
 apps-order-zh-cn=@ref:KEY=apps-order
