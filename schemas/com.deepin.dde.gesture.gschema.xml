@@ -4,7 +4,17 @@
     <key type="b"  name="enabled">
       <default>true</default>
       <summary>Enable touchpad gesture</summary>
+      <description>Whether enable touchpad gesture(Deprecated)</description>
+    </key>
+    <key type="b"  name="touch-pad-enabled">
+      <default>true</default>
+      <summary>Enable touchpad gesture</summary>
       <description>Whether enable touchpad gesture</description>
+    </key>
+    <key type="b"  name="touch-screen-enabled">
+      <default>true</default>
+      <summary>Enable touchscreen gesture</summary>
+      <description>Whether enable touchscreen gesture</description>
     </key>
     </schema>
 </schemalist>
