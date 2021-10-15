@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
     <schema path="/com/deepin/dde/gesture/" id="com.deepin.dde.gesture">
+    <key type="b"  name="enabled">
+      <default>true</default>
+      <summary>Enable touchpad gesture</summary>
+      <description>Whether enable touchpad gesture(Deprecated)</description>
+    </key>
     <key type="b"  name="touch-pad-enabled">
       <default>true</default>
       <summary>Enable touchpad gesture</summary>
