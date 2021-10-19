@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 include /usr/share/dpkg/default.mk
 
+export GOCACHE := /tmp/gocache
 export GOPATH = /usr/share/gocode
 
 SYSTYPE = $(shell cat /usr/lib/deepin/desktop-version | grep Type= | awk -F'=' '{print $$2}')
