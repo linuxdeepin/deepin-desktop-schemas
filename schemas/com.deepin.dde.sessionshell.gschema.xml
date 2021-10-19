@@ -17,6 +17,14 @@
         If disabled, suspend operation does not show.
       </description>
     </key>
+    <key name='lock' type='b'>
+      <default>false</default>
+      <summary>lock</summary>
+      <description>
+        If enabled, lock operation display
+        If disabled, lock operation does not show.
+      </description>
+    </key>
     <key name='hibernate' type='b'>
       <default>true</default>
       <summary>hibernate</summary>
