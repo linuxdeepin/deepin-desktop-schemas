@@ -8,7 +8,7 @@
 
     <schema path="/com/deepin/dde/sound-effect/" id="com.deepin.dde.sound-effect" gettext-domain="DDE">
         <key name="enabled" type="b">
-            <default>true</default>
+            <default>false</default>
             <summary>sound effect main switch</summary>
             <description></description>
         </key>

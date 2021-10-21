@@ -28,39 +28,39 @@
 			<description></description>
 		</key>
 		<key type="i" name="battery-screen-black-delay">
-			<default>300</default>
+			<default>0</default>
 			<range min="0"/>
 			<summary/>
 			<description></description>
 		</key>
 		<key type="i" name="battery-sleep-delay">
-			<default>900</default>
+			<default>0</default>
 			<range min="0"/>
 			<summary/>
 			<description></description>
 		</key>
 		<key type="i" name="line-power-screen-black-delay">
-			<default>900</default>
+			<default>0</default>
 			<range min="0"/>
 			<summary/>
 			<description></description>
 		</key>
 		<key type="i" name="line-power-sleep-delay">
-			<default>1800</default>
+			<default>0</default>
 			<range min="0"/>
 			<summary/>
 			<description></description>
 		</key>
 
         <key type="i" name="line-power-lock-delay">
-			<default>900</default>
+			<default>0</default>
 			<range min="0"/>
 			<summary/>
 			<description></description>
         </key>
 
         <key type="i" name="battery-lock-delay">
-			<default>300</default>
+			<default>0</default>
 			<range min="0"/>
 			<summary/>
 			<description></description>
