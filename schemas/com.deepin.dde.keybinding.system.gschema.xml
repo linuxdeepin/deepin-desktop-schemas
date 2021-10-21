@@ -106,5 +106,15 @@
 			<summary>open notification center</summary>
 			<description/>
 		</key>
+		<key type="as" name="screenshot-ocr">
+			<default><![CDATA[['<Control><Alt>C']]]></default>
+			<summary>Take a screenshot for ocr</summary>
+			<description></description>
+		</key>
+		<key type="as" name="screenshot-scroll">
+			<default><![CDATA[['<Control><Alt>L']]]></default>
+			<summary>Take a screenshot the scroll screen</summary>
+			<description></description>
+		</key>
 	</schema>
 </schemalist>
