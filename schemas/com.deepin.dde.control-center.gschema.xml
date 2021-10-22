@@ -32,6 +32,10 @@
 			<default>false</default>
 			<summary>The create user module show or not</summary>
 		</key>
+		<key name="developer-mode" type="b">
+			<default>false</default>
+			<summary>The developer mode show or not</summary>
+		</key>
         <key name="show-multiscreen" type="b">
 			<default>true</default>
 			<summary>The multiscreen setting show or not</summary>
