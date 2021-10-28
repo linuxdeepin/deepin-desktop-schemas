@@ -22,7 +22,7 @@
 			<description></description>
 		</key>
 		<key type="as" name="lock-screen">
-			<default><![CDATA[['<Super>L']]]></default>
+			<default><![CDATA[['<Control><Alt>L']]]></default>
 			<summary>Lock screen</summary>
 			<description></description>
 		</key>
