@@ -28,6 +28,10 @@
 			<default>[]</default>
 			<summary>The module to display</summary>
 		</key>
+		<key name="hide-keybinding" type="as">
+			<default>['file-manager', 'clipboard', 'ai-assistant', 'text-to-speech', 'speech-to-text', 'translation', 'screenshot', 'screenshot-delayed', 'screenshot-fullscreen', 'screenshot-window']</default>
+			<summary>Hide keybinding by id</summary>
+		</key>
         <key name="show-createuser" type="b">
 			<default>true</default>
 			<summary>The create user module show or not</summary>
