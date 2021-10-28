@@ -4,6 +4,11 @@
         <value value="0" nick="NormalPassWord" />
         <value value="1" nick="IncludeBlankSymbol" />
     </enum>
+    <enum id="com.deepin.dde.control-center.StatusMode">
+        <value value="0" nick="Enabled" />
+        <value value="1" nick="Disabled" />
+        <value value="2" nick="Hidden" />
+    </enum>
 	<schema path="/com/deepin/dde/control-center/" id="com.deepin.dde.control-center">
 		<key name="brightness-minimum" type="d">
 			<default>0.1</default>
