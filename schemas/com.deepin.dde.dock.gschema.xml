@@ -20,7 +20,7 @@
 
     <schema path="/com/deepin/dde/dock/" id="com.deepin.dde.dock">
         <key name="hide-mode" enum="com.deepin.dde.dock.HideMode">
-            <default>'keep-showing'</default>
+            <default>'keep-hidden'</default>
             <summary>the hide mode</summary>
             <description>The value will influence when the dock is shown or hidden.</description>
         </key>
