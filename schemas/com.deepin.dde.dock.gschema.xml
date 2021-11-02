@@ -18,6 +18,12 @@
         <value value="3" nick="left" />
     </enum>
 
+    <enum id="com.deepin.dde.dock.ForceQuitApp">
+        <value value="0" nick="enabled" />
+        <value value="1" nick="disabled" />
+        <value value="2" nick="deactivated" />
+    </enum>
+
     <schema path="/com/deepin/dde/dock/" id="com.deepin.dde.dock">
         <key name="hide-mode" enum="com.deepin.dde.dock.HideMode">
             <default>'keep-showing'</default>
@@ -97,5 +103,10 @@
             <description>wireless scan interval</description>
         </key>
 
+        <key name="force-quit-app" enum="com.deepin.dde.dock.ForceQuitApp">
+            <default>'enabled'</default>
+            <summary>Force Quit of taskbar app context menu</summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
