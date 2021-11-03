@@ -124,7 +124,7 @@
 
 	<schema id="com.deepin.dde.keybinding.system.platform" path="/com/deepin/dde/keybinding/system/platform/">
 		<key type='as' name="global-search">
-			<default>['Community']</default>
+			<default>['All']</default>
 			<summary>filemanager global search</summary>
 			<description></description>
 		</key>
