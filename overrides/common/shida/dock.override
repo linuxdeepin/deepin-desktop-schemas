@@ -2,3 +2,6 @@
 display-mode='efficient'
 
 docked-apps=['dde-file-manager', 'uos-browser', 'deepin-appstore', 'deepin-app-store', 'deepin-album', 'deepin-music', 'deepin-contacts', 'dde-calendar', 'dde-control-center']
+
+[com.deepin.dde.dock.mainwindow]
+only-show-primary=true
