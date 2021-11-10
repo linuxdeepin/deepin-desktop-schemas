@@ -25,7 +25,7 @@
 			<summary>The window height last time</summary>
 		</key>
 		<key name="hide-module" type="as">
-			<default>[]</default>
+			<default>['update']</default>
 			<summary>The module to display</summary>
 		</key>
 		<key name="hide-keybinding" type="as">
@@ -33,7 +33,7 @@
 			<summary>Hide keybinding by id</summary>
 		</key>
         <key name="show-createuser" type="b">
-			<default>true</default>
+			<default>false</default>
 			<summary>The create user module show or not</summary>
 		</key>
 		<key name="developer-mode" type="b">
