@@ -17,7 +17,7 @@ func init() {
 	flag.StringVar(&optArch, "arch", "", "")
 }
 
-var products = []string{"shida"}
+var products = []string{"pro", "server", "personal", "desktop"}
 
 func main() {
 	log.SetFlags(log.Lshortfile)
@@ -157,7 +157,7 @@ func combineFiles(inputFiles []string, outputFile string) (err error) {
 	}
 
 	outputDir := filepath.Dir(outputFile)
-	err = os.MkdirAll(outputDir, 0750)
+	err = os.MkdirAll(outputDir, 0755)
 	if err != nil {
 		return
 	}
