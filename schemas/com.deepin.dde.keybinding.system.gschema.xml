@@ -116,7 +116,7 @@
 			<summary>Take a screenshot the scroll screen</summary>
 		</key>
 		<key type="as" name="global-search">
-			<default><![CDATA[['<Shift>Space']]]></default>
+			<default><![CDATA[['<Shift>space']]]></default>
 			<summary>filemanager global search</summary>
 			<description></description>
 		</key>
