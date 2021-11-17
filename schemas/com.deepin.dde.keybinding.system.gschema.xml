@@ -27,7 +27,7 @@
 			<description></description>
 		</key>
 		<key type="as" name="logout">
-			<default><![CDATA[['<Control><Alt>Delete','<Control><Alt>KP_Delete']]]></default>
+			<default><![CDATA[['<Control><Alt>Delete','<Control><Alt>KP_Delete','<Control><Alt>.']]]></default>
 			<summary>Show shutdown interface</summary>
 			<description></description>
 		</key>
@@ -102,7 +102,7 @@
 			<description/>
 		</key>
 		<key type="as" name="notification-center">
-			<default><![CDATA[['<Super>M']]]></default>
+			<default><![CDATA[['<Super>M','<Meta>M']]]></default>
 			<summary>open notification center</summary>
 			<description/>
 		</key>
