@@ -25,6 +25,14 @@
         If disabled, lock operation does not show.
       </description>
     </key>
+    <key name='logout' type='b'>
+      <default>true</default>
+      <summary>logout</summary>
+      <description>
+        If enabled, logout operation display
+        If disabled, logout operation does not show.
+      </description>
+    </key>
     <key name='hibernate' type='b'>
       <default>true</default>
       <summary>hibernate</summary>
