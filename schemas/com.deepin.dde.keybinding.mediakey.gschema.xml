@@ -370,7 +370,7 @@
             <summary>Mute the Mic from the system</summary>
             <description/>
         </key>
-        <key type="as" name="ariplane-mode-toggle">
+        <key type="as" name="airplane-mode-toggle">
             <default>['XF86RFKill']</default>
             <summary/>
             <description/>
