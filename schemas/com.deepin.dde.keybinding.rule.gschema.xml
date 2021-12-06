@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+
+	<schema id="com.deepin.dde.keybinding.rule.whitelist" path="/com/deepin/dde/keybinding/rule/whitelist/">
+		<key type='as' name="normal-user">
+			<default>['logout']</default>
+			<summary>whitelist of shortcut keys</summary>
+			<description></description>
+		</key>
+	</schema>
+
+</schemalist>
