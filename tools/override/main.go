@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"pkg.deepin.io/lib/keyfile"
+	"github.com/linuxdeepin/go-lib/keyfile"
 )
 
 var optArch string

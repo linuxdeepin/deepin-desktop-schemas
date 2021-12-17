@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Build-depends: debhelper (>= 9), libglib2.0-bin, deepin-desktop-base | deepin-desktop-server | deepin-desktop-device, 
- golang-go, golang-dlib-dev
+ golang-go, golang-github-linuxdeepin-go-lib-dev
 Standards-Version: 3.9.5
 Homepage: http://www.deepin.org/
 
