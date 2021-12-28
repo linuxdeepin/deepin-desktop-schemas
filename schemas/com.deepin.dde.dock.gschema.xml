@@ -8,7 +8,6 @@
     <enum id="com.deepin.dde.dock.DisplayMode">
         <value value="0" nick="fashion" />
         <value value="1" nick="efficient" />
-        <value value="2" nick="classic" />
     </enum>
 
     <enum id="com.deepin.dde.dock.Position">
