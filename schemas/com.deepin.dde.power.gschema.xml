@@ -214,5 +214,14 @@
 			<default>false</default>
 			<summary>light sensor enabled</summary>
 		</key>
+		<key type="d" name="low-power-percent-in-updating-notify">
+			<range min="0" max="100"/>
+			<default>50.0</default>
+			<summary>Low battery banner alerts when updated</summary>
+		</key>
+		<key type="b" name="high-performance-enabled">
+			<default>true</default>
+			<summary/>
+		</key>
 	</schema>
 </schemalist>
