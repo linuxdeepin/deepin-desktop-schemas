@@ -214,5 +214,9 @@
 			<default>false</default>
 			<summary>light sensor enabled</summary>
 		</key>
+		<key type="b" name="high-performance-enabled">
+			<default>true</default>
+			<summary/>
+		</key>
 	</schema>
 </schemalist>
