@@ -178,7 +178,7 @@
         <!-- ignore XF86LaunchD-->
         <!-- ignore XF86LaunchE-->
         <!-- ignore XF86LaunchF-->
-        <key type="as" name="close">
+        <key type="as" name="media-close">
             <default>['XF86Close']</default>
             <summary>Close window</summary>
             <description/>
