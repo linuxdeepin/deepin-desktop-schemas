@@ -6,7 +6,17 @@
       <summary></summary>
       <description></description>
     </key>
+    <key type="b"  name="audio1">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
     <key type="b"  name="bluetooth">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
+    <key type="b"  name="bluetooth1">
       <default>true</default>
       <summary></summary>
       <description></description>
@@ -62,6 +72,11 @@
       <description></description>
     </key>
     <key type="b"  name="power">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
+    <key type="b"  name="power1">
       <default>true</default>
       <summary></summary>
       <description></description>
