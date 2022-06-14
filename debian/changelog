@@ -1,3 +1,9 @@
+deepin-desktop-schemas (6.0.0.0) unstable; urgency=low
+
+  * release 6.0.0.0
+
+ --  <fanpengcheng@uniontech.com>  Tue, 14 June 2022 17:05:13 +0800
+
 deepin-desktop-schemas (3.0.7) stable; urgency=low
 
   * Autobuild Tag 3.0.7 
