@@ -11,16 +11,12 @@ makedepends=('git' 'python' 'go' 'golang-deepin-lib-git')
 conflicts=('deepin-artwork-themes' 'deepin-desktop-schemas')
 provides=('deepin-desktop-schemas')
 groups=('deepin-git')
-source=("$pkgname-$pkgver::source.tar.gz")
+source=('source.tar.gz')
 sha512sums=('SKIP')
-pkgver() {
-    cd $pkgname-$pkgver
-    git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
-}
 
 prepare() {
-  export GOPATH="$srcdir/build:/usr/share/gocode"
-  cd $pkgname-$pkgver
+ export GOPATH="$srcdir/build:/usr/share/gocode"
+  cd $deepin_source_name
 
   # fix default background url
   sed -i "s#/usr/share/backgrounds/default_background.jpg#/usr/share/backgrounds/deepin/desktop.jpg#" \
@@ -39,16 +35,16 @@ build() {
   export CGO_LDFLAGS="${LDFLAGS}
 "
   export GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw"
-  cd $pkgname-$pkgver
+  cd $deepin_source_name
   make ARCH=x86
 }
 
 check() {
-  cd $pkgname-$pkgver
+  cd $deepin_source_name
   make test
 }
 
 package() {
-  cd $pkgname-$pkgver
+  cd $deepin_source_name
   make DESTDIR="$pkgdir" install
 }
