@@ -27,7 +27,7 @@
             <description>Show Weekday Format</description>
         </key>
         <key type="i" name="short-date-format">
-            <default>0</default>
+            <default>3</default>
             <summary>ShortDate Format</summary>
             <description>Show ShortDate Format</description>
         </key>
