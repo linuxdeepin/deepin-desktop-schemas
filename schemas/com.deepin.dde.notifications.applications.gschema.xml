@@ -36,6 +36,11 @@
             <summary>show messages on lockscreen</summary>
             <description>show messages on lockscreen</description>
         </key>
+        <key type="b" name="show-on-top">
+            <default>false</default>
+            <summary>show messages on top</summary>
+            <description>show messages on top</description>
+        </key>
     </schema>
 </schemalist>
 
