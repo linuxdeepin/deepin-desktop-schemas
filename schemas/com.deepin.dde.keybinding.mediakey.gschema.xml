@@ -178,10 +178,15 @@
         <!-- ignore XF86LaunchD-->
         <!-- ignore XF86LaunchE-->
         <!-- ignore XF86LaunchF-->
+        <key type="as" name="close">
+            <default>['XF86Close']</default>
+            <summary>Close window</summary>
+            <description>using "close" for x11 to avoid the same key whitch is used by wayland</description>
+        </key>
         <key type="as" name="media-close">
             <default>['XF86Close']</default>
             <summary>Close window</summary>
-            <description/>
+            <description>"media-close" is used by wayland</description>
         </key>
         <key type="as" name="copy">
             <default>['XF86Copy']</default>
