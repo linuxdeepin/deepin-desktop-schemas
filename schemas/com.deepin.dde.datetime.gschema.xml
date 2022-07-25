@@ -32,7 +32,7 @@
             <description>Show ShortDate Format</description>
         </key>
         <key type="i" name="long-date-format">
-            <default>0</default>
+            <default>1</default>
             <summary>LongDate Format</summary>
             <description>Show LongDate Format</description>
         </key>
