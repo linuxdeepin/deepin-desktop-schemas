@@ -31,5 +31,10 @@
             <summary></summary>
             <description></description>
         </key>
+        <key type="b"  name="dde-lock">
+            <default>true</default>
+            <summary></summary>
+            <description></description>
+        </key>
     </schema>
 </schemalist>
