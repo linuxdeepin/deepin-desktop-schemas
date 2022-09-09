@@ -38,10 +38,12 @@ $ sudo make install
 
 ## Getting help
 
-- [Official Forum](https://bbs.deepin.org/) for generic discussion and help.
-- [Developer Center](https://github.com/linuxdeepin/developer-center) for BUG report and suggestions.
-- [Wiki](https://wiki.deepin.org/)
-- [Developer Center](https://github.com/linuxdeepin/deepin-desktop-schemas) 
+Any usage issues can ask for help via
+
+* [Matrix](https://matrix.to/#/#deepin-community:matrix.org)
+* [Official Forum](https://bbs.deepin.org/) for generic discussion and help.
+* [Wiki](https://wiki.deepin.org/)
+* [Developer Center](https://github.com/linuxdeepin/developer-center/issues) 
 
 ## Getting involved
 
