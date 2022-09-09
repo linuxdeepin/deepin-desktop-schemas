@@ -38,10 +38,13 @@ $ sudo make install
 
 ## 帮助
 
-- [官方论坛](https://bbs.deepin.org/) 
-- [开发者中心](https://github.com/linuxdeepin/developer-center) 
-- [Wiki](https://wiki.deepin.org/)
-- [项目地址](https://github.com/linuxdeepin/deepin-desktop-schemas) 
+任何使用问题都可以通过以下方式寻求帮助：
+
+* [Matrix](https://matrix.to/#/#deepin-community:matrix.org)
+* [官方论坛](https://bbs.deepin.org/) 
+* [开发者中心](https://github.com/linuxdeepin/developer-center/issues) 
+* [Wiki](https://wiki.deepin.org/)
+* [项目地址](https://github.com/linuxdeepin/deepin-desktop-schemas) 
 
 ## 贡献指南
 
