@@ -87,7 +87,7 @@
 			<description/>
 		</key>
 		<key type="as" name="speech-to-text">
-			<default><![CDATA[['<Control><Alt>O']]]></default>
+			<default><![CDATA[['<Control><Alt>D']]]></default>
 			<summary>Speech to text</summary>
 			<description/>
 		</key>
