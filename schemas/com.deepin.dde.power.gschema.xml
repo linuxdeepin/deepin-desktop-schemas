@@ -6,13 +6,15 @@
 		<value value="2" nick="hibernate" />
 		<value value="3" nick="turnOffScreen" />
 		<value value="4" nick="showSessionUI" />
+		<value value="5" nick="doNothing" />
 	</enum>
 	<enum id="com.deepin.dde.power.LidCloseAction">
 		<value value="0" nick="shutdown" />
 		<value value="1" nick="suspend" />
 		<value value="2" nick="hibernate" />
 		<value value="3" nick="turnOffScreen" />
-		<value value="4" nick="doNothing" />
+		<value value="4" nick="showSessionUI" />
+		<value value="5" nick="doNothing" />
 	</enum>
 	<schema path="/com/deepin/dde/power/" id="com.deepin.dde.power">
 		<key type="i" name="line-power-screensaver-delay">
