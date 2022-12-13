@@ -1,3 +1,12 @@
+deepin-desktop-schemas (6.0.2) unstable; urgency=medium
+
+  [ TagBuilder ]
+  * feat: v23预装列表配置功能实现(Task: 207491)(Influence: 系统初次启动时-应用顺序与预装列表保持一致)
+  * feat: v23预装列表配置功能实现(Task: 207491)(Influence: 系统初次启动时-应用顺序与预装列表保持一致)
+  * feat: v23预装列表配置更新(Task: 207491)(Influence: 系统初次启动时-应用顺序与预装列表保持一致)
+
+ -- zhaoyingzhen <zhaoyingzhen@uniontech.com>  Tue, 13 Dec 2022 19:24:42 +0800
+
 deepin-desktop-schemas (6.0.1) unstable; urgency=medium
 
   * release 6.0.1
