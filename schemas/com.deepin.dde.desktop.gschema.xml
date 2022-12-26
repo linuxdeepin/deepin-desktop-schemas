@@ -75,5 +75,11 @@
             <default>true</default>
             <description>If true, desktop hotzone demo video will show.</description>
         </key>
+
+        <key type="b" name="always-hide-desktop">
+            <default>false</default>
+            <summary></summary>
+            <description>always hide desktop</description>
+        </key>
    </schema>
 </schemalist>
