@@ -48,6 +48,11 @@
       <summary>Font size</summary>
       <description>The desktop font size</description>
     </key>
+    <key type="d" name="compact-font-size">
+      <default>9.0</default>
+      <summary>Font size</summary>
+      <description>The desktop font size</description>
+    </key>
     <key name="extra-picture-uris" type="as">
         <default>[]</default>
         <summary>Deprecated</summary>
@@ -78,6 +83,12 @@
       <default>''</default>
       <summary></summary>
       <description>wallpaper json string</description>
+    </key>
+    <key type="i" name="dtk-size-mode">
+      <range min="0" max="1" />
+      <default>0</default>
+      <summary></summary>
+      <description></description>
     </key>
   </schema>
 </schemalist>
