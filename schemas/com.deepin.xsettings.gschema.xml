@@ -386,6 +386,12 @@
       <summary></summary>
       <description></description>
     </key>
+    <key type="i" name="qt-scrollbar-policy">
+      <range min="0" max="1" />
+      <default>1</default>
+      <summary></summary>
+      <description></description>
+    </key>
     <key type="s" name="qt-font-name">
         <default>''</default>
         <summary></summary>
