@@ -1,3 +1,9 @@
+deepin-desktop-schemas (5.11.2) unstable; urgency=low
+
+  * bump version to 5.11.2
+
+ -- lichangze <lichangze@uniontech.com>  Mon, 9 Jan 2023 16:20:17 +0000
+
 deepin-desktop-schemas (3.0.7) stable; urgency=low
 
   * Autobuild Tag 3.0.7 
