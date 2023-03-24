@@ -5,7 +5,7 @@ all: build
 
 bin:
 	mkdir -p bin
-	env GO111MODULE=off go build -o bin/override_tool tools/override/*.go
+	go build -o bin/override_tool tools/override/*.go
 
 build: bin
 	@echo build for arch: $(ARCH)

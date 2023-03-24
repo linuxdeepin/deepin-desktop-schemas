@@ -3,6 +3,7 @@ include /usr/share/dpkg/default.mk
 
 export GOCACHE := /tmp/gocache
 export GOPATH = /usr/share/gocode
+export GO111MODULE = off
 
 SYSTYPE = $(shell cat /usr/lib/deepin/desktop-version | grep Type= | awk -F'=' '{print $$2}')
 ARCH = x86
