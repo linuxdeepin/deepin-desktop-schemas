@@ -24,6 +24,6 @@ Copyright: None
 License: CC0-1.0
 
 # other files
-Files: .packit.yaml Makefile schemas/wrap/fix_deepin_gsettings.sh .gitignore
+Files: .packit.yaml Makefile schemas/wrap/fix_deepin_gsettings.sh .gitignore .tx/*
 Copyright: UnionTech Software Technology Co., Ltd.
 License: CC0-1.0
