@@ -2,6 +2,9 @@
 pkgname=deepin-desktop-schemas-git
 pkgver=5.10.2.r8.gd9e09d5
 pkgrel=1
+sourcename=deepin-icon-theme-git
+sourcetars=("$sourcename"_"$pkgver".tar.xz)
+sourcedir="$sourcename"
 pkgdesc='GSettings deepin desktop-wide schemas'
 arch=('any')
 url="https://github.com/linuxdeepin/deepin-desktop-schemas"
@@ -11,7 +14,7 @@ makedepends=('git' 'python' 'go' 'golang-deepin-lib-git')
 conflicts=('deepin-artwork-themes' 'deepin-desktop-schemas')
 provides=('deepin-desktop-schemas')
 groups=('deepin-git')
-source=('source.tar.gz')
+source=("${sourcetars[@]}")
 sha512sums=('SKIP')
 
 prepare() {
