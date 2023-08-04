@@ -10,6 +10,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 
 	"github.com/linuxdeepin/go-lib/keyfile"
@@ -139,6 +140,24 @@ func getValue(value string, kf *keyfile.KeyFile, section0 string) string {
 	return value
 }
 
+type ConfigKVUnit struct {
+	key string
+	val string
+}
+
+func mapToSortedList(basket map[string]string) []ConfigKVUnit {
+	keys := make([]string, 0, len(basket))
+	for k := range basket {
+		keys = append(keys, k)
+	}
+	sort.Strings(keys)
+	out := []ConfigKVUnit{}
+	for _, k := range keys {
+		out = append(out, ConfigKVUnit{key: k, val: basket[k]})
+	}
+	return out
+}
+
 func combineFiles(inputFiles []string, outputFile string) (err error) {
 	log.Printf("inputFiles: %+v -> outputFile: %s\n", inputFiles, outputFile)
 	combinedKf := keyfile.NewKeyFile()
@@ -151,11 +170,13 @@ func combineFiles(inputFiles []string, outputFile string) (err error) {
 			return
 		}
 		sections := kf.GetSections()
+		sort.Strings(sections)
+
 		for _, section := range sections {
-			sectionMap, _ := kf.GetSection(section)
-			for key, val := range sectionMap {
-				val = getValue(val, kf, section)
-				combinedKf.SetValue(section, key, val)
+			sectionMapPre, _ := kf.GetSection(section)
+			sortedList := mapToSortedList(sectionMapPre)
+			for i := range sortedList {
+				combinedKf.SetValue(section, sortedList[i].key, sortedList[i].val)
 			}
 		}
 	}
