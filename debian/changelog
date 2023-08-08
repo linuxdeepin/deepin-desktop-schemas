@@ -1,3 +1,9 @@
+deepin-desktop-schemas (6.0.4) unstable; urgency=medium
+
+  * Sort the keys to ensure the target is repreducable
+
+ -- chenhongtao <chenhongtao@deepin.org>  Tue, 8 Aug 2023 11:21:00 +0800
+
 deepin-desktop-schemas (6.0.3) unstable; urgency=medium
 
   * Ensure REUSE compliance
