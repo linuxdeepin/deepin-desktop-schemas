@@ -176,7 +176,8 @@ func combineFiles(inputFiles []string, outputFile string) (err error) {
 			sectionMapPre, _ := kf.GetSection(section)
 			sortedList := mapToSortedList(sectionMapPre)
 			for i := range sortedList {
-				combinedKf.SetValue(section, sortedList[i].key, sortedList[i].val)
+				val := getValue(sortedList[i].val, kf, section)
+				combinedKf.SetValue(section, sortedList[i].key, val)
 			}
 		}
 	}
