@@ -9,7 +9,7 @@
       </description>
     </key>
     <key type="s" name="icon-theme-name">
-      <default>'deepin'</default>
+      <default>'bloom'</default>
       <summary>Icon theme</summary>
       <description>
         Icon theme to use for the panel, nautilus etc.
