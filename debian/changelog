@@ -1,3 +1,9 @@
+deepin-desktop-schemas (6.0.6) unstable; urgency=medium
+
+  * fix #7670
+
+ -- Mike Chen <chenke@deepin.org>  Tue, 16 Apr 2024 08:42:08 +0800
+
 deepin-desktop-schemas (6.0.5) unstable; urgency=medium
 
   * fix have not handle template key
