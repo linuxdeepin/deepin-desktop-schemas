@@ -16,6 +16,10 @@
 		<value value="4" nick="showSessionUI" />
 		<value value="5" nick="doNothing" />
 	</enum>
+	<enum id="com.deepin.dde.power.LowPowerAction">
+		<value value="0" nick="suspend" />
+		<value value="1" nick="hibernate" />
+	</enum>
 	<schema path="/com/deepin/dde/power/" id="com.deepin.dde.power">
 		<key type="i" name="line-power-screensaver-delay">
 			<default>0</default>
@@ -127,6 +131,10 @@
 			<default>20</default>
 			<summary/>
 			<description/>
+		</key>
+		<key enum="com.deepin.dde.power.LowPowerAction" name="low-power-action">
+			<default>'suspend'</default>
+			<summary>system action when battery low</summary>
 		</key>
 		<key type="i" name="percentage-low">
 			<range min="0" max="100"/>
