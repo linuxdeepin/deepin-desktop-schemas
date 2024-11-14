@@ -133,7 +133,7 @@
 			<description/>
 		</key>
 		<key enum="com.deepin.dde.power.LowPowerAction" name="low-power-action">
-			<default>'suspend'</default>
+			<default>'hibernate'</default>
 			<summary>system action when battery low</summary>
 		</key>
 		<key type="i" name="percentage-low">
