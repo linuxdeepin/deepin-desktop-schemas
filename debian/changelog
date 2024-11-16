@@ -1,3 +1,10 @@
+deepin-desktop-schemas (6.0.7) unstable; urgency=medium
+
+  * chore: add the qt-active-color-dark setting
+  * chore: rename "qt-active-color-dark" to "qt-dark-active-color"
+
+ -- xionglinlin <xionglinlin@uniontech.com>  Wed, 13 Nov 2024 15:08:14 +0800
+
 deepin-desktop-schemas (6.0.6) unstable; urgency=medium
 
   * fix #7670
