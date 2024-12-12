@@ -9,7 +9,7 @@
       </description>
     </key>
     <key type="s" name="icon-theme-name">
-      <default>'bloom'</default>
+      <default>'nirvana'</default>
       <summary>Icon theme</summary>
       <description>
         Icon theme to use for the panel, nautilus etc.
@@ -382,12 +382,12 @@
       </description>
     </key>
     <key type="s" name="qt-active-color">
-      <default>'0,33153,65535,65535'</default>
+      <default>'7967,28270,59367,65535'</default>
       <summary></summary>
       <description></description>
     </key>
     <key type="s" name="qt-dark-active-color">
-      <default>'0,33153,65535,65535'</default>
+      <default>'514,19532,51914,65535'</default>
       <summary>active color in dark theme</summary>
       <description></description>
     </key>
