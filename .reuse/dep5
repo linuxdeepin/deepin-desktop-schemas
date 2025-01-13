@@ -33,3 +33,6 @@ Files: go.mod go.sum
 Copyright: None
 License: CC0-1.0
 
+Files: toolGenerate/**/*
+Copyright: None
+License: CC0-1.0
