@@ -1,3 +1,9 @@
+deepin-desktop-schemas (6.0.8) unstable; urgency=medium
+
+  * fix: 解决切换多屏快捷键不生效的问题
+
+ -- fuleyi <fuleyi@uniontech.com>  Thu, 13 Feb 2025 15:21:14 +0800
+
 deepin-desktop-schemas (6.0.7) unstable; urgency=medium
 
   * chore: add the qt-active-color-dark setting
