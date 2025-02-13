@@ -398,11 +398,6 @@
         <!-- ignore XF86Prev_VMode-->
         <!-- ignore XF86LogWindowTree-->
         <!-- ignore XF86LogGrabInfo-->
-        <key type="as" name="switch-monitors">
-            <default><![CDATA[['<Super>P']]]></default>
-            <summary/>
-            <description/>
-        </key>
         <key type="as" name="capslock">
             <default>['Caps_Lock']</default>
             <summary/>

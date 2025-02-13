@@ -6,6 +6,11 @@
 			<summary>Show or hide dde-launcher</summary>
 			<description></description>
 		</key>
+		<key type="as" name="switch-monitors">
+			<default><![CDATA[['<Super>P']]]></default>
+			<summary>allow switch monitors display mode</summary>
+			<description></description>
+		</key>
 		<key type="as" name="terminal">
 			<default><![CDATA[['<Control><Alt>T']]]></default>
 			<summary>Launch default terminal emulator</summary>
