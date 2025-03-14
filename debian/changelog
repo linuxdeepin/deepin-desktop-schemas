@@ -1,3 +1,9 @@
+deepin-desktop-schemas (6.0.9) unstable; urgency=medium
+
+  * feat: 触控板自然滚动功能默认开启
+
+ -- fuleyi <fuleyi@uniontech.com>  Fri, 14 Mar 2025 21:36:25 +0800
+
 deepin-desktop-schemas (6.0.8) unstable; urgency=medium
 
   * fix: 解决切换多屏快捷键不生效的问题
