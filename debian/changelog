@@ -1,3 +1,9 @@
+deepin-desktop-schemas (6.0.10) unstable; urgency=medium
+
+  * feat: 触控板自然滚动功能默认开启
+
+ -- fuleyi <fuleyi@uniontech.com>  Fri, 28 Mar 2025 10:51:05 +0800
+
 deepin-desktop-schemas (6.0.9) unstable; urgency=medium
 
   * feat: 触控板自然滚动功能默认开启
