@@ -5,7 +5,7 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Build-depends: debhelper (>= 9), libglib2.0-bin, deepin-desktop-base | deepin-desktop-server | deepin-desktop-device, 
  golang-go, golang-github-linuxdeepin-go-lib-dev
 Standards-Version: 3.9.5
-Homepage: http://www.deepin.org/
+Homepage: https://github.com/linuxdeepin/deepin-desktop-schemas
 
 Package: deepin-desktop-schemas
 Section: misc
