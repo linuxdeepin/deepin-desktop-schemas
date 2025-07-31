@@ -1,3 +1,9 @@
+deepin-desktop-schemas (6.0.12) unstable; urgency=medium
+
+  * fix: change default value for bluetooth display switch
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Thu, 31 Jul 2025 19:42:57 +0800
+
 deepin-desktop-schemas (6.0.11) unstable; urgency=medium
 
   * feat: remove AI assistant keybindings from system schema
