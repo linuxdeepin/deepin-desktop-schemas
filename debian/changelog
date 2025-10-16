@@ -1,3 +1,9 @@
+deepin-desktop-schemas (6.0.13) unstable; urgency=medium
+
+  * chore: add override for gtk window button-layout on treeland
+
+ -- zhangkun <zhangkun2@uniontech.com>  Thu, 16 Oct 2025 21:10:11 +0800
+
 deepin-desktop-schemas (6.0.12) unstable; urgency=medium
 
   * fix: change default value for bluetooth display switch
